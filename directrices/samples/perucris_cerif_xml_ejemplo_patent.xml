@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
   <responseDate>2021-01-12T14:00:00Z</responseDate>
   <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_patents">https://cris.example.org/oai/request</request>
@@ -11,7 +11,8 @@
       </header>
       <metadata>
         <Patent xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Patents/612347">
-          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd</Type><!-- Tipo de recurso: patente -->
+          <Language>es</Language>
+          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/9DKX-KSAF</Type><!-- Tipo de recurso: patente : modelo de utilidad -->
           <Title xml:lang="es">Válvula check para un circuito cerrado de bombeo de aire para un envase dispensador</Title>
           <RegistrationDate>2010-01-01</RegistrationDate>
           <ApprovalDate>2012-11-13</ApprovalDate>
@@ -84,13 +85,12 @@
           </OriginatesFrom>
           <Predecessor>
             <Patent id="Patents/712179">
-              <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd</Type><!-- Tipo de recurso: patente -->
+              <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/9DKX-KSAF</Type><!-- Tipo de recurso: patente : modelo de utilidad -->
               <Title xml:lang="es">Válvula check para un circuito cerrado de bombeo de aire para un envase dispensador de tipo N56-20</Title>
               <PatentNumber>000056-2010</PatentNumber>
             </Patent>
           </Predecessor>
-          <Type scheme="https://purl.org/pe-repo/indecopi/propiedadIntelectual">https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion</Type><!-- Clase de patente -->
-        </Patent>
+         </Patent>
       </metadata>
     </record>
   </ListRecords>

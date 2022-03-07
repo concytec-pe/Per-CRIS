@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
   <responseDate>2021-01-12T14:00:00Z</responseDate>
   <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_projects">https://cris.example.org/oai/request</request>
@@ -12,6 +12,7 @@
       <metadata>
         <Project xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Projects/112345">
           <Type scheme="https://purl.org/pe-repo/ocde/tipoProyecto">https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica</Type>
+          <Type scheme="https://purl.org/pe-repo/concytec/terminos">https://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico</Type>
           <Acronym>COVID-19</Acronym>
           <Title xml:lang="es">Impacto de la pandemia por COVID-19 en la calidad de vida en adultos mayores de la Seguridad Social</Title>
           <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">1498</Identifier>
@@ -132,7 +133,7 @@
               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">F.5618</Identifier>
             </Equipment>
           </Uses>
-          <OAMandate mandated="true" />
+          <OAMandate mandated="false" />
           <ResearchLine>
             <OrgUnit id="540128">
               <Name xml:lang="es">Enfermedades infecciosas emergentes y reemergentes</Name>
@@ -156,7 +157,6 @@
               </geoLocationBox>
             </geoLocation>
           </geoLocations>
-
         </Project>
       </metadata>
     </record>

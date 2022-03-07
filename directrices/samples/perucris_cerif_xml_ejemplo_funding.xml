@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
    <responseDate>2021-01-12T14:00:00Z</responseDate>
    <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_fundings">https://cris.example.org/oai/request</request>
@@ -15,6 +15,7 @@
                <!--FundingProgramme-->
                <Name xml:lang="es">Circulos de Investigación en Ciencia y Tecnología</Name>
                <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031</Identifier>
+               <Acronym>CICTI</Acronym>
                <Description xml:lang="es">Promover la investigación científica y tecnológica colaborativa de alto nivel y alcance internacional, a través del desarrollo de proyectos de investigación integrados en una línea de investigación.</Description>
                <Keyword xml:lang="es">Investigación Científica</Keyword>
                <Keyword xml:lang="es">Biotecnología</Keyword>
@@ -81,7 +82,7 @@
                <Keyword xml:lang="es">Cambio climático</Keyword>
                <Keyword xml:lang="es">Perú</Keyword>
                <Keyword xml:lang="es">Fondo Newton Paulet</Keyword>
-               <Keyword xml:lang="es">Natural Environment Research Council – NERC</Keyword>
+               <Keyword xml:lang="es">Natural Environment Research Council - NERC</Keyword>
                <Funder>
                   <OrgUnit id="OrgUnits/135871">
                      <Acronym>FONDECYT</Acronym>
@@ -93,6 +94,7 @@
                   <Funding id="Fundings/257748">
                     <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call</Type><!--Call-->
                     <Name xml:lang="es">NERC - Círculos de Investigación en Glaciares 2018-01</Name>
+                    <Acronym>NERC 2018-01</Acronym>
                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031-2018-01-NERC</Identifier>
                   </Funding>
                </PartOf>
