@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://purl.org/pe-repo/concytec/terminos"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Desarrollo tecnológico                                       -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Es la aplicación de los resultados de la investigación o de cualquier otro tipo de conocimiento científico, a un plan o diseño en particular, para la elaboración de materiales, productos, métodos, procesos o sistemas nuevos, o sustancialmente mejorados, antes del comienzo de su producción o utilización comercial. Fuente: Ley Nº 30806.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Desarrollo tecnológico</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Technological development</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Transferencia tecnológica                                    -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Proceso de transmisión de la información científica, tecnológica, del conocimiento de los medios y de los derechos de explotación, hacia terceras partes para la producción de un bien, el desarrollo de un proceso o la prestación de un servicio, contribuyendo al desarrollo de sus capacidades. Incluye la transferencia de conocimiento. Fuente: Ley Nº 30806.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Transferencia tecnológica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#transferenciaTecnologica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Technology transfer</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Investigación adaptativa                                     -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). proyectos para resolver problemas que limitan la productividad y la competitividad, mediante actividades que impliquen un ajuste o acondicionamiento de tecnologías validadas (exitosamente comprobadas en otras latitudes y circunstancias), a fin de asimilarlas a un área geográfica determinada. Fuente: Basado en definición de PNIPA.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación adaptativa</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionAdaptativa_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Adaptive research</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Investigación económica                                      -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#investigacionEconomica -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Tipo de investigación que, utilizando el método científico, analiza la problemática del consumo, producción y distribución en una economía, ya sea desde un enfoque microeconómico o macroeconómico, y haciendo uso del instrumental estadístico y econométrico para el análisis de los datos empíricos. Fuente: Ley N° 30806.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación económica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#investigacionEconomica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Economic research</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Servicios de extensión                                       -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Servicios especializados de asistencia técnica, capacitación y asesoría, con la finalidad de facilitar la adopción y aplicación de tecnologías y conocimientos que mejoren sus negocios en las diferentes fases de la cadena de valor, incluyendo innovaciones empresariales, ambientales, comerciales, tecnológicas y organizacionales. Fuente: Basado en definición de PNIPA.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Servicios de extensión</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#serviciosDeExtension_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Extension services</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Fortalecimiento de capacidades                               -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Comprenden el desarrollo de actividades curriculares debidamente estructuradas, que aseguren contenidos de carácter conceptual, técnico e instrumental, con procesos de formación teórico – práctico, orientados al desarrollo de los talentos y competencias del talento humano. Incluye becas, pasantías, estancias, capacitaciones, cursos, seminarios u otros eventos académico-científicos, diplomados, etc. Fuente: Adaptado de PNIPA.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Fortalecimiento de capacidades</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#fortalecimientoDeCapacidades_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Capacity building</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Incubación y desarrollo de empresas                          -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Proyectos que preparan y/o acompañan el desarrollo de una idea de negocio (producto, proceso, modelo de organización y/o comercialización) o innovación para asegurar el éxito de la empresa hasta que alcancen una etapa de validación comercial a través de una amplia gama de recursos y servicios empresariales. Puede incluir coworking, capitalización o acceso a fuentes de financiamiento, mentoría, networking, apoyo a emprendedores o clusters, entre otros. Fuente: Adaptado de Resolución de Presidencia Nº 104-2019-CONCYTEC-P.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Incubación y desarrollo de empresas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#incubacionYDesarrolloDeEmpresas_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Business incubation and development</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Equipamiento científico                                      -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar otros tipos de de actividades y proyectos en CTI, que no están considerados en las clasificaciones de la OCDE. Metadato: Proyecto.Otros tipos de actividades en CTI (Project.Type). Proyectos que tienen por objetivo modernizar, actualizar y fortalecer el equipamiento para investigación con la adquisición de un equipo mayor, con la finalidad de acelerar la generación de investigación aplicada y/o desarrollo tecnológico y contar con laboratorios equipados para promover el desarrollo de la ciencia, tecnología e innovación. Fuente: Adaptado de Fondecyt.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipamiento científico</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#equipamientoCientifico_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Scientific equipment</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- DNI                                                          -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#dni                -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#dni_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni_def_es">
+		<rdf:value xml:lang="es">Documento Nacional de Identidad (DNI): es un documento público personal e intransferible. Constituye la única cédula de Identidad Personal para todos los actos civiles, comerciales, administrativos, judiciales y, en general, para todos aquellos casos en que, por mandato legal, deba ser presentado. Constituye también el único título de derecho al sufragio de la persona a cuyo favor ha sido otorgado. Es otorgado a todos los peruanos nacidos dentro o fuera del territorio de la República desde la fecha de su nacimiento y a los que se nacionalicen, desde que se aprueba el trámite de nacionalización. El documento emitido deberá asignar un Código Unico de Identificación el mismo que se mantendrá invariable hasta el fallecimiento de la persona, como único referente identificatorio de la misma. Es otrogado por el Registro Nacional de Identificación y Estado Civil (RENIEC). Fuente: Basado en Ley Nº 26497.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_es">
+		<skosxl:literalForm xml:lang="es">DNI</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#dni_pref_label_en">
+		<skosxl:literalForm xml:lang="en">DNI</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- RUC                                                          -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#ruc                -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#ruc_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc_def_es">
+		<rdf:value xml:lang="es">El Registro Único de Contribuyentes (RUC): es el padrón que contiene los datos de identificación de las actividades económicas y demás información relevante de los sujetos inscritos. El Número RUC es único y permanente, consta de once dígitos y es de uso obligatorio en toda declaración o trámite que se realice ante la SUNAT. Deben inscribirse en el RUC a cargo de la SUNAT, todas las personas naturales o jurídicas, sucesiones indivisas, sociedades de hecho u otros entes colectivos, nacionales o extranjeros, domiciliados o no en el país, que se encuentren en alguno de los siguientes supuestos: a. sean contribuyentes y/o responsables de tributos administrados por la SUNAT, conforme a las leyes vigentes. b. que sin tener la condición de contribuyentes y/o responsables de tributos administrados por la SUNAT, tengan derecho a la devolución de impuestos a cargo de esta entidad, en virtud de lo señalado por una ley o norma con rango de ley. Esta obligación debe ser cumplida para proceder a la tramitación de la solicitud de devolución respectiva. c. que se acojan a los Regímenes Aduaneros o a los Destinos Aduaneros Especiales o de Excepción previstos en la Ley General de Aduanas. d. que por los actos u operaciones que realicen, la SUNAT considere necesaria su incorporación al registro. Fuente: SUNAT y Decreto Legislativo N° 943.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_es">
+		<skosxl:literalForm xml:lang="es">RUC</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#ruc_pref_label_en">
+		<skosxl:literalForm xml:lang="en">RUC</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Asesor                                                       -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#asesor             -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#asesor_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor_def_es">
+		<rdf:value xml:lang="es">El profesor que ejerce el rol de supervisor académico de la tesis, asignado por las autoridades del programa de acuerdo con el estudiante, quien lo acompaña durante todo el proceso de investigación. Este rol está pobremente descrito en los documentos oficiales y se le denomina de diversas maneras: profesor guía, profesor asesor, profesor consejero y tutor. Fuente: Rol del tutor de tesis: competencias, condiciones personales y funciones (2006).</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Asesor</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#asesor_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Advisor</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Nombre del grado académico                                   -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_def_es">
+		<rdf:value xml:lang="es">El grado académico es un nivel de educación. Título que, en el ámbito de la enseñanza superior, una institución universitaria concede al alumno cuando ha superado las exigencias académicas de cada ciclo o etapa en los que está ordenada la docencia. Los grados son, para el graduado, un testimonio público y auténtico de su nivel de competencia científica en una disciplina determinada. Los grados académicos son: Bachiller, Licenciado, Magíster y Doctorado.
+Fuente: Basado en Diccionario Panhipánico del español jurídico (2020).</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Nombre del grado académico</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#nombreGradoAcademico_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Academic degree</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Programa de educación superior                               -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_def_es">
+		<rdf:value xml:lang="es">Secuencia coherente de actividades educativas diseñadas y organizadas para lograr objetivos predeterminados de aprendizaje o para llevar a cabo un conjunto específico de tareas educativas a lo largo de un periodo sostenido de tiempo. Fuente: Clasificador Nacional de Programas e Instituciones de Educación Superior Universitaria, Pedagógica, Tecnológica y Técnico Productiva 2018.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Programa de educación superior</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#programaDeEducacionSuperior_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Higher Education Program</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Institución otorgante del grado                              -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_def_es">
+		<rdf:value xml:lang="es">Comunidad de aprendizaje, es la primera y principal instancia de gestión del sistema educativo descentralizado. En ella tiene lugar la prestación del servicio, pudiendo ser pública o privada. Su finalidad es el logro de los aprendizajes y la formación integral de sus estudiantes. La Institución Educativa, como ámbito físico y social, establece vínculos con los diferentes organismos de su entorno y pone a disposición sus instalaciones para el desarrollo de actividades extracurriculares y comunitarias, preservando los fines y objetivos educativos, así como las funciones específicas del local institucional. Asimismo, comprende los centros de Educación Básica, los de Educación Técnico-Productiva y las instituciones de Educación Superior.Fuente: Clasificador Nacional de Programas e Instituciones de Educación Superior Universitaria, Pedagógica, Tecnológica y Técnico Productiva 2018.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Institución otorgante del grado</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#institucionOtorganteDelGrado_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Grantor Institution</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Jurado                                                       -->
+	<!-- http://purl.org/pe-repo/concytec/terminos#jurado             -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/concytec/terminos"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<skos:definition rdf:resource="http://purl.org/pe-repo/concytec/terminos#jurado_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado_def_es">
+		<rdf:value xml:lang="es">Comité de docentes seleccionados, y nombrados por una Resolución para evaluar la tesis y considerar la aprobación de la misma. Fuente: Basado en Reglamento de Tesis. Universidad Católica Sede Sapientae. Escuela de Posgrado.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Jurado</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/concytec/terminos#jurado_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Juror</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+           xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+           xmlns:cf="urn:xmlns:org.eurocris.cerif"
+           xmlns:dc-term="http://purl.org/dc/terms/"
+           xmlns="http://purl.org/coar/version"
+           xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd"
+           targetNamespace="http://purl.org/coar/version">
+   <xs:annotation>
+      <xs:appinfo>
+         <cf:ClassScheme id="http://purl.org/coar/version"/>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:include schemaLocation="../includes/cerif-commons.xsd"/>
+   <xs:element name="Version">
+      <xs:complexType>
+         <xs:simpleContent>
+            <xs:extension base="Enum">
+               <xs:attributeGroup ref="cfExtension__AttributeGroup"/>
+            </xs:extension>
+         </xs:simpleContent>
+      </xs:complexType>
+   </xs:element>
+   <xs:simpleType name="Enum">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="http://purl.org/coar/version/c_b1a7d7d4d402bcce">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">AO</xs:documentation>
+               <xs:documentation xml:lang="ru">авторский оригинал</xs:documentation>
+               <xs:documentation xml:lang="es">versión original del autor</xs:documentation>
+               <xs:documentation xml:lang="fr">version originale</xs:documentation>
+               <xs:documentation xml:lang="de">Autorenversion</xs:documentation>
+               <xs:documentation xml:lang="ja">著者オリジナル版</xs:documentation>
+               <xs:documentation xml:lang="it">versione originale dell'autore</xs:documentation>
+               <xs:documentation xml:lang="nl">auteurs versie</xs:documentation>
+               <xs:documentation xml:lang="tr">Yazarın orijinal versiyonu</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_b1a7d7d4d402bcce"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">AO</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">авторский оригинал</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión original del autor</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version originale</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">Autorenversion</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">著者オリジナル版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione originale dell'autore</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">auteurs versie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Yazarın orijinal versiyonu</cf:Term>
+                     <cf:Definition xml:lang="en">Any version of a resource that is considered by the author to be of sufficient quality to be submitted for formal peer review by a second party. The author accepts full responsibility for the resource . May have a version number or date stamp. Content and layout as set out by the author.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_71e4c1898caa6e32">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">SMUR</xs:documentation>
+               <xs:documentation xml:lang="ru">на рассмотрении на предмет публикации</xs:documentation>
+               <xs:documentation xml:lang="es">versión sometida a revisión</xs:documentation>
+               <xs:documentation xml:lang="fr">version soumise</xs:documentation>
+               <xs:documentation xml:lang="de">eingereichte Version</xs:documentation>
+               <xs:documentation xml:lang="ja">査読版</xs:documentation>
+               <xs:documentation xml:lang="it">versione sottoposta a revisione</xs:documentation>
+               <xs:documentation xml:lang="nl">ingediende versie</xs:documentation>
+               <xs:documentation xml:lang="tr">Hakem değerlendirmesi için gönderilmiş versiyon</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_71e4c1898caa6e32"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">SMUR</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">на рассмотрении на предмет публикации</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión sometida a revisión</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version soumise</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">eingereichte Version</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">査読版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione sottoposta a revisione</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">ingediende versie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Hakem değerlendirmesi için gönderilmiş versiyon</cf:Term>
+                     <cf:Definition xml:lang="en">Any version of a resource that is under formal review managed by a socially recognized publishing entity. The entity recognizes its responsibility to provide objective expert review and feedback to the author, and, ultimately, to pass judgment on the fitness of the resource for publication with an “accept” or “reject” decision. May have a version number or date stamp. Content and layout follow publisher’s submission requirements.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_ab4af688f83e57aa">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">AM</xs:documentation>
+               <xs:documentation xml:lang="ru">материал принятый к публикации </xs:documentation>
+               <xs:documentation xml:lang="es">versión final del autor</xs:documentation>
+               <xs:documentation xml:lang="fr">version acceptée</xs:documentation>
+               <xs:documentation xml:lang="de">akzeptiertes Manuskript</xs:documentation>
+               <xs:documentation xml:lang="ja">出版社受理版</xs:documentation>
+               <xs:documentation xml:lang="it">versione accettata per la pubblicazione</xs:documentation>
+               <xs:documentation xml:lang="nl">geaccepteerde versie</xs:documentation>
+               <xs:documentation xml:lang="tr">Yayına kabul edilmiş versiyon</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_ab4af688f83e57aa"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">AM</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">материал принятый к публикации </cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión final del autor</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version acceptée</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">akzeptiertes Manuskript</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">出版社受理版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione accettata per la pubblicazione</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">geaccepteerde versie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Yayına kabul edilmiş versiyon</cf:Term>
+                     <cf:Definition xml:lang="en">The version of a resource that has been accepted for publication. A second party takes permanent responsibility for the resource. Content and layout follow publisher’s submission requirements.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_fa2ee174bc00049f">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">P</xs:documentation>
+               <xs:documentation xml:lang="ru">одобрен</xs:documentation>
+               <xs:documentation xml:lang="es">prueba de galera</xs:documentation>
+               <xs:documentation xml:lang="de">Korrekturfahne</xs:documentation>
+               <xs:documentation xml:lang="ja">校正版</xs:documentation>
+               <xs:documentation xml:lang="it">bozza</xs:documentation>
+               <xs:documentation xml:lang="nl">proefdruk</xs:documentation>
+               <xs:documentation xml:lang="tr">Redakte edilmiş versiyon</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_fa2ee174bc00049f"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">P</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">одобрен</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">prueba de galera</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">Korrekturfahne</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">校正版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">bozza</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">proefdruk</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Redakte edilmiş versiyon</cf:Term>
+                     <cf:Definition xml:lang="en">A version of a resource that is created as part of the publication process. This includes the copy-edited manuscript, galley proofs (i.e., a typeset version that has not been made up into pages), page proofs, and revised proofs. Some of these versions may remain essentially internal process versions, but others are commonly released from the internal environment (e.g., proofs are sent to authors) and may thus become public, even though they are not authorized to be so. Content has been changed from Accepted Manuscript; layout is the publisher’s.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_970fb48d4fbd8a85">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">VoR</xs:documentation>
+               <xs:documentation xml:lang="ru">версия публикации</xs:documentation>
+               <xs:documentation xml:lang="es">versión publicada</xs:documentation>
+               <xs:documentation xml:lang="fr">version publiée</xs:documentation>
+               <xs:documentation xml:lang="de">Erstpublikation</xs:documentation>
+               <xs:documentation xml:lang="ja">出版社版</xs:documentation>
+               <xs:documentation xml:lang="it">versione pubblicata</xs:documentation>
+               <xs:documentation xml:lang="nl">gepubliceerde versie</xs:documentation>
+               <xs:documentation xml:lang="tr">Yayıncı versiyonu</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_970fb48d4fbd8a85"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">VoR</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">версия публикации</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión publicada</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version publiée</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">Erstpublikation</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">出版社版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione pubblicata</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">gepubliceerde versie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Yayıncı versiyonu</cf:Term>
+                     <cf:Definition xml:lang="en">A fixed version of a resource that has been made available by any organization that acts as a publisher by formally and exclusively declaring the resource “published”. This includes any “early release” resource that is formally identified as being published even before the compilation of a volume issue and assignment of associated metadata, as long as it is citable via some permanent identifier(s). This does not include any “early release” resource that has not yet been “fixed” by processes that are still to be applied, such as copy-editing, proof corrections, layout, and typesetting.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_e19f295774971610">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">CVoR</xs:documentation>
+               <xs:documentation xml:lang="ru">исправленная версия </xs:documentation>
+               <xs:documentation xml:lang="es">versión corregida</xs:documentation>
+               <xs:documentation xml:lang="fr">version corrigée</xs:documentation>
+               <xs:documentation xml:lang="de">korrigierte Version</xs:documentation>
+               <xs:documentation xml:lang="ja">訂正版</xs:documentation>
+               <xs:documentation xml:lang="it">versione corretta</xs:documentation>
+               <xs:documentation xml:lang="nl">herziene versie</xs:documentation>
+               <xs:documentation xml:lang="tr">Eserin düzeltilmiş versiyonu</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_e19f295774971610"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">CVoR</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">исправленная версия </cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión corregida</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version corrigée</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">korrigierte Version</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">訂正版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione corretta</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">herziene versie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Eserin düzeltilmiş versiyonu</cf:Term>
+                     <cf:Definition xml:lang="en">A version of the Version of Record of a resource in which errors in the VoR have been corrected. The errors may be author errors, publisher errors, or other processing errors.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_dc82b40f9837b551">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">EVoR</xs:documentation>
+               <xs:documentation xml:lang="ru">расширенная версия</xs:documentation>
+               <xs:documentation xml:lang="es">versión mejorada</xs:documentation>
+               <xs:documentation xml:lang="fr">version améliorée</xs:documentation>
+               <xs:documentation xml:lang="de">erweiterte Version</xs:documentation>
+               <xs:documentation xml:lang="ja">更新版</xs:documentation>
+               <xs:documentation xml:lang="it">versione revisionata</xs:documentation>
+               <xs:documentation xml:lang="nl">revisie</xs:documentation>
+               <xs:documentation xml:lang="tr">Eserin geliştirilmiş versiyonu</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_dc82b40f9837b551"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">EVoR</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">расширенная версия</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión mejorada</cf:Term>
+                     <cf:Term xml:lang="fr" trans="h">version améliorée</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">erweiterte Version</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">更新版</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">versione revisionata</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">revisie</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Eserin geliştirilmiş versiyonu</cf:Term>
+                     <cf:Definition xml:lang="en">A version of the Version of Record of a resource that has been updated or 
+enhanced by the provision of supplementary material.
+(adapted from NISO-JAV, https://www.niso.org/publications/niso-rp-8-2008-jav)
+</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://purl.org/coar/version/c_be7fb7dd8ff6fe43">
+            <xs:annotation>
+               <xs:documentation xml:lang="en">NA</xs:documentation>
+               <xs:documentation xml:lang="ru">не применимо (или неизвестно)</xs:documentation>
+               <xs:documentation xml:lang="es">versión desconocida</xs:documentation>
+               <xs:documentation xml:lang="de">keine Angabe</xs:documentation>
+               <xs:documentation xml:lang="ja">適用外</xs:documentation>
+               <xs:documentation xml:lang="it">non applicabile</xs:documentation>
+               <xs:documentation xml:lang="nl">niet van toepassing (onbekend)</xs:documentation>
+               <xs:documentation xml:lang="tr">Uygulanabilir değil</xs:documentation>
+               <xs:appinfo>
+                  <cf:Class id="http://purl.org/coar/version/c_be7fb7dd8ff6fe43"
+                            classSchemeId="http://purl.org/coar/version">
+                     <cf:Term xml:lang="en" trans="o">NA</cf:Term>
+                     <cf:Term xml:lang="ru" trans="h">не применимо (или неизвестно)</cf:Term>
+                     <cf:Term xml:lang="es" trans="h">versión desconocida</cf:Term>
+                     <cf:Term xml:lang="de" trans="h">keine Angabe</cf:Term>
+                     <cf:Term xml:lang="ja" trans="h">適用外</cf:Term>
+                     <cf:Term xml:lang="it" trans="h">non applicabile</cf:Term>
+                     <cf:Term xml:lang="nl" trans="h">niet van toepassing (onbekend)</cf:Term>
+                     <cf:Term xml:lang="tr" trans="h">Uygulanabilir değil</cf:Term>
+                     <cf:Definition xml:lang="en">Not Applicable	(or Unknown)</cf:Definition>
+                  </cf:Class>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:schema>

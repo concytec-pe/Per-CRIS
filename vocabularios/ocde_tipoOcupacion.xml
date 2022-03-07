@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/ocde/tipoOcupacion"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Investigador o innovador miembro                             -->
+	<!-- https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_def_es">
+		<rdf:value xml:lang="es">Se considera a los investigadores o innovadores (aparte del principal) que participan directamente en la concepción o creación de nuevo conocimiento, productos o procesos de negocio, tales como: investigadores asociados, co-investigadores, innovadores, desarrolladores tecnológicos. Pueden dedicarse al proyecto a tiempo completo o parcial. Se consideran también a gestores y administradores encargados de planificar y gestionar los aspectos científicos y técnicos del trabajo y, por cuestiones prácticas a los estudiantes de doctorado que participan en I+D+i. Fuente: adaptado de Manual de Frascati.
+</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigador o innovador miembro</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Researcher or innovator member</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Técnicos y personal equivalente                              -->
+	<!-- https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_def_es">
+		<rdf:value xml:lang="es">Personal cuyas principales tareas requieren de conocimiento técnico y experiencia. Participan en I+D+i realizando tareas técnicas en la aplicación de conceptos y métodos operativos y usando equipos e investigación, normalmente bajo la supervisión de los investigadores o innovadores. Fuente: adaptado de Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Técnicos y personal equivalente</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#tecnicosYPersonalEquivalente_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Technicians and equivalent personnel</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Personal auxiliar o de apoyo                                 -->
+	<!-- https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_def_es">
+		<rdf:value xml:lang="es">Incluye a operarios, cualificados o no, administrativos, secretarios y oficinistas que participan en proyectos I+D+i, o están directamente vinculados a dichos proyectos. El personal auxiliar o de apoyo engloba un gran número determinado de tareas y habilidades. En principio, toda actividad que contribuya directamente a la realización de I+D+i que no es ejecutada por investigadores y técnicos es llevada a cabo por el personal auxiliar o de apoyo. Fuente: adaptado de Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Personal auxiliar o de apoyo</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoOcupacion#personalAuxiliarODeApoyo_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Auxiliary or support staff</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

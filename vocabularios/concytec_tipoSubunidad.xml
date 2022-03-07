@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/concytec/tipoSubunidad"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Unidad de investigación o innovación                         -->
+	<!-- https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_def_es">
+		<rdf:value xml:lang="es">Unidades organizativas que dependen de una institución mayor o de otra dependencia, incluye: facultades, escuelas, departamentos, institutos, centros, áreas, divisiones u otro tipo de unidad que realiza actividades de investigación o innovación. 
+</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Unidad de investigación o innovación</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Research or innovation unit</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Grupo de investigación                                       -->
+	<!-- https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_def_es">
+		<rdf:value xml:lang="es">Son unidades básicas de organización de las actividades de investigación científica y desarrollo tecnológico (I+D) de la universidad, del instituto de investigación u otras instituciones públicas o privadas pertenecientes al SINACYT dedicadas a las actividades de investigación. Están definidos por un conjunto de personas que conforman un equipo para realizar investigación en una temática determinada, que incluye una o más disciplinas relacionadas. Fuente: Ley 30806.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Grupo de investigación</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Research group</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Línea de investigación                                       -->
+	<!-- https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_def_es">
+		<rdf:value xml:lang="es">Es un eje temático (disciplinario o interdisciplinario) lo suficientemente amplio y con orientación disciplinaria y conceptual, que se utiliza para organizar, planificar y construir, con una cierta programación, sistematización y prospectiva, el conocimiento científico en un campo específico de la ciencia y la tecnología. Fuente: Resolución de Presidencia Nº 104-2019-CONCYTEC-P.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Línea de investigación</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Research line</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

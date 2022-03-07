@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://datacite.org/schema/kernel-4" elementFormDefault="qualified" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
+
+  <xs:element name="geoLocations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="geoLocation" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+              <xs:element name="geoLocationPlace" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>Spatial region or named place where the data was gathered or about which the data is focused.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="geoLocationPoint" type="point" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>A point contains a single latitude-longitude pair, separated by whitespace.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="geoLocationBox" type="box" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>A box contains two white space separated latitude-longitude pairs, with each pair separated by whitespace. The first pair is the lower corner, the second is the upper corner.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- definitions for geoLocation -->
+  <xs:complexType name="point">
+    <xs:all>
+      <xs:element name="pointLongitude" type="longitudeType" minOccurs="1" />
+      <xs:element name="pointLatitude" type="latitudeType" minOccurs="1" />
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="box">
+    <xs:all>
+      <xs:element name="westBoundLongitude" type="longitudeType" minOccurs="1" />
+      <xs:element name="eastBoundLongitude" type="longitudeType" minOccurs="1" />
+      <xs:element name="southBoundLatitude" type="latitudeType" minOccurs="1" />
+      <xs:element name="northBoundLatitude" type="latitudeType" minOccurs="1" />
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="longitudeType">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="-180" />
+      <xs:maxInclusive value="180" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="latitudeType">
+    <xs:restriction base="xs:float">
+      <xs:minInclusive value="-90" />
+      <xs:maxInclusive value="90" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

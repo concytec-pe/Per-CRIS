@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/concytec/equipamiento"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Centrifugadoras                                              -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras_def_es">
+		<rdf:value xml:lang="es">Una centrifugadora es una máquina que pone en rotación una muestra para –por fuerza centrífuga– acelerar la decantación o la sedimentación de sus componentes o fases (generalmente una sólida y una líquida), según su densidad. Existen diversos tipos, comúnmente para objetivos específicos. Incluye centrífugas analíticas, de mesa, de alta capacidad, de alta velocidad, ultracentrifugadoras y microcentrigugadoras.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#centrifugadoras_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Centrifugadoras</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Computadoras de alto desempeño                               -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno_def_es">
+		<rdf:value xml:lang="es">Sistemas de cómputo avanzado (súper computadoras) y de sistemas formados por varios procesadores interconectados. Estos equipos son capaces de procesar enormes cantidades de información, lo que permite hacer cálculos y simulaciones imposibles en equipos de cómputo convencionales. Ejemplo: Sistema Computacional de Alto Rendimiento para la Simulación de Fluidos. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#computadorasDeAltoDesempeno_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Computadoras de alto desempeño</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Cromatógrafos                                                -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#cromatografos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#cromatografos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos_def_es">
+		<rdf:value xml:lang="es">Equipamientos científicos basados en el principio de retención selectiva, cuyo objetivo es separar los distintos componentes de una mezcla, permitiendo identificar y determinar las cantidades de dichos componentes. Incluye Cromatógrafos de Gases, Cromatógrafos Líquidos, entre otros. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#cromatografos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#cromatografos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Cromatógrafos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Drones                                                       -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#drones        -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#drones_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones_def_es">
+		<rdf:value xml:lang="es">Un vehículo aéreo no tripulado (VANT), comúnmente conocido como dron,​ hace referencia a una aeronave que vuela sin tripulación, la cual ejerce su función remotamente. Un VANT es un vehículo sin tripulación, reutilizable, capaz de mantener de manera autónoma un nivel de vuelo controlado y sostenido, y propulsado por un motor de explosión, eléctrico o de reacción.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#drones_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#drones_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Drones</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Equipos de GPS                                               -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS_def_es">
+		<rdf:value xml:lang="es">Equipos que permiten determinar en toda la Tierra la posición de cualquier objeto (una persona, un vehículo) con una gran precisión. Tienen muchas aplicaciones, entre ellas podemos mencionar, la navegación terrestre, marítima y aérea, la topografía y geodesia, la construcción, fines militares, entre otras.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeGPS_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipos de GPS</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Equipos de imágenes médicas                                  -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas_def_es">
+		<rdf:value xml:lang="es">Equipos para crear imágenes del cuerpo humano, o partes de él, con propósitos clínicos (procedimientos médicos que buscan revelar, diagnosticar o examinar enfermedades) o para la ciencia médica (incluyendo el estudio de la anatomía normal y función). Incluye: equipos de ultrasonido, ecógrafos, resonancia magnética, tomógrafos, entre otros.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeImagenesMedicas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipos de imágenes médicas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Equipos de Procesamiento y Ensayo de Materiales              -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales_def_es">
+		<rdf:value xml:lang="es">Equipamiento para procesar materias primas y fabricación de productos (a escala de laboratorio, piloto o industrial), además de equipos para realizar ensayos de materiales. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeProcesamientoyEnsayoDeMateriales_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipos de Procesamiento y Ensayo de Materiales</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Equipos de Rayos X                                           -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX_def_es">
+		<rdf:value xml:lang="es">Instrumentos que utilizan como fuente de emisión los Rayos X. Incluye: Difractómetros de Rayos X, Fluorescencia de Rayos X, entre otros. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposDeRayosX_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipos de Rayos X</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Equipos sísmicos                                             -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos_def_es">
+		<rdf:value xml:lang="es">Dispositivos para la investigación geofísica, estudio sísmico, para el monitoreo automatizado de elementos estructurales de edificios y estructuras, monitoreo sísmico de oleoductos y gasoductos. Incluye sismógrafos, registradores, acelerómetros, equipos de refracción sísmica, equipos sísmicos digitales, entre otros.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#equiposSismicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Equipos sísmicos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Espectrómetros                                               -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#espectrometros -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#espectrometros_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros_def_es">
+		<rdf:value xml:lang="es">Equipamientos científicos que son utilizados para identificar materiales, analizando el tipo de espectro que emite una fuente o que es absorbida por una sustancia que se encuentra en el camino de la luz que emite una fuente. Incluye: Espectrómetros de Masa, Espectrómetros de Resonancia Magnética Nuclear, Espectrómetros de Fluorescencia, entre otros. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#espectrometros_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#espectrometros_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Espectrómetros</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Instrumentos Bioanalíticos                                   -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos_def_es">
+		<rdf:value xml:lang="es">Corresponde a equipos de control, desarrollo, evaluación y análisis aplicados a muestras provenientes del área biológica. El equipamiento considerado en esta categoría es de carácter diverso: Secuenciadores de ADN, Autoanalizador de Bioquímica Clínica, Magnetoencefalógrafo, PCR, Cabina de bioseguridad, equipos especializados de inmunología tal como citómetros de flujo, entre otros. Fuente: Dirección de Investigaciones y Estudios del Concytec.
+</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#instrumentosBioanaliticos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Instrumentos Bioanalíticos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Microscopios                                                 -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#microscopios  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#microscopios_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios_def_es">
+		<rdf:value xml:lang="es">Equipamientos científicos destinados a aumentar la imagen de los objetos. Incluye diferentes tipos de Microscopios tales como: Microscopio Confocal, Microscopio de Fluorescencia, Microscopio Electrónico Barrido, Microscopio de Fuerzas Atómicas, entre otros. Fuente: Dirección de Investigaciones y Estudios del Concytec.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#microscopios_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#microscopios_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Microscopios</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Radares                                                      -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#radares       -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#radares_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares_def_es">
+		<rdf:value xml:lang="es">El radar (término derivado del acrónimo inglés radio detection and ranging, “detección de radio y rango ”) es un sistema que usa ondas electromagnéticas para medir distancias, altitudes, direcciones y velocidades de objetos estáticos o móviles como aeronaves, barcos, vehículos motorizados, formaciones meteorológicas y el propio terreno 
+</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#radares_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#radares_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Radares</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Refrigeradores                                               -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#refrigeradores -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores_def_es">
+		<rdf:value xml:lang="es">Equipos cuya función principal consiste en mantener, en un ambiente controlado (espacio refrigerado), diversos fluidos y sustancias, para que los mismos se conserven en buenas condiciones, mientras más baja sea la temperatura, menor actividad química y biológica. Incluye: refrigeradores de conservación, refrigeradores de baja temperatura, refrigeradores de ultrabaja temperatura, frigoríficos, congeladores, entre otros.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#refrigeradores_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Refrigeradores</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Transceptores                                                -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#transceptores -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#transceptores_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores_def_es">
+		<rdf:value xml:lang="es">Dispositivo que cuenta con un transmisor y un receptor que comparten parte de la circuitería o se encuentran dentro de la misma caja.​ Cuando el transmisor y el receptor no tienen en común partes del circuito electrónico se conoce como transmisor-receptor.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#transceptores_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#transceptores_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Transceptores</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Otros equipamientos                                          -->
+	<!-- https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/equipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos_def_es">
+		<rdf:value xml:lang="es">Otros tipos de equipos utilizados en actividades de CTI que no considerados en la tipología anterior.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/equipamiento#otrosEquipamientos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Otros equipamientos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+</rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility" xmlns:cf="urn:xmlns:org.eurocris.cerif" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://www.w3.org/2012/04/XMLSchema.xsd">
+
+    <xs:annotation>
+        <xs:documentation>Compatibility of service with the PeruCRIS Guidelines for CRIS Managers</xs:documentation>
+        <xs:appinfo>
+            <cf:ClassScheme id="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility">
+                <cf:Name xmlns="en">Compatibility of service with the PeruCRIS Guidelines for CRIS Managers</cf:Name>
+                <cf:Description xmlns="en">Compatibility of service with the PeruCRIS Guidelines for CRIS Managers.</cf:Description>
+            </cf:ClassScheme>
+        </xs:appinfo>
+    </xs:annotation>
+
+    <xs:include schemaLocation="../includes/cerif-commons.xsd" />
+
+    <xs:element name="Compatibility">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="Enum">
+                    <xs:attributeGroup ref="cfExtension__AttributeGroup" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="Enum">
+        <xs:restriction base="xs:string">
+
+            <xs:enumeration value="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility#1.0">
+                <xs:annotation>
+                    <xs:documentation xml:lang="en">PeruCRIS Guidelines 1.0 compatible CRIS</xs:documentation>
+                    <xs:appinfo>
+                        <cf:Class id="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility#1.0" classSchemeId="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility">
+                            <cf:Term xml:lang="en">PeruCRIS Guidelines 1.0 compatible CRIS</cf:Term>
+                            <cf:Definition xml:lang="en">CRIS compatible with PeruCRIS Guidelines for CRIS managers version 1.0</cf:Definition>
+                        </cf:Class>
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:enumeration>
+
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/concytec/estadoProyecto"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Activo                                                       -->
+	<!-- https://purl.org/pe-repo/concytec/estadoProyecto#activo      -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#activo_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo_def_es">
+		<rdf:value xml:lang="es">Utilice para establecer el estado de un proyecto cuando este se encuentra aprobado o en curso.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Activo</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#activo_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Active</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Suspendido                                                   -->
+	<!-- https://purl.org/pe-repo/concytec/estadoProyecto#suspendido  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_def_es">
+		<rdf:value xml:lang="es">Utilice para establecer el estado de un proyecto cuando este se encuentre interrumpido o anulado.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Suspendido</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#suspendido_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Suspended</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Concluido                                                    -->
+	<!-- https://purl.org/pe-repo/concytec/estadoProyecto#concluido   -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_def_es">
+		<rdf:value xml:lang="es">Utilice para establecer el estado de un proyecto cuando este se encuentre cerrado, luego de la etapa de cierre operativo o financiero.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Concluido</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/estadoProyecto#concluido_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Finished</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

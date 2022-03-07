@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Ejemplo de registros de metadatos en formato CERIF XML de PerúCRIS para la carga útil OAI-PMH.
+  Respuesta OAI-PMH para la solicitud ListSets
+  Brindado como material complementario para las "Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica" versión 1.0. 
+-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+
+  <responseDate>2021-05-07T13:37:47Z</responseDate>
+  <request verb="ListSets">https://cris.example.org/oai/request</request>
+
+  <ListSets>
+
+    <set>
+      <setSpec>perucris_fundings</setSpec>
+      <setName>PerúCRIS - Financiamientos</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_projects</setSpec>
+      <setName>PerúCRIS - Proyectos</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_orgunits</setSpec>
+      <setName>PerúCRIS - Unidades organizativas</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_persons</setSpec>
+      <setName>PerúCRIS - Personas</setName>
+    </set>
+
+    <set>
+      <setSpec>perucris_equipments</setSpec>
+      <setName>PerúCRIS - Equipamientos</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_publications</setSpec>
+      <setName>PerúCRIS - Publicaciones</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_patents</setSpec>
+      <setName>PerúCRIS - Patentes</setName>
+    </set>
+    
+    <set>
+      <setSpec>perucris_products</setSpec>
+      <setName>PerúCRIS - Productos</setName>
+    </set>
+    
+  </ListSets>
+
+</OAI-PMH>

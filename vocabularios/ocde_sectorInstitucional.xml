@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/ocde/sectorInstitucional"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Empresa                                                      -->
+	<!-- https://purl.org/pe-repo/ocde/sectorInstitucional#empresa    -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_def_es">
+		<rdf:value xml:lang="es">Todas las sociedades residentes, incluyendo no solo las empresas legalmente constituidas, independientemente de la residencia de sus accionistas. Este grupo también engloba cualquier tipo de cuasisociedad, reconocidas por ley como entidades jurídicas; las filiales no constituidas en sociedad de las empresas no residentes que se consideran residentes; y, cualquier Institución Privadas Sin Fines de Lucro (IPSFL) residente que sean productoras de bienes o servicios de mercado o dan servicio a otras empresas. Para que se apliquen estos criterios, la unidad no debería haberse clasificado como parte del sector de enseñanza superior. 
+Este sector incluyetanto las empresas públicas como privadas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Empresa</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#empresa_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Company</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Enseñanza superior                                           -->
+	<!-- https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_def_es">
+		<rdf:value xml:lang="es">Compone de todas las universidades, escuelas técnicas y otras instituciones que ofertan programas oficiales de enseñanza universitaria, sea cual sea la fuente de financiación o naturaleza jurídica, y todos los institutos de investigación, centros, estaciones experimentales y clínicas de investigación que llevan a cabo actividades en I+D bajo el control directo o la administración de una institución de enseñanza superior.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Enseñanza superior</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Higher education</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Administración pública                                       -->
+	<!-- https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_def_es">
+		<rdf:value xml:lang="es">Todas las unidades de la administración central (federal), regional (estatal) o local (municipal), incluidos los fondos de la Seguridad social, excepto las unidades que proporcionan servicios de enseñanza superior.
+Todas las instituciones sin fines de lucro no de mercado que son controladas por unidades de la Administración y que no pertenecen al sector de la enseñanza superior.
+Este sector no incluye a las empresas públicas, ni siquiera cuando la totalidad del capital de dicha sociedad pertenece a una unidad de la Administración. Las empresas públicas se incluyen en el sector empresas, la diferencia que las caracteriza es que las empresas públicas son productoras de mercado, mientras que las unidades clasificadas en el sector Administración Pública no lo son.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Administración pública</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#administracionPublica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Public administration</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Instituciones privadas sin fines de lucro                    -->
+	<!-- https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_def_es">
+		<rdf:value xml:lang="es">Asociaciones profesionales y sociedades científicas independientes, organizaciones benéficas que no están controladas por unidades de la Administración ni del sector empresas.
+Personas jurídicas sin fines de lucro constituidas en el Perú e inscritas en el respectivo registro institucional de la APCI, cuya finalidad es la ejecución de intervenciones orientadas al desarrollo nacional con financiamiento de la cooperación técnica internacional en una o más de sus modalidades.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Instituciones privadas sin fines de lucro</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#institucionesPrivadasSinFinesDeLucro_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Private non-profit institutions</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Resto del mundo                                              -->
+	<!-- https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_def_es">
+		<rdf:value xml:lang="es">Todas las instituciones e individuos sin una sede, lugar de producción o instalaciones dentro del territorio económico.
+Organizaciones internacionales y autoridades supranacionales, incluyendo las instalaciones y las operaciones que estas realizan dentro de las fronteras del país.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Resto del mundo</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/sectorInstitucional#restoDelMundo_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Rest of the world</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

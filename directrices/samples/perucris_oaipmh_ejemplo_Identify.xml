@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Ejemplo de registros de metadatos en formato CERIF XML de PerúCRIS para la carga útil OAI-PMH.
+  Respuesta OAI-PMH para la solicitud Identify
+  Brindado como material complementario para las "Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica" versión 1.0. 
+-->
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://www.openarchives.org/OAI/2.0/oai-identifier http://www.openarchives.org/OAI/2.0/oai-identifier.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+
+  <responseDate>2021-05-07T13:37:47Z</responseDate>
+  <request verb="Identify">https://cris.example.org/oai/request</request>
+
+  <Identify>
+    <repositoryName>cris.example.org</repositoryName>
+    <baseURL>https://cris.example.org/oai/request</baseURL>
+    <protocolVersion>2.0</protocolVersion>
+    <adminEmail>admin@cris.example.org</adminEmail>
+    <earliestDatestamp>2008-11-23T13:11:02Z</earliestDatestamp>
+    <deletedRecord>no</deletedRecord>
+    <granularity>YYYY-MM-DDThh:mm:ssZ</granularity>
+
+    <description>
+      <oai-identifier xmlns="http://www.openarchives.org/OAI/2.0/oai-identifier">
+        <scheme>oai</scheme>
+        <repositoryIdentifier>cris.example.org</repositoryIdentifier>
+        <delimiter>:</delimiter>
+        <sampleIdentifier>oai:cris.example.org:OrgUnits/312347</sampleIdentifier>
+      </oai-identifier>
+    </description>
+
+    <description>
+      <Service xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Services/8123451"><!-- cris.example.org -->
+        <Compatibility xmlns="https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility">https://purl.org/pe-repo/cerif-profile/vocab/PeruCRIS_Service_Compatibility#1.0</Compatibility>
+                <Acronym>cris.example.org</Acronym>
+        <Name xml:lang="es">Sistema CRIS de ejemplo</Name>
+        <Description xml:lang="es">Sistema CRIS de ejemplo, compatible con las "Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica", versión 1.0.</Description>
+
+        <WebsiteURL>https://cris.example.org/</WebsiteURL>
+        <OAIPMHBaseURL>https://cris.example.org/oai/request</OAIPMHBaseURL>
+
+        <Owner>
+          <OrgUnit id="OrgUnits/58492"><!-- Institución de ejemplo -->
+            <Acronym>Institución de ejemplo</Acronym>
+          </OrgUnit>
+        </Owner>
+      </Service>
+    </description>
+
+  </Identify>
+
+</OAI-PMH>

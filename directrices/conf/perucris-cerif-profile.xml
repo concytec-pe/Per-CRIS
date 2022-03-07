@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF-profile xmlns="https://w3id.org/cerif/profile" xmlns:cflink="https://w3id.org/cerif/annotations#" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datacite="http://datacite.org/schema/kernel-4" xsi:schemaLocation="https://w3id.org/cerif/profile ../../CERIF-TG-Tools/CERIF-Model-Tools/src/main/resources/xsd/cerif-profile-definition.xsd">
+  <xs:annotation>
+    <xs:documentation>Esquema XML Schema del perfil CERIF PerúCRIS 1.0, 
+      material complementario para las "Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica" versión 1.0.
+      Este trabajo se deriva de las OpenAIRE Guidelines for CRIS Managers 1.1 (http://openaire-guidelines-for-cris-managers.readthedocs.io/en/latest/index.html), publicadas bajo una licencia Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/).. 
+      Este trabajo tiene la licencia Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/).</xs:documentation>
+    <xs:appinfo>
+      <!-- pecf = PerúCRIS CERIF -->
+      <sch:ns prefix="pecf" uri="https://purl.org/pe-repo/cerif-profile/1.0/" />
+    </xs:appinfo>
+    <xs:appinfo>
+      <sch:pattern>
+        <sch:title>Occurrence of "uri" implies an OAMandate is mandated</sch:title>
+        <sch:rule context="pecf:OAMandate">
+          <sch:report test="@uri and not ( @mandated = 'true' )">If the URI of an Open Access policy is given, "mandated" must be set true</sch:report>
+        </sch:rule>
+      </sch:pattern>
+    </xs:appinfo>
+  </xs:annotation>
+
+  <!-- CERIF profile for #PeruCRIS -->
+  <TargetNamespace uri="https://purl.org/pe-repo/cerif-profile/1.0/" />
+  <Name>"Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica" versión 1.0.</Name>
+  <Description>Esquema XML Schema del perfil CERIF PerúCRIS 1.0, 
+      material complementario para las "Directrices de la Red Nacional de Información en Ciencia, Tecnología e Innovación Tecnológica para administradores de sistemas de gestión de información científica" versión 1.0, basado en las OpenAIRE Guidelines for CRIS Managers 1.1.</Description>
+  <Entities>
+    <Entity uri="https://w3id.org/cerif/model#Service" leaveOut="Keyword">
+      <xs:annotation>
+        <xs:documentation>CRIS compatible with the PeruCRIS Guidelines for CRIS Managers</xs:documentation>
+      </xs:annotation>
+      
+      <!-- #PeruCRIS compatibility, currently only 1.0 -->
+      <Classification kind="Type" schema="vocabularies/perucris_service_compatibilities.xsd" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>#PeruCRIS compatibility of the CRIS</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <xs:element name="WebsiteURL" type="cfString__Type" minOccurs="0" cflink:link="https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/IdentifierTypes#URL) https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/ElectronicAddressTypes#Website)">
+        <xs:annotation>
+          <xs:documentation>URL of the website of the CRIS</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="OAIPMHBaseURL" type="cfString__Type" minOccurs="0" cflink:link="https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/IdentifierTypes#URL) https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/ElectronicAddressTypes#OAI-PMH_Base)">
+        <xs:annotation>
+          <xs:documentation>Base URL for the OAI-PMH protocol endpoint of the CRIS</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SubjectHeadingsURL" type="cfString__Type" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/IdentifierTypes#URL) https://w3id.org/cerif/model#FederatedIdentifier(https://w3id.org/cerif/vocab/ElectronicAddressTypes#SubjectHeadings)">
+        <!-- SubjectHeadingsURL por el momento no documentado en Guía PerúCRIS -->
+        <xs:annotation>
+          <xs:documentation>The URL where the subject classification used by the CRIS can be obtained (using the HTTP GET)</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Owner" type="cfLinkWithDisplayNameToPersonOrOrgUnit__Type" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#OrganisationUnit_Service(https://w3id.org/cerif/vocab/OrganisationResearchInfrastructureRoles#Owner)">
+        <xs:annotation>
+          <xs:documentation>The owner of the CRIS: The organisation the research of which the CRIS documents</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    
+    <!-- PERSON -->
+    <Entity uri="https://w3id.org/cerif/model#Person" leaveOut="Type">
+      <IdentifiersFrom schemaLocation="includes/person-identifiers.xsd">
+        <xs:annotation>
+          <xs:documentation>The person identifiers.</xs:documentation>
+        </xs:annotation>
+      </IdentifiersFrom>
+      <Link name="Affiliation" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#Person_OrganisationUnit(https://w3id.org/cerif/vocab/PersonOrganisationRoles#Affiliation)" target="OrgUnit">
+        <xs:annotation>
+          <xs:documentation>The organisation or organisation unit the person is affiliated with</xs:documentation>
+        </xs:annotation>
+      </Link>
+      
+      <!-- Added generic Identifier field, for use with DNI -->
+      <xs:element cflink:identifier="true" maxOccurs="unbounded" minOccurs="0" name="Identifier" type="cfGenericIdentifier__Type">
+        <xs:annotation>
+          <xs:documentation>An identifier of the person</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+
+    <Entity uri="https://w3id.org/cerif/model#PersonName" />
+    
+    <!-- ORGUNIT -->
+    <Entity uri="https://w3id.org/cerif/model#OrganisationUnit" leaveOut="Parts">
+    
+      <!-- WARNING: OrgUnit samples still use generic Identifier element -->
+      <!-- <IdentifiersFrom schemaLocation="includes/orgunit-identifiers.xsd">
+        <xs:annotation>
+          <xs:documentation>The orgunit identifiers.</xs:documentation>
+        </xs:annotation>
+      </IdentifiersFrom> -->
+      
+      <!-- Subject (for use mainly in OCDE FORD classification
+           in dependencies, research groups and research lines) -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#OrganisationUnit_Classification" maxOccurs="unbounded" minOccurs="0" name="Subject" type="cfGenericURIClassification__Type">
+        <xs:annotation>
+          <xs:documentation>La clasificación temática de la unidad organizativa o dependencia.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Keyword (for use mainly dependencies, research groups
+           and research lines) -->
+      <xs:element cflink:attribute="https://w3id.org/cerif/model#OrganisationUnit.Keywords" maxOccurs="unbounded" minOccurs="0" name="Keyword" type="cfMLangString__Type">
+        <xs:annotation>
+          <xs:documentation>Palabra clave o expresión clave que caracteriza la unidad organizativa.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- PostAddress -->
+      <xs:element name="PostAddress" minOccurs="0" cflink:entity="https://w3id.org/cerif/model#PostAddress">
+        <xs:annotation>
+          <xs:documentation>El lugar de domicilio de la unidad organizativa o dependencia.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence minOccurs="0">
+          
+            <!-- Attribute names based on Schema.org -->
+            <!-- StreetAddress <- PostAddress.AddressLine1 -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#PostAddress.AddressLine1" minOccurs="0" name="StreetAddress" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El nombre de la calle y el número donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+
+            <!-- AddressLocality <- PostAddress.CityTown -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#PostAddress.CityTown" minOccurs="0" name="AddressLocality" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El nombre del distrito donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+            <!-- AddressProvince: missing in CERIF and Schema.org -->
+            <xs:element minOccurs="0" name="AddressProvince" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El nombre de la provincia donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+            <!-- AddressRegion <- PostAddress.StateOfCountry -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#PostAddress.StateOfCountry" minOccurs="0" name="AddressRegion" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El nombre del departamento donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+            <!-- PostalCode <- PostAddress.PostCode -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#PostAddress.PostCode" minOccurs="0" name="PostalCode" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El código postal donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+            <!-- AddressCountry <- PostAddress.CountryCode -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#PostAddress.CountryCode" minOccurs="0" name="AddressCountry" type="cfString__Type">
+              <xs:annotation>
+                <xs:documentation>El código ISO 3166 (2 caracteres) del país donde se encuentra ubicada la unidad organizativa o dependencia.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      
+      <!-- UBIGEO
+      numerical coding for Peruvian Region, Province and District -->
+      <!-- TODO: explicit schema declaration not needed? -->
+      <!-- scheme="https://purl.org/pe-repo/inei/ubigeo" -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#OrganisationUnit_Classification(https://purl.org/pe-repo/inei/ubigeo)" minOccurs="0" name="UbiGeo" type="cfGenericURIClassification__Type">
+        <xs:annotation>
+          <xs:documentation>La localización de la unidad organizativa o dependencia, según UbiGeo de INEI.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Description
+           No CERIF equivalent attribute
+           https://w3id.org/cerif/model#cfOrganisationUnit.cfResearchActivity
+      -->
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="Description" type="cfMLangString__Type">
+        <xs:annotation>
+          <xs:documentation>Información que describe o caracteriza a esta Unidad Organizativa o dependencia.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+    </Entity>
+    
+    <Entity uri="https://w3id.org/cerif/model#ElectronicAddress" />
+    
+    <!-- PROJECT -->
+    <Entity uri="https://w3id.org/cerif/model#Project" leaveOut="Costs Funders Originated Funded/From">
+      <Link name="Uses" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#Project_Equipment(https://w3id.org/cerif/vocab/ProjectResearchInfrastructureRelations#User)" target="Equipment">
+        <xs:annotation>
+          <xs:documentation>The equipment this project uses</xs:documentation>
+        </xs:annotation>
+      </Link>
+      <xs:element name="OAMandate" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Information about the Open Access mandate that applies to this project</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:attribute name="mandated" type="xs:boolean" use="required" cflink:link="https://w3id.org/cerif/model#Project_Classification(https://w3id.org/cerif/vocab/OpenAccessMandatedFlag)">
+            <xs:annotation>
+              <xs:documentation>The flag if Open Access is mandated in the project</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="uri" type="xs:anyURI" use="optional" cflink:link="https://w3id.org/cerif/model#Project_Classification(https://w3id.org/cerif/vocab/OpenAccessMandate)">
+            <xs:annotation>
+              <xs:documentation>The Open Access policy that applies to the project</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attributeGroup ref="cfStartDateEndDate__AttributeGroup" />
+          <xs:attributeGroup ref="cfExtension__AttributeGroup" />
+        </xs:complexType>
+      </xs:element>
+      
+      <!-- Link to Research Line (represented as an OrgUnit) -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#Project_OrganisationUnit(https://purl.org/pe-repo/concytec/terminos#lineaDeInvestigacion)" maxOccurs="unbounded" minOccurs="0" name="ResearchLine" type="cfLinkWithDisplayNameToOrgUnit__Type">
+        <xs:annotation>
+          <xs:documentation>La línea de investigación aprobada o declarada institucionalmente, a la que corresponde el proyecto.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- URL, better than ElectronicAddress for a project? -->
+      <xs:element cflink:identifier="true" cflink:link="https://w3id.org/cerif/vocab/IdentifierTypes#URL" minOccurs="0" name="URL" type="cfString__Type"/>
+
+      <!-- datacite:geoLocations -->
+      <!-- defined in schemas/includes/datacite-v4.xsd -->
+      <!-- no support for geoLocationPolygon -->
+      <xs:element xmlns="http://datacite.org/schema/kernel-4" minOccurs="0" ref="geoLocations">
+        <xs:annotation>
+          <xs:documentation>El ámbito geográfico (región espacial o nombre del lugar) en el cual se aplica el proyecto.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    
+    <!-- FUNDING -->
+    <Entity uri="https://w3id.org/cerif/model#Funding" leaveOut="Originated Supports">
+      <Classification kind="Type" schema="vocabularies/openaire_funding_types.xsd" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>The type of the funding</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <xs:element name="Duration" minOccurs="0" cflink:link="https://w3id.org/cerif/model#Funding_Classification(https://w3id.org/cerif/vocab/Durations#FundingDuration)" type="cfLink__BaseType">
+        <xs:annotation>
+          <xs:documentation>Duration of the funding</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="OAMandate" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Information about the Open Access mandate that applies to this funding</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:attribute name="mandated" type="xs:boolean" use="required" cflink:link="https://w3id.org/cerif/model#Funding_Classification(https://w3id.org/cerif/vocab/OpenAccessMandatedFlag)">
+            <xs:annotation>
+              <xs:documentation>The flag if Open Access is mandated for this funding</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attribute name="uri" type="xs:anyURI" use="optional" cflink:link="https://w3id.org/cerif/model#Funding_Classification(http://roarmap.eprints.org/)">
+            <xs:annotation>
+              <xs:documentation>The Open Access policy that applies to this funding</xs:documentation>
+            </xs:annotation>
+          </xs:attribute>
+          <xs:attributeGroup ref="cfStartDateEndDate__AttributeGroup" />
+          <xs:attributeGroup ref="cfExtension__AttributeGroup" />
+        </xs:complexType>
+      </xs:element>
+      
+      <!-- ExecutedAmount: Spent amount at the end of the project  -->
+      <!-- CERIF supports single Amount attribute -->
+      <xs:element minOccurs="0" name="ExecutedAmount" type="cfAmount__Type">
+        <xs:annotation>
+          <xs:documentation>El monto ejecutado al cierre del financiamiento y su moneda.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    
+    <!-- PUBLICATION -->
+    <Entity uri="https://w3id.org/cerif/model#ResultPublication" leaveOut="Series TotalPages ReferencedBy Parts">
+      <Classification kind="Type" schema="vocabularies/coar_publication_types.xsd" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>The type of the publication</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <Classification kind="Access" schema="vocabularies/coar_accessrights.xsd" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>The open access type of the publication</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <IdentifiersFrom schemaLocation="includes/publication-identifiers.xsd">
+        <xs:annotation>
+          <xs:documentation>The publication identifiers.</xs:documentation>
+        </xs:annotation>
+      </IdentifiersFrom>
+      
+      <!-- No support for PresentedAt, OutputFrom, Coverage -->
+      <!-- No support for References -->
+
+      <xs:element xmlns="http://purl.org/coar/access_right" cflink:link="https://w3id.org/cerif/model#ResultPublication_Classification(http://purl.org/coar/access_right)" minOccurs="0" ref="Access">
+        <xs:annotation>
+          <xs:documentation>The open access type of the publication</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <!-- Version element from OpenAire Guidelines for Literature Repositories -->
+      <!-- Implemented following "Access", i.e. URI as value -->
+      <xs:element xmlns="http://purl.org/coar/version" cflink:link="https://w3id.org/cerif/model#ResultPublication_Classification(http://purl.org/coar/version)" minOccurs="0" ref="Version">
+        <xs:annotation>
+          <xs:documentation>The status in the publication process of journal articles.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <!-- Generic Type element for #PerúCRIS namespace -->
+      <!-- cerif-commons Type is tied to xmlns COAR_Publication_Types -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#ResultPublication_Classification" maxOccurs="unbounded" minOccurs="0" name="Type" type="cfGenericURIClassification__Type">
+        <xs:annotation>
+          <xs:documentation>The type of the publication</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <!-- Thesis Advisor -->
+      <!-- Not available in vocab for Person_ResultPublication  -->
+      <xs:element cflink:container="ordered" minOccurs="0" name="Advisors">
+        <xs:annotation>
+          <xs:documentation>La persona responsable de la asesoría de la investigación.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element cflink:link="https://w3id.org/cerif/model#Person_ResultPublication(https://purl.org/pe-repo/concytec/terminos#asesor)" maxOccurs="unbounded" minOccurs="0" name="Advisor" type="cfLinkWithDisplayNameToPersonWithAffiliations__Type"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <!-- Degree or Title obtained with publication 
+        - InSupportOf (missing Qualification_Publication link in CERIF)
+          - Qualification
+            - Title
+            - Type (scheme: https://purl.org/pe-repo/renati/level)
+            - Discipline (scheme: SUNEDU code derived from UNESCO CINE)
+            - Grantor (missing Qualification_OrgUnit link in CERIF)
+            - Jurors (Person_Qualification)
+      -->
+      <xs:element minOccurs="0" name="InSupportOf"><!-- https://schema.org/inSupportOf -->
+        <xs:annotation>
+          <xs:documentation>Candidature(s) for an academic degree or professional qualification supported by the publication (thesis or dissertation).</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+          
+            <!-- missing Qualification_Publication link in CERIF -->
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="Qualification">
+              <xs:complexType>
+                <xs:sequence>
+                
+                  <!-- Title -->
+                  <xs:element cflink:link="https://w3id.org/cerif/model#Qualification.Title" minOccurs="0" name="Title" type="cfString__Type">
+                    <xs:annotation>
+                      <xs:documentation>Nombre del grado académico o título profesional.</xs:documentation>
+                    </xs:annotation>
+                  </xs:element>
+                  
+                  <!-- Type -->
+                  <xs:element cflink:link="https://w3id.org/cerif/model#Qualification_Classification" minOccurs="0" name="Type" type="cfGenericURIClassification__Type">
+                    <xs:annotation>
+                      <xs:documentation>El nivel o tipo del grado académico y/o título profesional.</xs:documentation>
+                    </xs:annotation>
+                  </xs:element>
+                  
+                  <!-- Discipline -->
+                  <xs:element cflink:link="https://w3id.org/cerif/model#Qualification_Classification" minOccurs="0" name="Discipline">
+                    <xs:annotation>
+                      <xs:documentation>El código del programa de educación superior que condujo a la obtención del grado académico y/o título profesional.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                          <xs:attribute name="scheme" type="xs:anyURI" default="https://purl.org/pe-repo/inei/cpesutpt" />
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                  
+                  <!-- Grantor: missing Qualification_OrgUnit in CERIF -->
+                  <xs:element minOccurs="0" name="Grantor" type="cfLinkWithDisplayNameToOrgUnit__Type">
+                    <xs:annotation>
+                      <xs:documentation>Institución que ha otorgado el grado académico y/o título profesional.</xs:documentation>
+                    </xs:annotation>
+                  </xs:element>
+                  
+                  <!-- Jurors -->
+                  <xs:element minOccurs="0" name="Jurors">
+                    <xs:annotation>
+                      <xs:documentation>Integrantes del jurado evaluador del trabajo académico conducente al grado académico y/o título profesional.</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element cflink:link="https://w3id.org/cerif/model#Person_Qualification(https://purl.org/pe-repo/concytec/terminos#jurado)" maxOccurs="unbounded" minOccurs="0" name="Juror" type="cfLinkWithDisplayNameToPersonWithAffiliations__Type"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+
+      <!-- Discipline -->
+      <xs:element minOccurs="0" name="Discipline" type="cfString__Type">
+        <xs:annotation>
+          <xs:documentation>La disciplina de la calificación.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+    </Entity>
+
+    <!-- PRODUCT -->
+    <Entity uri="https://w3id.org/cerif/model#ResultProduct" leaveOut="AlternateName ReferencedBy Parts">
+      <Classification kind="Type" schema="vocabularies/coar_product_types.xsd" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>The type of the resulting product (other than publication or patent)</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <IdentifiersFrom schemaLocation="includes/product-identifiers.xsd">
+        <xs:annotation>
+          <xs:documentation>The product identifiers.</xs:documentation>
+        </xs:annotation>
+      </IdentifiersFrom>
+      <Link name="GeneratedBy" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#ResultProduct_Equipment(https://w3id.org/cerif/vocab/OutputResearchInfrastructureRelations#Generation)" target="Equipment">
+        <xs:annotation>
+          <xs:documentation>The equipment that generated this product</xs:documentation>
+        </xs:annotation>
+      </Link>
+      
+      <!-- No support for PresentedAt, Coverage -->
+      <!-- No support for References -->
+
+      <xs:element xmlns="http://purl.org/coar/access_right" cflink:link="https://w3id.org/cerif/model#ResultProduct_Classification(http://purl.org/coar/access_right)" minOccurs="0" ref="Access">
+        <xs:annotation>
+          <xs:documentation>The open access type of the product</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    
+    <!-- PATENT -->
+    <Entity uri="https://w3id.org/cerif/model#ResultPatent" leaveOut="ReferencedBy Parts">
+      <Classification kind="Type" schema="vocabularies/coar_patent_types.xsd" minOccurs="1">
+        <xs:annotation>
+          <xs:documentation>The type of the patent (currently just one option)</xs:documentation>
+        </xs:annotation>
+      </Classification>
+      <IdentifiersFrom schemaLocation="includes/patent-identifiers.xsd">
+                <xs:annotation>
+                    <xs:documentation>The patent identifiers.</xs:documentation>
+                </xs:annotation>
+            </IdentifiersFrom>
+
+      <!-- URL identifier is present and used in PeruCRIS, although 
+          not documented in OpenAire 1.1.1 -->
+
+      <Link name="Predecessor" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#ResultPatent_ResultPatent(https://w3id.org/cerif/vocab/InterPatentRelations#Predecessor):1" target="Patent">
+        <xs:annotation>
+          <xs:documentation>Patents that precede (i.e., have priority over) this patent</xs:documentation>
+        </xs:annotation>
+      </Link>
+
+      <!-- No support for References -->
+
+      <!-- Generic Type element for #PerúCRIS namespace -->
+      <!-- cerif-commons Type is tied to xmlns COAR_Patent_Types -->
+      <!-- Needed support for: 
+              - Invention patent
+              - Utility model
+              - Certificate of plant breeder's right
+      -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#ResultPatent_Classification" maxOccurs="unbounded" minOccurs="0" name="Type" type="cfGenericURIClassification__Type">
+        <xs:annotation>
+          <xs:documentation>The type of the patent</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    
+    <Entity uri="https://w3id.org/cerif/model#Equipment" leaveOut="Keyword">
+      <xs:element name="Owner" type="cfLinkWithDisplayNameToPersonOrOrgUnit__Type" minOccurs="0" maxOccurs="unbounded" cflink:link="https://w3id.org/cerif/model#Person_Service(https://w3id.org/cerif/vocab/PersonResearchInfrastructureRoles#Owner) https://w3id.org/cerif/model#OrganisationUnit_Service(https://w3id.org/cerif/vocab/OrganisationResearchInfrastructureRoles#Owner)">
+        <xs:annotation>
+          <xs:documentation>The owner of the piece of equipment</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Subject -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#Equipment_Classification" maxOccurs="unbounded" minOccurs="0" name="Subject" type="cfGenericURIClassification__Type">
+        <xs:annotation>
+          <xs:documentation>La clasificación temática del equipamiento.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- Link to Research Line (represented as OrgUnit) -->
+      <xs:element cflink:link="https://w3id.org/cerif/model#OrganisationUnit_Equipment(https://purl.org/pe-repo/concytec/terminos#lineaDeInvestigacion)" maxOccurs="unbounded" minOccurs="0" name="ResearchLine" type="cfLinkWithDisplayNameToOrgUnit__Type">
+        <xs:annotation>
+          <xs:documentation>Línea de investigación aprobada o declarada institucionalmente, asociada a este equipamiento.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+
+      <!-- Funded By/As, like in Project -->
+      <xs:element cflink:container="unordered" maxOccurs="unbounded" minOccurs="0" name="Funded">
+        <xs:annotation>
+          <xs:documentation>Referencia al financiamiento con el cual se adquirió este equipamiento.</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:sequence>
+          
+            <!-- Semantics from cf OrganisationProjectEngagements -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#OrganisationUnit_Equipment(https://w3id.org/cerif/vocab/OrganisationProjectEngagements#Funder)" minOccurs="0" name="By" type="cfLinkWithDisplayNameToPersonOrOrgUnit__Type">
+              <xs:annotation>
+                <xs:documentation>Entidad que financió el equipamiento.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            
+            <!-- Semantics from cf ProjectFundingRelations -->
+            <xs:element cflink:link="https://w3id.org/cerif/model#Equipment_Funding(https://w3id.org/cerif/vocab/ProjectFundingRelations#Support)" minOccurs="0" name="As">
+              <xs:annotation>
+                <xs:documentation>El dispositivo específico (nombre) del financiamiento (subvención, adjudicación, contrato) del que proviene el equipamiento y su código.</xs:documentation>
+              </xs:annotation>
+              <xs:complexType>
+                <xs:complexContent>
+                  <xs:extension base="cfLink__BaseType">
+                    <xs:sequence>
+                      <xs:element ref="Funding" />
+                    </xs:sequence>
+                  </xs:extension>
+                </xs:complexContent>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attributeGroup ref="cfExtension__AttributeGroup" />
+        </xs:complexType>
+      </xs:element>
+      
+      <!-- ManufacturingCountry -->
+      <!-- No equivalent attribute in CERIF -->
+      <xs:element minOccurs="0" name="ManufacturingCountry" type="cfString__Type">
+        <xs:annotation>
+          <xs:documentation>El código ISO 3166 (2 caracteres) del país de fabricación del equipamiento.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- ManufacturingDate -->
+      <!-- No equivalent attribute in CERIF -->
+      <xs:element minOccurs="0" name="ManufacturingDate" type="cfGenericDateTime__Type">
+        <xs:annotation>
+          <xs:documentation>La fecha de fabricación del equipamiento.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- AcquisitionDate -->
+      <!-- No equivalent attribute in CERIF -->
+      <xs:element minOccurs="0" name="AcquisitionDate" type="cfGenericDateTime__Type">
+        <xs:annotation>
+          <xs:documentation>La fecha de adquisición del equipamiento.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      
+      <!-- AcquisitionAmount -->
+      <!-- No equivalent attribute in CERIF -->
+      <xs:element minOccurs="0" name="AcquisitionAmount" type="cfAmount__Type">
+        <xs:annotation>
+          <xs:documentation>El monto de adquisición del equipamiento y su moneda.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </Entity>
+    <Entity uri="https://w3id.org/cerif/model#Classification" />
+    <Entity uri="https://w3id.org/cerif/model#ClassificationScheme" />
+    
+   
+   </Entities>
+  <xs:import namespace="http://purl.org/coar/access_right" schemaLocation="vocabularies/coar_accessrights.xsd" />
+  
+
+  <!-- Permitir que Project/Team/Member pueda tener un atributo type -->
+  <xs:redefine schemaLocation="./perucris-cerif-profile.xsd">
+    <xs:complexType name="cfLinkWithDisplayNameToPersonWithAffiliations__Type">
+      <xs:complexContent>
+        <xs:extension base="cfLinkWithDisplayNameToPersonWithAffiliations__Type">
+          <xs:attribute name="type" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:redefine>
+
+  <xs:import namespace="http://datacite.org/schema/kernel-4"
+    schemaLocation="includes/datacite-v4.xsd"/>
+  <xs:import namespace="http://purl.org/coar/version" schemaLocation="vocabularies/coar_versions.xsd" />
+
+</CERIF-profile>

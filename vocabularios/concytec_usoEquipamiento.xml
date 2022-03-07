@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/concytec/usoEquipamiento"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Investigación científica y desarrollo experimental           -->
+	<!-- https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_def_es">
+		<rdf:value xml:lang="es">Comprende el trabajo creativo llevado a cabo en una forma sistemática para incrementar el volumen de conocimientos, incluido el conocimiento del hombre, la naturaleza, la cultura y la sociedad, y el uso de esos conocimientos para derivar nuevas aplicaciones. Puede incluir el desarrollo de prototipos y plantas piloto. Comprende la investigación básica y aplicada y el desarrollo experimental. Fuente: Ley 28303.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación científica y desarrollo experimental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Scientific Research and Experimental Development</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Enseñanza y formación Científico-Técnica                     -->
+	<!-- https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_def_es">
+		<rdf:value xml:lang="es">Corresponde a las actividades de nivel superior especializado no universitario, de enseñanza y formación superiores tendientes a la obtención de un título universitario, de formación y de perfeccionamiento post-universitario, y de formación permanente organizada de científicos e ingenieros. Fuente: Ley 28303.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Enseñanza y formación Científico-Técnica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#ensenanzaYFormacionCientificoTecnica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Scientific-Technical Teaching and Training</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Servicios científicos y tecnológicos                         -->
+	<!-- https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_def_es">
+		<rdf:value xml:lang="es">Son las actividades relacionadas con la investigación y el desarrollo experimental que contribuyen a la producción, difusión y aplicación de conocimientos científicos y técnicos. La UNESCO los divide en nueve tipos de servicios: bibliotecas, centros de información, etc.; museos; traducción y publicación de documentación de CyT; trazados e informes (geológicos, hidrológicos, etc.); análisis prospectivos; obtención de datos socioeconómicos; normalización, control de calidad, etc.; asesoramiento en temas agrícolas e industriales; actividades de patentes y licencias. Fuente: Ley 28303.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Servicios científicos y tecnológicos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/concytec/usoEquipamiento#serviciosCientificosYTecnologicos_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Scientific and technological services</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

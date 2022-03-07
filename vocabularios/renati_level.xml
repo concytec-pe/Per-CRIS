@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/renati/level"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Bachiller                                                    -->
+	<!-- https://purl.org/pe-repo/renati/level#bachiller              -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/level#bachiller_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller_def_es">
+		<rdf:value xml:lang="es">Requiere haber aprobado los estudios de pregrado, así como la aprobación de un trabajo de investigación y el conocimiento de un idioma extranjero, de preferencia inglés o lengua nativa. Basado en Ley N° 30220.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/level#bachiller_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#bachiller_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Bachiller</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Título Profesional                                           -->
+	<!-- https://purl.org/pe-repo/renati/level#tituloProfesional      -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/level#tituloProfesional_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional_def_es">
+		<rdf:value xml:lang="es">Requiere del grado de Bachiller y la aprobación de una tesis o trabajo de suficiencia profesional. Las universidades acreditadas pueden establecer modalidades adicionales a estas últimas. El título profesional sólo se puede obtener en la universidad en la cual se haya obtenido el grado de bachiller. Basado en Ley N° 30220.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Título Profesional</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Segunda Especialidad                                         -->
+	<!-- https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_def_es">
+		<rdf:value xml:lang="es">Requiere licenciatura u otro título profesional equivalente, haber aprobado los estudios de una duración mínima de dos semestres académicos con un contenido mínimo de cuarenta (40) créditos, así como la aprobación de una tesis o un trabajo académico. En el caso de residentado médico se rige por sus propias normas. Basado en Ley N° 30220.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Segunda Especialidad</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Maestro                                                      -->
+	<!-- https://purl.org/pe-repo/renati/level#maestro                -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/level#maestro_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro_def_es">
+		<rdf:value xml:lang="es">Requiere haber obtenido el grado de Bachiller, la elaboración de una tesis o trabajo de investigación en la especialidad respectiva, haber aprobado los estudios de una duración mínima de dos (2) semestres académicos con un contenido mínimo de
+cuarenta y ocho (48) créditos y el dominio de un idioma extranjero o lengua nativa. Basado en Ley N° 30220.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/level#maestro_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#maestro_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Maestro</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Doctor                                                       -->
+	<!-- https://purl.org/pe-repo/renati/level#doctor                 -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/level"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/level#doctor_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor_def_es">
+		<rdf:value xml:lang="es">Requiere haber obtenido el grado de Maestro, la aprobación de los estudios respectivos con una duración mínima de seis (6) semestres académicos, con un contenido mínimo de sesenta y cuatro (64) créditos y de una tesis de máxima rigurosidad académica y de carácter original, así como el dominio de dos idiomas extranjeros, uno de los cuales puede ser sustituido por una lengua nativa. Basado en Ley N° 30220.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/level#doctor_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/level#doctor_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Doctor</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+</rdf:RDF>

@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/ocde/tipoProyecto"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Investigación y desarrollo experimental                      -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_def_es">
+		<rdf:value xml:lang="es">La I+D (investigación y desarrollo experimental) comprende el 
+trabajo creativo y sistemático realizado con el objetivo de aumentar el volumen 
+de conocimiento (incluyendo el conocimiento de la humanidad, la cultura y la 
+sociedad) y concebir nuevas aplicaciones a partir del conocimiento disponible. Basado en Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación y desarrollo experimental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionYDesarrolloExperimental_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Research and experimental development</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Investigación básica                                         -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<skos:broader rdf:resource="investigacionYDesarrolloExperimental"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_def_es">
+		<rdf:value xml:lang="es">Trabajos experimentales o teóricos que se emprenden
+fundamentalmente para obtener nuevos conocimientos acerca de los
+fundamentos de fenómenos y hechos observables, sin intención de otorgarles
+ninguna aplicación o utilización determinada. Basado en Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación básica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Basic investigation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Investigación aplicada                                       -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<skos:broader rdf:resource="investigacionYDesarrolloExperimental"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_def_es">
+		<rdf:value xml:lang="es">Trabajos originales realizados para adquirir nuevos conocimientos, dirigidos fundamentalmente hacia un objetivo práctico específico. Basado en Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación aplicada</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#investigacionAplicada_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Applied research</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Desarrollo experimental                                      -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<skos:broader rdf:resource="investigacionYDesarrolloExperimental"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_def_es">
+		<rdf:value xml:lang="es">Trabajos sistemáticos fundamentados en los conocimientos existentes obtenidos a partir de la investigación o la experiencia práctica, que se dirigen a producir nuevos productos o procesos, o a mejorar los productos o procesos que ya existen. Basado en Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Desarrollo experimental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#desarrolloExperimental_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Experimental development</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación tecnológica                                       -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_def_es">
+		<rdf:value xml:lang="es">Producto o proceso nuevo o mejorado (o una combinación de ellos) que difiere significativamente de los productos o procesos anteriores de la institución o empresa y que se ha puesto a disposición de los usuarios potenciales (producto) o se ha puesto en uso por la institución o empresa (proceso). Una innovación puede contener una convinación de diferentes tipos de productos o procesos. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación tecnológica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionTecnologica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Technological innovation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación de producto                                       -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<skos:broader rdf:resource="innovacionTecnologica"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_def_es">
+		<rdf:value xml:lang="es">Bien o servicio nuevo o mejorado que difiere significativamente de los bienes o servicios anteriores de la empresa y que se ha introducido en el mercado. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación de producto</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProducto_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Product Innovation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación de un bien                                        -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<skos:broader rdf:resource="innovacionDeProducto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_def_es">
+		<rdf:value xml:lang="es">Incluye objetos tangibles y algunos productos de gestión del conocimiento sobre los cuales se pueden establecer derechos de propiedad y cuya propiedad se puede transferir a través de transacciones de mercado. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación de un bien</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeBien_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation of goods</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación de un servicio                                    -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<skos:broader rdf:resource="innovacionDeProducto"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_def_es">
+		<rdf:value xml:lang="es">Son actividades intangibles que se producen y consumen simultáneamente y que cambian las condiciones (por ejemplo, físicas, psicológicas, etc.) de los usuarios. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación de un servicio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeServicio_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Service innovation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación de procesos de negocio                            -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<skos:broader rdf:resource="innovacionTecnologica"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_def_es">
+		<rdf:value xml:lang="es">Es un proceso de negocio nuevo o mejorado para una o más funciones de la empresa, que difieren significativamente de los procesos de negocio anteriores y que se ha puesto en uso en la empresa. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación de procesos de negocio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionDeProcesoNegocio_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Business Process Innovation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en la producción de un bien o servicio            -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_def_es">
+		<rdf:value xml:lang="es">Actividades que transforman insumos en bienes o servicios, incluidas las actividades de ingeniería, pruebas técnicas relacionadas, análisis y certificación para apoyar la producción. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en la producción de un bien o servicio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProduccion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation in the production of a good or service</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en la distribución y logística                    -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_def_es">
+		<rdf:value xml:lang="es">Incluye transporte y prestación de servicios, almacenamiento, procesamiento de pedidos. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en la distribución y logística</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnDistribucionYLogistica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation in distribution and logistics</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en mercadotecnia y ventas                         -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_def_es">
+		<rdf:value xml:lang="es">Incluye métodos de mercadotecnia y publicidad (promoción y colocación de productos, empaque de productos), mercadotecnia directa (telemarketing), exposiciones y ferias, investigación de mercados y otras actividades para desarrollar nuevos mercados; estrategias y métodos de fijación de precios; actividades de ventas y postventa, incluidos los servicios de asistencia técnica y otras actividades de atención y relaciones con el cliente. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en mercadotecnia y ventas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnMercadotecniaYVentas_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation in marketing and sales</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en sistemas de información y comunicación         -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC   -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_def_es">
+		<rdf:value xml:lang="es">Incluye el mantenimiento y suministro de sistemas de información y comunicación, como hardware y software, procesamiento de datos y base de datos, mantenimiento y reparación, alojamiento web y otras actividades de información informática. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en sistemas de información y comunicación</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnTIC_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation in information and communication systems</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en administración y gestión                       -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_def_es">
+		<rdf:value xml:lang="es">Incluye la gestión empresarial general y estratégica (toma de decisiones multifuncional), incluida la organización de responsabilidades laborales; gobierno corporativo (legal, planificación y relaciones públicas); contabilidad, auditoría, pagos y otras actividades financieras o de seguros; gestión de recursos humanos (capacitación y educación, contratación de personal, organización del lugar de trabajo, provisión de personal temporal, gestión de la nómina, asistencia sanitaria y médica), adquisición; gestión de relaciones externas con proveedores, alianzas, etc. Basado en Manula de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en administración y gestión</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnAdministracionYGestion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Administration and management innovation</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Innovación en el desarrollo de producto y procesos de negocio -->
+	<!-- https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto"/>
+	</rdf:Description>
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<skos:broader rdf:resource="innovacionDeProcesoNegocio"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_def_es">
+		<rdf:value xml:lang="es">Actividades para determinar, identificar, desarrollar o adaptar productos o procesos de negocios de una empresa. Puede llevarse a cabo de manera sistemática o Ad hoc, y se puede realizar dentro de la firma o por fuentes externas. La responsabilidad de estas actividades puede estar dentro de una división separada o en divisiones responsables de otras funciones, por ejemplo, produccion de bienes o servicios. Basado en Manual de Oslo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Innovación en el desarrollo de producto y procesos de negocio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/tipoProyecto#innovacionEnProductosYProcesosNegocio_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Innovation in product development and business processes</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

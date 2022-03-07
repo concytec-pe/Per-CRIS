@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/renati/type"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Tesis                                                        -->
+	<!-- https://purl.org/pe-repo/renati/type#tesis                   -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/type#tesis_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis_def_es">
+		<rdf:value xml:lang="es">Modalidad de obtención del grado
+académico o título profesional mediante un documento
+que contiene un trabajo de investigación en torno a un área
+académica determinada, implica el desarrollo del diseño y
+su implementación. Dicho documento debe ser original e
+inédito, y supone además una sustentación pública ante
+la comunidad académica en general y la aprobación de un
+jurado, que lo evalúa. Por tanto, la fecha del acto público
+de sustentación debe ser lo sufcientemente difundido
+para promover la transparencia y la participación de la
+comunidad académica en general. La tesis puede ser
+publicable y ejecutable.
+Opcionalmente, puede publicarse un artículo que dé
+cuenta de la tesis de maestría o doctorado y debe estar
+indexada a revistas de prestigio en el mundo académico.
+De acuerdo con la Ley Universitaria, el desarrollo de
+una tesis permite la obtención del título profesional y del
+título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.12)</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/type#tesis_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#tesis_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tesis</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Trabajo de investigación                                     -->
+	<!-- https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion_def_es">
+		<rdf:value xml:lang="es">Modalidad de
+obtención del grado académico que implica el proceso
+de generación de conocimiento en un determinado
+campo de estudio. Puede ser individual o grupal, es de
+carácter público, y como tal, está sujeto a debate. Supone
+rigurosidad y objetividad. Tiene un propósito claramente
+defnido, se apoya en conocimiento existente, aplica una
+metodología determinada, aporta evidencia verifcable,
+proporciona explicaciones objetivas y racionales, y
+mantiene un espíritu autocrítico.
+En el marco de la Ley Universitaria, el trabajo de
+investigación es la única modalidad para la obtención del
+grado de bachiller y una de las dos modalidades para la
+obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.15)</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeInvestigacion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Trabajo de investigación</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Trabajo de suficiencia profesional                           -->
+	<!-- https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional_def_es">
+		<rdf:value xml:lang="es">Modalidad de titulación que implica que el bachiller está
+en la capacidad de demostrar y documentar el dominio y
+la aplicación de competencias profesionales adquiridas a
+lo largo de la carrera.
+La universidad, institución o escuela de educación
+superior determinará el plazo mínimo de trabajo en
+temas de su especialidad, debidamente acreditado
+mediante un certifcado, además de la presentación
+de un informe que da cuenta de la experiencia pre
+profesional y podrá ser sustentado públicamente ante
+un jurado evaluador, en el que se formulan preguntas
+vinculadas con el informe y un balotario de preguntas
+de los cursos llevados durante la realización de la
+carrera.
+En el marco de la Ley Universitaria es una modalidad
+que se aplica únicamente para la obtención del título
+profesional, el cual también puede ser obtenido a través
+de la presentación de una tesis. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.16)</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoDeSuficienciaProfesional_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Trabajo de suficiencia profesional</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Trabajo académico                                            -->
+	<!-- https://purl.org/pe-repo/renati/type#trabajoAcademico        -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/renati/type"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/renati/type#trabajoAcademico_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico_def_es">
+		<rdf:value xml:lang="es">Modalidad de
+titulación que se desarrolla en el marco de un campo
+de estudio o área de conocimiento y que hace uso de,
+por lo menos, una herramienta metodológica para su
+elaboración, puede tener distintos formatos (proyecto,
+investigación, tesis, tesina, disertación, ensayo,
+monografía, etc.), puede tener diversos niveles de
+rigurosidad científca y desarrollarse bajo estándares de
+calidad variables.
+Conforme con lo dispuesto por la Ley Universitaria,
+se requiere de la aprobación de una tesis o un trabajo
+académico para la obtención de un título de segunda
+especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.14)</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/renati/type#trabajoAcademico_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/renati/type#trabajoAcademico_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Trabajo académico</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+</rdf:RDF>

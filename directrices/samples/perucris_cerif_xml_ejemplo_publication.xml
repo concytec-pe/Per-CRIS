@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+  <responseDate>2021-01-12T14:00:00Z</responseDate>
+  <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_publications">https://cris.example.org/oai/request</request>
+  <ListRecords>
+    <record>
+      <header><!-- Publicación: artículo de revista -->
+        <identifier>oai:cris.example.org:Publications/1532</identifier>
+        <datestamp>2021-01-05T14:29:24Z</datestamp>
+        <setSpec>perucris_publications</setSpec>
+      </header>
+      <metadata>
+        <Publication xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Publications/1532">
+          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_6501</Type>
+          <Language>en</Language>
+          <Title xml:lang="en">Motivation, giftedness and talent</Title>
+          <PublishedIn>
+            <Publication id="Publications/02549247"><!--Revista de Psicología -->
+              <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_0640</Type><!-- journal -->
+              <Title xml:lang="sp">Revista de Psicología</Title>
+              <ISSN>0254-9247</ISSN>
+            </Publication>
+          </PublishedIn>
+          <PublicationDate>2008-03-22</PublicationDate>
+          <Volume>26</Volume>
+          <Issue>1</Issue>
+          <StartPage>147</StartPage>
+          <EndPage>184</EndPage>
+          <DOI>10.1037/0022-3514.66.5.950</DOI>
+          <ISI-Number>200814929007</ISI-Number>
+          <URL>http://revistas.pucp.edu.pe/index.php/psicologia/article/view/1138/1099</URL>
+          <Authors>
+            <Author>
+              <Person id="Persons/287146">
+                <PersonName>
+                  <FamilyNames>Blumen</FamilyNames>
+                  <FirstNames>Sheyla</FirstNames>
+                </PersonName>
+                  <ORCID>https://orcid.org/0000-0002-9960-7413</ORCID>
+              </Person>
+              <Affiliation>
+                <OrgUnit id="OrgUnits/387549">
+                  <Acronym>PUCP</Acronym>
+                  <Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
+                  <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier>
+                </OrgUnit>
+              </Affiliation>
+            </Author>
+          </Authors>
+          <Publishers>
+            <Publisher>
+              <OrgUnit id="OrgUnits/387549">
+                <Acronym>PUCP</Acronym>
+                <Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
+                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier>
+              </OrgUnit>
+            </Publisher>
+          </Publishers>
+          <License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">CCAttribution(BY-NC-ND/4.0/)</License>
+          <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.01.01</Subject><!--Área OCDE -->
+          <Subject scheme="http://id.nlm.nih.gov/mesh">Motivation</Subject><!--Mesh -->
+          <Subject scheme="http://id.nlm.nih.gov/mesh">Emotional development</Subject><!--Mesh -->
+          <Subject scheme="http://id.nlm.nih.gov/mesh">Psychosocial development</Subject><!--Mesh -->
+          <Keyword xml:lang="en">Motivation</Keyword>
+          <Keyword xml:lang="en">Giftedness</Keyword>
+          <Keyword xml:lang="en">Talent</Keyword>
+          <Keyword xml:lang="en">Social emotional development</Keyword>
+          <Keyword xml:lang="en">Poverty conditions</Keyword>
+          <Abstract xml:lang="en">Definitions about giftedness and talent involving motivation as a significant variable either in the genesis of giftedness or in the development of intellectual talent are analyzed. An analysis on the influence of motivation in successful achievers, underachievers, as well as in the socialemotional development of the gifted is presented. An update view of the goals achieved by Peru as a country, as well as the actual challenges that faces Peru in the development of giftedness and talent in multicultural and poverty conditions, at the conceptualization, identification, and program levels are presented. Moreover, an economic and viable project of advocacy on the development of giftedness in Peru within the regular educational system along Elementary, Secondary and College level is presented. Finally, conclusions and recommendations for the development of state policies in order to promote giftedness in Peru are presented.</Abstract>
+          <Access xmlns="http://purl.org/coar/access_right">http://purl.org/coar/access_right/c_abf2</Access><!-- Open Access -->
+          <Version xmlns="http://purl.org/coar/version">http://purl.org/coar/version/c_970fb48d4fbd8a85</Version><!-- Published version -->
+        </Publication>
+      </metadata>
+    </record>
+    <record><!--Publicación: Tesis-->
+      <header>
+        <identifier>oai:cris.example.org:Publications/2</identifier>
+        <datestamp>2021-01-05T14:29:24Z</datestamp>
+        <setSpec>perucris_publications</setSpec>
+      </header>
+      <metadata>
+        <Publication xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Publications/2">
+          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_7a1f</Type><!-- Tesis -->
+          <Language>es</Language>
+          <Title xml:lang="es">Diseño de un servicio de Internet para el hogar adecuado al segmento del mercado de NSE C/D</Title>
+          <PublicationDate>2013-03-19</PublicationDate>
+          <Handle>http://repositorioacademico.upc.edu.pe/upc/handle/10757/273436</Handle>
+          <Authors>
+            <Author>
+              <Person id="Persons/273436">
+                <PersonName>
+                  <FamilyNames>Vallejo Santa María</FamilyNames>
+                  <FirstNames>Helí Jesús</FirstNames>
+                </PersonName>
+                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">10274789</Identifier>
+              </Person>
+            </Author>
+          </Authors>
+          <Publishers>
+            <Publisher>
+              <OrgUnit id="OrgUnits/128753">
+                <Acronym>UPC</Acronym>
+                <Name xml:lang="es">Universidad Peruana de Ciencias Aplicadas</Name>
+                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20211614545</Identifier>
+              </OrgUnit>
+            </Publisher>
+          </Publishers>
+          <License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">CCAttribution(BY-NC-ND/4.0/)</License>
+          <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#2.11.04</Subject><!--Área OCDE -->
+          <Keyword xml:lang="es">Acceso a Internet</Keyword>
+          <Keyword xml:lang="es">Diseño de servicios</Keyword>
+          <Keyword xml:lang="es">Marketing de servicios</Keyword>
+          <Abstract xml:lang="es">El presente trabajo consiste en el análisis de un servicio de Internet para el hogar, con el propósito de determinar el plan estratégico de TI que apoye al cumplimiento de los objetivos estratégicos. Para ello se hará una descripción del segmento estudiado y el dfiseño que mejor se adecue a sus necesidades</Abstract>
+          <OriginatesFrom>
+            <Project id="Projects/387558">
+              <Title xml:lang="es">Beca para estudios de Ingeniería en la UPC</Title>
+              <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">168-2007</Identifier>
+              <StartDate>2007-01-01</StartDate>
+              <EndDate>2009-12-31</EndDate>
+              <Funded>
+                <By>
+                  <OrgUnit id="OrgUnits/854622">
+                    <Acronym>FONDECYT</Acronym>
+                    <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+                    <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
+                  </OrgUnit>
+                </By>
+                <As>
+                  <Funding id="Fundings/187597">
+                    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type>
+                    <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">168-2007</Identifier>
+                  </Funding>
+                </As>
+              </Funded>
+            </Project>
+          </OriginatesFrom>
+          <Access xmlns="http://purl.org/coar/access_right" endDate="2025-01-01">http://purl.org/coar/access_right/c_f1cf</Access><!-- embargoed -->
+          <Version xmlns="http://purl.org/coar/version">http://purl.org/coar/version/c_970fb48d4fbd8a85</Version><!-- Published Version -->
+          <Type scheme="https://purl.org/pe-repo/renati/type">https://purl.org/pe-repo/renati/type#tesis</Type><!--Tipo de trabajo de investigación: Tesis-->
+          <Advisors>
+            <Advisor>
+              <Person id="Persons/2185655">
+                <PersonName>
+                  <FamilyNames>Gutiérrez González</FamilyNames>
+                  <FirstNames>Martín Eduardo</FirstNames>
+                </PersonName>
+                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">08755499</Identifier>
+              </Person>
+              <Affiliation>
+                <OrgUnit id="OrgUnits/38498322">
+                  <Name>Universidad Nacional San Luis Gonzaga</Name>
+                  <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20148421014</Identifier>
+                </OrgUnit>
+              </Affiliation>
+            </Advisor>
+          </Advisors>
+          <InSupportOf>
+            <Qualification>
+              <Title>Ingeniero industrial</Title>
+              <Type scheme="https://purl.org/pe-repo/renati/level">https://purl.org/pe-repo/renati/level#bachiller</Type><!-- Bachiller -->
+              <Discipline scheme="https://purl.org/pe-repo/inei/cpesutpt">77885</Discipline><!-- Ingeniería industrial -->
+              <Grantor>
+                <OrgUnit id="OrgUnits/587498">
+                  <Name xml:lang="es">Facultad de Ingeniería</Name>
+                  <PartOf>
+                    <OrgUnit id="OrgUnits/128753">
+                      <Acronym>UPC</Acronym>
+                      <Name xml:lang="es">Universidad Peruana de Ciencias Aplicadas</Name>
+                      <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20211614545</Identifier>
+                    </OrgUnit>
+                  </PartOf>
+                </OrgUnit>
+              </Grantor>
+              <Jurors>
+                <Juror>
+                  <Person id="Persons/288725">
+                    <PersonName>
+                      <FamilyNames>Mariátegui Suarez</FamilyNames>
+                      <FirstNames>Miriam Josefina</FirstNames>
+                    </PersonName>
+                    <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">10274587</Identifier>
+                  </Person>
+                </Juror>
+                <Juror>
+                  <Person id="Persons/288725">
+                    <PersonName>
+                      <FamilyNames>Lozada Martin</FamilyNames>
+                      <FirstNames>Rubén Jesús</FirstNames>
+                    </PersonName>
+                    <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">08974125</Identifier>
+                  </Person>
+                </Juror>
+              </Jurors>
+            </Qualification>
+          </InSupportOf>
+        </Publication>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

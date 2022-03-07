@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/indecopi/propiedadIntelectual"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Patente de Invención                                         -->
+	<!-- https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_def_es">
+		<rdf:value xml:lang="es">Título de propiedad intelectual que otorga el Estado sobre una invención a la persona que lo solicita, siempre y cuando la invención cumpla con los requisitos establecidos en la Legislación. Este título le otorga a su titular el derecho exclusivo de explotación de su invención por un tiempo determinado y en el territorio donde se ha solicitado la patente. Su ámbito de protección abarca productos y procedimientos, deben cumplir obligatoriamente con tres requisitos: deben ser novedosas, poseer altura inventiva y aplicación industrial. Fuente: Resolución de Presidencia Nº 104-2019-CONCYTEC-P.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Patente de Invención</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeInvencion_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Invention patent</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Patente de Modelo de Utilidad                                -->
+	<!-- https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_def_es">
+		<rdf:value xml:lang="es">Se concederá patente de modelo de utilidad, a toda nueva forma, configuración o disposición de elementos de algún artefacto, herramienta, instrumento, mecanismo u otro objeto o de alguna parte del mismo, que permita un mejor o diferente funcionamiento, utilización o fabricación del objeto que lo incorpora o que le proporcione alguna utilidad, ventaja o efecto técnico que antes no tenía. Fuente: Comisión de la Comunidad Andina (2002).  Decisión 486 - Régimen Común sobre Propiedad Industrial. Recuperado de: https://www.indecopi.gob.pe/documents/20791/200042/decis486comcomand.pdf/fa725f2d-20f2-4105-8409-9e24ed4ad2c8</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Patente de Modelo de Utilidad</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#patenteDeModeloDeUtilidad_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Utility model</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Certificado de Obtentor                                      -->
+	<!-- https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_def_es">
+		<rdf:value xml:lang="es">El Certificado de Obtentor es un derecho de propiedad intelectual mediante el cual el Estado otorga al obtentor de una nueva variedad vegetal un derecho exclusivo de explotación comercial por un período de tiempo y en un territorio determinado, siempre y cuando la variedad cumpla con los requisitos establecidos en la normativa vigente. Fuente: Certificado obtentor de variedad vegetal (Indecopi). Recuperado de: https://www.indecopi.gob.pe/documents/1902049/0/Certificado+Obtentor.pdf/a8cb05ea-b421-067a-6f00-2655c7ba1847</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Certificado de Obtentor</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/indecopi/propiedadIntelectual#certificadoDeObtentor_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Certificate of plant breeder&#39;s right</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

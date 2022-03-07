@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+  <responseDate>2021-01-12T14:00:00Z</responseDate>
+  <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_persons">https://cris.example.org/oai/request</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:cris.example.org:Persons/20181231</identifier>
+        <datestamp>2021-01-05T14:29:24Z</datestamp>
+        <setSpec>perucris_persons</setSpec>
+      </header>
+      <metadata>
+        <Person xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Persons/20181231">
+          <PersonName>
+            <FamilyNames>Mejía García</FamilyNames>
+            <FirstNames>Telmo Agustín</FirstNames>
+          </PersonName>
+          <Gender>m</Gender><!--Masculino-->
+          <ORCID>https://orcid.org/0000-0001-6150-3056</ORCID>
+          <ResearcherID>F-8684-1987</ResearcherID>
+          <ScopusAuthorID>15750919900</ScopusAuthorID>
+          <AlternativeScopusAuthorID>55349088000</AlternativeScopusAuthorID>
+          <ElectronicAddress>mailto:telmo.mejia@roxtel.pe</ElectronicAddress>
+          <Affiliation startDate="2018-01-01" endDate="2020-10-30">
+            <OrgUnit id="OrgUnits/310002">
+              <Name xml:lang="es">CENTRO DE INVESTIGACION EN NEUROBIOLOGIA CELULAR ROXTEL AREQUIPA - CINC ROXTEL</Name>
+              <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131263130</Identifier>
+            </OrgUnit>
+          </Affiliation>
+          <Affiliation startDate="2012-01-01" endDate="2017-12-31">
+            <OrgUnit id="OrgUnits/310652">
+              <Name xml:lang="es">UNIVERSIDAD NACIONAL DE SAN AGUSTIN</Name>
+              <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20875469188</Identifier>
+            </OrgUnit>
+          </Affiliation>
+          <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">12870785</Identifier>
+        </Person>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

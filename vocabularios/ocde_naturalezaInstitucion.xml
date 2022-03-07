@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/ocde/naturalezaInstitucion"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Pública                                                      -->
+	<!-- https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar la naturaleza de una unidad organizativa. Metadato: Unidad organizativa.Naturaleza pública o privada (OrgUnit.Type). Unidades organizativas del sector público, abarca las sociedades públicas y la Administración General. Bajo esta premisa, una unidad del sector Empresas debería clasificarse como parte del sector público, en función de si está controlada por la Administración (Estado). Fuente: Adaptado de Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Pública</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Public</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Privada                                                      -->
+	<!-- https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_def_es">
+		<rdf:value xml:lang="es">Utilice para identificar la naturaleza de una unidad organizativa. Metadato: Unidad organizativa.Naturaleza pública o privada (OrgUnit.Type). Unidades organizativas del sector privado. Se considera cuando una institución es claramente autónoma y no forma parte del sistema administrativo del Estado. Fuente: Adaptado de Manual de Frascati.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Privada</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/ocde/naturalezaInstitucion#privada_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Private</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/sunedu/tipoInstitucion"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Centro de Educación Técnico Productiva (CETPRO)              -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#03           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_def_es">
+		<rdf:value xml:lang="es">La Educación Técnico-Productiva es una forma de educación orientada a la adquisición y desarrollo de competencias laborales y empresariales en una perspectiva de desarrollo sostenible, competitivo y humano, así como a la promoción de la cultura innovadora que responda a la demanda del sector productivo y a los avances de la tecnología, del desarrollo local, regional y nacional, así como a las necesidades educativas de los estudiantes en sus respectivos entornos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Centro de Educación Técnico Productiva (CETPRO)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#03_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Center for Productive Technical Education (CETPRO)</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Instituto de Educación Superior Tecnológica (IEST)           -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#04           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_def_es">
+		<rdf:value xml:lang="es">Brindan formación especializada con fundamentación científica y el desarrollo de la investigación aplicada. Se orientan fundamentalmente al dominio de las ciencias aplicadas; a la asimilación, desagregación, adaptación, mejoramiento y modificación de la tecnología; y a la innovación.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Instituto de Educación Superior Tecnológica (IEST)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#04_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Institute of Higher Technological Education (IEST)</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Instituto Superior Pedagógico                                -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#05           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_def_es">
+		<rdf:value xml:lang="es">Centros especializados en la formación inicial docente. Forman, en base a la investigación y práctica pedagógica, a los futuros profesores para la educación básica y coadyuvan a su desarrollo profesional en la formación continua. Brindan programas de formación pedagógica que responden a las políticas y demandas educativas del país.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Instituto Superior Pedagógico</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#05_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Higher Pedagogical Institute</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Institución universitaria e institución con rango universitario -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#06           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_def_es">
+		<rdf:value xml:lang="es">La universidad es una comunidad académica orientada a la investigación y a la docencia, que brinda una formación humanista, científi ca y tecnológica con una clara conciencia de nuestro país como realidad multicultural.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Institución universitaria e institución con rango universitario</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#06_pref_label_en">
+		<skosxl:literalForm xml:lang="en">University or other institution with university rank</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Educación Superior de Formación Artística                    -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#07           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_def_es">
+		<rdf:value xml:lang="es">Los Institutos y Escuelas Superiores de Formación Artística son instituciones que brindan formación inicial docente en el campo artístico o de artista profesional, en diferentes especialidades. Ofrecen, a través de programas autorizados por el Ministerio de Educación, capacitación, actualización y especialización a técnicos, profesionales técnicos y profesionales, asimismo, formación especializada a través de estudios de post-título. Además, brindan formación artística temprana en sus diferentes modalidades. La formación temprana no constituye educación superior.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Educación Superior de Formación Artística</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#07_pref_label_en">
+		<skosxl:literalForm xml:lang="en">Higher Education of Artistic Training</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+	<!-- Escuela o Instituto de Educación Superior Tecnológico de las Fuerzas Armadas o Policiales -->
+	<!-- https://purl.org/pe-repo/sunedu/tipoInstitucion#08           -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_def_es">
+		<rdf:value xml:lang="es">Son instituciones de educación superior al servicio del país y particularmente de su respectiva institución armada, para la formación profesional de nivel universitario y técnico; así como capacitación y perfeccionamiento para el personal militar, policial y civil de las Fuerzas Armadas y de la Policía Nacional del Perú.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Escuela o Instituto de Educación Superior Tecnológico de las Fuerzas Armadas o Policiales</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_en"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_en">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/sunedu/tipoInstitucion#08_pref_label_en">
+		<skosxl:literalForm xml:lang="en">School or Institute of Higher Technological Education of the Armed or Police Forces</skosxl:literalForm>
+	</rdf:Description>
+	
+	
+
+</rdf:RDF>
