@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="https://purl.org/pe-repo/minam/tematicasAmbientales"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Ambiente y economía                                          -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Instrumentos económicos y la regulación ambiental en el país; Regulaciones ambientales en el desempeño de las empresas (rentabilidad, competitividad,etc.); Medición macroeconómica de la interrelación entre el ambiente y la economía; Aprovechamiento sostenible de recursos naturales renovables y no renovables; Impacto económico del otorgamiento de derechos en manejo de recursos naturales y recurso paisaje que generan las Áreas Naturales Protegidas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ambienteYEconomia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Ambiente y economía</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Aprovechamiento de residuos sólidos                          -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Tecnologías de aprovechamiento y recuperación de materiales provenientes de los residuos sólidos (residuos orgánicos, residuos industriales, material de construcción, desmonte, etc.); Tecnologías para el reciclaje de residuos sólidos, peligrosos y químicos; Prácticas y sistemas de reciclaje de residuos sólidos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#aprovechamientoResiduosSolidos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Aprovechamiento de residuos sólidos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Atmósfera e hidrósfera                                       -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera_def_es">
+		<rdf:value xml:lang="es">La temática incluye: El fenómeno El Niño: procesos físicos y su modelamiento; Eventos extremos climáticos en los Andes y la Amazonía; Erosión y transporte de sedimentos; Interacción océano-atmósfera y los peligros físicos marino-costeros; Sistemas de alerta temprana para desbordes de lagunas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#atmosferaEHidrosfera_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Atmósfera e hidrósfera</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Biocomercio                                                  -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Productos y procesos con alto valor agregado para el biocomercio; Diversidad biológica promisoria y los principales recursos con potencial de biocomercio y aplicación de modelos para el uso sostenible; Efectos farmacológicos y toxicológicos de los principales recursos posicionados y emergentes del biocomercio; Saberes y los conocimientos tradicionales sobre las propiedades de los recursos posicionados y emergentes del biocomercio; Propagación y reproducción masiva y estandarizada de los principales recursos posicionados y emergentes del biocomercio; Bioprospección, vigilancia tecnológica e inteligencia competitiva de las cadenas de valor de la biodiversidad para identificar potenciales innovaciones para el biocomercio.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biocomercio_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Biocomercio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Biodiversidad acuática                                       -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Dinámica poblacional de especies amenazadas y depredadores superiores en ecosistemas acuáticos marino-costeros y continentales;Sistema planctónico y bentónico para la formulación de modelos ecológicos; Tecnologías para el manejo ecosistémico de humedales, aguajales, manglares y cuencas; Actividades antropogénicas en los ecosistemas acuáticos marino-costeros y continentales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biodiversidadAcuatica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Biodiversidad acuática</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Biotecnología y recursos genéticos                           -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Diversidad genética y flujo de genes en las plantas nativas del Perú de importancia económica; Técnicas de conservación de semillas de especies silvestres; Variabilidad genética de especies con potencial económico y especies claves para la conservación de ecosistemas; Parientes silvestres de las especies cultivadas, con fines de conservación e identificación de resistencia a factores adversos bióticos y abióticos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#biotecnologiaYRecursosGeneticos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Biotecnología y recursos genéticos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Calidad ambiental de los ecosistemas acuáticos               -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Etiología, patología y epidemiología de enfermedades que afectan a especies acuáticas en ambientes naturales y sistemas de cultivo; Efectos de sustancias químicas y tóxicas en los organismos acuáticos y sus poblaciones; Procesos de erosión de las zonas marino-costeras.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#calidadAmbientalEcosistemasAcuaticos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Calidad ambiental de los ecosistemas acuáticos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Conflictividad en torno a los recursos naturales y calidad del ambiente -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Diagnóstico histórico, análisis prospectivo y de alcance (scoping) en ámbitos asociados a la conflictividad por recursos naturales y calidad del ambiente; Conflictividad social frente a fenómenos generados por la variabilidad climática y el cambio climático.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conflictividadRecursosNaturalesYCalidadAmbiente_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Conflictividad en torno a los recursos naturales y calidad del ambiente</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Conservación de la diversidad biológica                      -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Taxonomía de especies silvestres y claves para el ecosistema; Bioindicadores del estado de conservación de ecosistemas; Hábitats críticos para la conservación de la diversidad biológica; Diversidad funcional y determinación de grupos funcionales; Patrones de diversificación para la delimitación de áreas con alta diversidad biológica; Dinámica de poblaciones de especies CITES y amenazadas; Impacto de las especies exóticas invasoras sobre la biodiversidad; Dinámica de fragmentación de ecosistemas que aceleran la pérdida de biodiversidad; Técnicas y tecnologías para la conservación de especies amenazadas; Monitoreo de indicadores a nivel del Sistema de Áreas Naturales Protegidas; Sitios de referencia identificados en áreas naturales protegidas (sitios blanco).</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#conservacionDiversidadBiologica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Conservación de la diversidad biológica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Control de emisiones                                         -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Emisiones de gases y material particulado de las actividades industriales y vehículos automotores; Gases de efecto invernadero de instalaciones de combustión y poscombustión; Tecnologías de amortiguamiento de las emisiones sonoras y vibraciones generadas por la actividad industrial; Tecnologías para reducir la dispersión de material particulado generadas por las actividades industriales ligeras; Tecnologías para el control de olores en el proceso productivo de actividades industriales; Tecnologías para el control de compuestos orgánicos volátiles en el aire; Desarrollo de tecnologías de abatimiento de radiaciones no ionizantes.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#controlDeEmisiones_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Control de emisiones</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Dinámica regional amazónica                                  -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Impactos ambientales de los procesos de integración comercial.; Impactos ambientales como consecuencia del cultivo de coca, el uso de insumos para la  elaboración ilícita de drogas, las actividades propias del narcotráfico y el contrabando.; Impactos ambientales de la adopción del ecoturismo, turismo de la naturaleza y turismo de aventura como alternativas de desarrollo económico de la región amazónica.; Impactos ambientales del impulso, renovación y mejora de hidrovías como alternativas de transporte en la región amazónica.; Desarrollo productivo de áreas estratégicas de la Amazonía peruana.; Opciones productivas sostenibles y de conservación ambiental en la Amazonía peruana.; Clima de la cuenca amazónica y de la región andina.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#dinamicaRegionalAmazonica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Dinámica regional amazónica</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Disposición de residuos sólidos                              -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Tecnologías para la disposición final de residuos sólidos (residuos orgánicos, residuos de material de construcción, etc.); Caracterización de la peligrosidad de residuos sólidos domésticos, hospitalarios, industriales, etc.; Movilidad y dispersión de lixiviados de los rellenos sanitarios y depósitos de residuos peligrosos, incluyendo relaves mineros, en el suelo, subsuelo y agua subterránea; Prácticas y actitudes ciudadanas relacionadas con la disposición de residuos sólidos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#disposicionDeResiduosSolidos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Disposición de residuos sólidos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Ecología aplicada                                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Ecosistemas y especies prioritarias, y de los procesos de diversificación de la biota; Patrones de diversidad, conectividad y redes; Ecosistemas priorizados para viabilidad de las restauraciones ecológicas; Monitoreo de los ecosistemas con énfasis en cobertura y cambio de uso; Estocasticidad ambiental y su efecto sobre los ecosistemas.; Modelos ecohidrológicos; Ecosistemas, priorizando los frágiles; Resiliencia asociada a problemas critico-ambientales; Recuperación y remediación de ecosistemas degradados; Restauraciones ecológicas, a escala de paisaje y a escala de ecosistemas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaAplicada_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Ecología aplicada</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Ecología de sistemas productivos                             -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Ecosistemas productivos tradicionales; Conservación in situ de la agrobiodiversidad; Comunidades bióticas en el suelo y su productividad.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#ecologiaDeSistemasProductivos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Ecología de sistemas productivos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Energía                                                      -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#energia  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#energia_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Potencial de recursos naturales renovables para su aprovechamiento como energías alternativas; Tecnologías energéticas renovables; Soluciones tecnológicas de eficiencia energética para zonas urbanas y rurales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#energia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#energia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Energía</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Estudios social-ecológicos                                   -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Estudios de los sistemas social-ecológicos con énfasis en el manejo de la gestión de la resiliencia y sus respuestas a la incertidumbre; Estudios integrales en los estudios de impacto ambiental y evaluaciones ambientales estratégicas, con la finalidad de identificar variables clave para la gestión de los proyectos, programas y planes; Estudios de alcance (scoping) asociados al manejo de los recursos naturales y la gestión de la calidad ambiental; Estudios integrales sobre la identificación de formas de organización social y proceso de toma de decisiones en temas ambientales; Migración a las Áreas Naturales Protegidas y ecosistemas priorizados.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#estudiosSocialEcologicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Estudios social-ecológicos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Evaluación de la calidad del agua                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Desarrollo de tecnologías de monitoreo automático de calidad del agua; Comportamiento de los contaminantes, de origen natural o antrópico, en cuerpos de agua superficiales, incluyendo glaciares, y aguas subterráneas; Características naturales de los cuerpos de agua superficiales, en relación a los  Estándares de Calidad Ambiental para Agua y para zonas de potencial minero; Relación funcional de la contaminación del agua, como relación operativa entre la contaminación natural y antrópica.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAgua_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Evaluación de la calidad del agua</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Evaluación de la calidad del aire                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Calidad del aire en ecosistemas; Calidad del aire en ciudades; Sensibilidad de la capa de ozono, frente a los gases de efecto invernadero; Determinación cuantitativa de fuentes de aerosoles atmosféricos en ciudades priorizadas; Radiación ultravioleta en distintas zonas del país; Impacto de los contaminantes de origen natural (océanos, volcanes, etc.) en la calidad del aire; Comportamiento de los contaminantes atmosféricos (dispersión, transporte,disposición seca y húmeda, etc.); Emisiones fugitivas de hidrocarburos en los tanques de almacenamiento de las baterías, refinerías, plantas de procesamiento y plantas en envasadoras.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelAire_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Evaluación de la calidad del aire</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Evaluación de la calidad del suelo                           -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Calidad de suelos; Tecnologías de monitoreo de calidad del suelo; Comportamiento de los contaminantes en el suelo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#evaluacionCalidadDelSuelo_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Evaluación de la calidad del suelo</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Género y ambiente                                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Interacciones socioambientales y contribuciones del enfoque de género en el desarrollo sostenible.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#generoYAmbiente_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Género y ambiente</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Geoespacio                                                   -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Procesos ionosféricos peligrosos para actividades humanas; Caracterización y evaluación de meteoros; Física de la actividad solar.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#geoespacio_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Geoespacio</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Interculturalidad y ambiente                                 -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Conocimientos tradicionales bajo métodos científicos con la participación de miembros de las comunidades campesinas y/o nativas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#interculturalidadYAmbiente_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Interculturalidad y ambiente</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Investigación en la Antártida                                -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Impacto antrópico en la Antártida y desarrollo de tecnologías y buenas prácticas para la remoción de residuos sólidos; Estado del ecosistema antártico y su diversidad biológica; Umbrales antártico: resiliencia y adaptación del ecosistema; Cambio climático en la Antártida; Biología molecular y microbiología antártica; Ciencias físicas, ciencias de la tierra; Estudios comparativos del comportamiento de glaciares cercanos a la base peruana Machu Picchu y los glaciares tropicales andinos, incluyendo componentes hidrológicos y meteorológicos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionEnLaAntartida_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación en la Antártida</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Investigación socioeconómica sobre vulnerabilidades asociadas a peligros geofísicos -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Percepción de la población sobre la ocurrencia de peligros geofísicos; Evaluación socioeconómica de posibles desastres de origen glaciar; Uso del territorio en zonas impactadas por peligros geológicos y geofísicos; Medidas de adecuación y adaptación actuales y futuras de poblaciones impactadas por peligros geológicos y geofísicos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#investigacionSocioeconomicaPeligrosGeofisicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Investigación socioeconómica sobre vulnerabilidades asociadas a peligros geofísicos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Limnología                                                   -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Características físicas de los ecosistemas acuáticos continentales y sus variaciones espaciotemporales; Variabilidad espacial y temporal de los procesos biogeoquímicos en columnas de agua y sedimentos marinos; Factores físicos asociados a la dinámica fluvial en cuencas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#limnologia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Limnología</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Manejo de bosques                                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Sucesión y flujo ecológico de los bosques; Técnicas para el aprovechamiento y/o recuperación de bosques intervenidos; Tendencias de deforestación y alerta temprana de eventos de deforestación.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeBosques_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Manejo de bosques</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Manejo de territorios comunales amazónicos                   -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Territorio comunal y su uso (extracción y conservación).</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#manejoDeTerritoriosComunalesAmazonicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Manejo de territorios comunales amazónicos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Minería                                                      -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#mineria  -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Impacto de la actividad minera a nivel de ecosistemas y sus servicios, y áreas naturales protegidas y su efecto sobre la biodiversidad; Bioacumulación de metales pesados en especies vegetales y animales; Tecnologías limpias aplicadas en el sector minero para la minimización de riesgos e impactos ambientales; Tecnologías para la recuperación de áreas degradadas por pasivos mineros.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mineria_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Minería</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Mitigación de gases de efecto invernadero                    -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Dinámica de gases de efecto invernadero en ecosistemas con potencial de créditos de carbono y mercados de MDL (Mecanismos de Desarrollo Limpio); Reducción de emisiones por deforestación evitada; Sistemas productivos silviculturales y agroforestales sostenibles y con eficiente capacidad de captura de carbono; Utilización de energía limpia y reducción de emisiones en viviendas de zonas urbanas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#mitigacionDeGasesEfectoInvernadero_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Mitigación de gases de efecto invernadero</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Modelos climáticos y escenarios futuros del clima            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Series climáticas y paleoclimáticas para estudiar indicios del cambio climático en el territorio y el mar peruano; Circulación atmosférica y oceánica asociados al cambio climático y su relación con eventos extremos como El Niño; Interacción océano-atmósfera y teleconexiones en relación con cambios climáticos; Modelos atmosféricos de alta resolución y métodos empíricos para regionalización de escenarios climáticos a diversas escalas espaciales; Comportamiento atmosférico y oceanográfico en los diferentes escenarios de cambio climático; Factores físicos asociados al balance hídrico en cuencas (precipitaciones, glaciares, agua subterránea, etc.) bajo diferentes escenarios de cambio climático; Dinámica de la criósfera; Conocimientos ecoclimáticos y científicos; Sistemas de alerta temprana para pronosticar eventos extremos relacionados al Niño y a la Niña.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#modelosClimaticosYEscenariosFuturos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Modelos climáticos y escenarios futuros del clima</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Normatividad y políticas ambientales                         -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Sustento de las políticas ambientales; Políticas públicas en el mejoramiento de la gestión ambiental; Impacto de la expansión urbana sobre indicadores ambientales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#normatividadYPoliticasAmbientales_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Normatividad y políticas ambientales</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Oceanografía                                                 -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Características físicas del mar peruano y sus variaciones espacio-temporales en meso, macro y micro escala; Variabilidad espacial y temporal de los procesos biogeoquímicos en columnas de agua y sedimentos marinos; Relaciones funcionales oceanográficas y el sistema climático.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#oceonografia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Oceanografía</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Recursos hídricos                                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Disponibilidad, demanda y calidad del agua de las cuencas del país; Uso de los recursos hídricos; Contaminación, niveles de salinidad y extracción de aguas continentales y subterráneas; Comportamiento de cuerpos de agua continentales (lénticos y lóticos) orientados a la prevención de desastres; Zona de Protección Ambiental Litoral de bahías de importancia ecológica; Conocimientos y tecnologías tradicionales sobre el manejo sostenible del agua; Modelos hidroambientales y su relación con la sostenibilidad social; Evaluación del caudal ecológico.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#recursosHidricos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Recursos hídricos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Reforestación y recuperación de áreas degradadas             -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Selección de las especies y fuentes de semilla más apropiadas; Métodos de restauración exitosos y protocolos de propagación de especies nativas; Estrategias para el suministro sostenible de semilla de calidad, involucrando una diversidad de actores (campesinos, pueblos indígenas, finqueros, áreas protegidas).</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#reforestaciónYRecuperacionDeAreasDegradadas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Reforestación y recuperación de áreas degradadas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Retos para la gestión ambiental                              -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Estudios integrales asociados a los problemas ambientales proponiendo mejoras en su manejo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#retosParaGestionAmbiental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Retos para la gestión ambiental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Suelos                                                       -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#suelos   -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Clasificación, inventario, cambio de uso del suelo; Impacto y la especificidad de los factores naturales y humanos que ocasionan la desertificación; Capacidad de regeneración de suelos frente a actividades antropogénicas; Conocimientos y prácticas tradicionales para la lucha contra la desertificación y conservación de suelos; Peligros de pérdida de suelos por geodinámica externa; Cambio de uso de suelo y sus impactos; Prácticas adecuadas de uso del suelo para las diversas actividades económicas; Evaluación del impacto del cambio de uso de suelos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#suelos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Suelos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Tecnología e innovación Ambiental                            -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Investigación y desarrollo de instrumentos (equipos y software) para captura y procesamiento de datos geológicos, geofísicos, ecosistémicos, bosques y de las diferentes áreas temáticas ambientales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tecnologiaEInnovacionAmbiental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tecnología e innovación Ambiental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Tierra sólida                                                -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Estudios sobre los sismos, tsunamis y procesos asociados; Estudios sobre los volcanes activos y procesos asociados; Riesgos geológicos de movimientos en masa: deslizamientos, aluviones, avalanchas, y otros flujos; Aporte de los ecosistemas de montaña en la mitigación de riesgos de deslizamientos  y flujos mediante el afianzamiento de suelos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tierraSolida_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tierra sólida</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Toxicología y ecotoxicología                                 -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Aporte de los agentes contaminadores en el aire, agua, y suelo; Dosis-respuesta entre la contaminación ambiental (aire, agua, suelo) y la salud de las personas; Contaminantes presentes en el agua, suelo y aire y efecto en la salud humana y ambiental.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#toxicologiaYEcotoxicologia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Toxicología y ecotoxicología</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Tratamiento de residuos sólidos y peligrosos                 -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Tecnologías de tratamiento de residuos sólidos, orgánicos, peligrosos y químicos; Tecnologías de tratamiento de residuos en zonas rurales; Prácticas y sistemas de reciclaje de residuos sólidos; Valoración económica de programas de manejo de residuos.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#tratamientoDeResiduosSolidosYPeligrosos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tratamiento de residuos sólidos y peligrosos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Uso y tratamiento de agua                                    -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Tecnologías para el reuso de agua residual doméstica; Tecnologías para el reuso de aguas residuales de las actividades agrícolas y pesqueras; Sistemas de tratamiento de aguas residuales en las distintas zonas geológicas; Disposición de las aguas de producción en lotes petroleros; Tratamiento y disposición final de lodos originados en las plantas de tratamiento de aguas residuales domésticos e industriales; Sistemas de potabilización del agua de mar; Sistemas de disposición final de aguas residuales en los cuerpos de agua marinos y continentales, así como efectos en los ecosistemas acuáticos; Técnicas para el tratamiento de efluentes ácidos mediante humedales; Prácticas ciudadanas sobre uso y gestión de la calidad del agua; Desarrollo y transferencia de tecnologías de punta para la descontaminación de aguas subterráneas y superficiales; Valoración económica y ambiental del reuso de las aguas residuales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDeAgua_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Uso y tratamiento de agua</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Uso y tratamiento del suelo                                  -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Tecnologías para la recuperación de suelos degradados y contaminados; Prácticas ciudadanas sobre uso y gestión de la calidad del suelo.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#usoYTratamiendoDelSuelo_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Uso y tratamiento del suelo</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Valoración cultural del patrimonio natural                   -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Percepción de las comunidades nativas, campesinas y poblaciones urbanas sobre el patrimonio natural y su aprovechamiento; Percepción de las poblaciones urbanas sobre el patrimonio natural y su aprovechamiento; Conocimientos tradicionales como alternativas para el aprovechamiento sostenible de los recursos naturales.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionCulturalDelPatrimonioNatural_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Valoración cultural del patrimonio natural</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Valoración económica del patrimonio natural                  -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Valor económico de los ecosistemas y servicios ecosistémicos (en ecosistemas priorizados y en áreas naturales protegidas); Stock de carbono en los distintos ecosistemas del país; Potencial hídrico de los ecosistemas; Conservación o degradación de hábitats para el desarrollo de medidas de compensación; Amenazas, integridad y viabilidad ecológica de los ecosistemas para el desarrollo de medidas de compensación; Áreas de equivalencia ecológica con fines de compensación; Valoración económica de bienes y servicios ecosistémicos [Los servicios ecosistémicos tales como, la regulación hídrica en cuencas, el mantenimiento de la biodiversidad, el secuestro de carbono, la belleza paisajística, la formación de suelos, la provisión de recursos genéticos, entre otros]; Índices biofísicos aplicables a los sistemas ecológicos; Valor ecológico de los ecosistemas; Determinación, evaluación y categorización de especies de flora y fauna silvestre según su relevancia económica, social, ambiental y cultural; Valoración económica del daño ambiental causado por actividades productivas; Valoración económica de la regulación hídrica, aire, acústica, erosión, entre otros.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#valoracionEconomicaDelPatrimonioNatural_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Valoración económica del patrimonio natural</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Vulnerabilidad y adaptación al cambio climático              -->
+	<!-- https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico -->
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico">
+		<skos:inScheme rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico">
+		<skos:topConceptOf rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales"/>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico">
+		<skos:definition rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico_def_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico_def_es">
+		<rdf:value xml:lang="es">La temática incluye: Impacto del cambio climático sobre los climas regionales y locales; Impacto del cambio climático sobre las surgencias costeras y las masas de aguas oceánicas; Impacto de los cambios químicos asociados a las emisiones naturales y antropogénicas de gases de efecto invernadero en la biogeoquímica; Impacto sobre la disponibilidad y calidad de los sistemas hidrológicos por cuencas bajo diferentes escenarios de cambio climático; Cambio o variabilidad de la biodiversidad ante los efectos del cambio climático bajo diversos eventos y escenarios; Impacto de diversos escenarios climáticos sobre la agrobiodiversidad y los sistemas productivos (agropecuarios y forestales); Impacto de distintos escenarios climáticos sobre la biodiversidad, ecosistemas naturales y áreas naturales protegidas; Transferencia de tecnologías de punta y rescate de tecnologías tradicionales para reducir la vulnerabilidad de los sistemas productivos agrarios y forestales ante el cambio climático; Vulnerabilidad de las poblaciones humanas en distintos ámbitos nacionales, sus sistemas productivos e infraestructura ante los escenarios del cambio climático; Desarrollo y transferencia de tecnologías para la adaptación y sostenibilidad de las zonas litorales marino-costeras, ribereñas y lacustres ante los impactos del cambio climático; Impacto de diversos escenarios del cambio climático sobre los sectores vulnerables priorizados: recursos hídricos, agricultura, salud, infraestructura, biodiversidad y pesca; Desarrollo y transferencia de tecnologías para la adaptación al cambio climático en los sectores vulnerables priorizados: recursos hídricos, agricultura, salud,  sectores vulnerables priorizados: recursos hídricos, agricultura, salud, infraestructura, infraestructura, biodiversidad y pesca; Efecto del cambio climático sobre la composición, densidad de población y migración de especies nativas, introducidas e invasoras en distintos ecosistemas.</rdf:value>
+	</rdf:Description>
+	
+
+	
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico">
+		<skosxl:prefLabel rdf:resource="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://purl.org/pe-repo/minam/tematicasAmbientales#vulnerabilidadYAdaptacionAlCambioClimatico_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Vulnerabilidad y adaptación al cambio climático</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+</rdf:RDF>

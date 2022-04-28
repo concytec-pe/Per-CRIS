@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://purl.org/pe-repo/ins/tematicasEnSalud"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+</rdf:Description>
+
+
+	<!-- Salud materna perinatal y neonatal                           -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMaternaPerinatalYNeonatal_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud materna perinatal y neonatal</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Cáncer                                                       -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#cancer          -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#cancer_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Cáncer</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Malnutrición y anemia (incluye obesidad)                     -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#malnutricionYAnemia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Malnutrición y anemia (incluye obesidad)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud mental                                                 -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental     -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludMental_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud mental</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Hipertensión arterial, dislipidemias, enfermedades cardiovasculares y cerebrovasculares -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hipertensionArterialYEnfermedadesVasculares_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Hipertensión arterial, dislipidemias, enfermedades cardiovasculares y cerebrovasculares</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Políticas y gestión en salud                                 -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#politicasYGestionEnSalud_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Políticas y gestión en salud</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Diabetes mellitus                                            -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#diabetesMellitus_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Diabetes mellitus</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Otros trastornos metabólicos (no incluye Diabetes mellitus)  -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosTranstornosMetabolicos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Otros trastornos metabólicos (no incluye Diabetes mellitus)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Tuberculosis                                                 -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis    -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tuberculosis_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tuberculosis</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Recursos humanos                                             -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#recursosHumanos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Recursos humanos</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Infecciones respiratorias y neumonía                         -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesRespiratoriasYNeumonia_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Infecciones respiratorias y neumonía</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Accidentes de tránsito                                       -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#accidentesDeTransito_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Accidentes de tránsito</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Otros accidentes y daños (no incluye accidentes de tránsito) -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otrosAccidentesYdanos_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Otros accidentes y daños (no incluye accidentes de tránsito)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud ambiental y ocupacional                                -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAmbientalYOcupacional_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud ambiental y ocupacional</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- ITS y VIH-SIDA                                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida     -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#itsYVihSida_pref_label_es">
+		<skosxl:literalForm xml:lang="es">ITS y VIH-SIDA</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Infecciones intrahospitalarias                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntrahospitalarias_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Infecciones intrahospitalarias</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Emergencias y desastres                                      -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#emergenciaYDesastres_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Emergencias y desastres</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Metaxénicas y zoonóticas                                     -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#metaxenicasYZoonoticas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Metaxénicas y zoonóticas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Artritis                                                     -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#artritis        -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#artritis_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Artritis</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Infecciones intestinales                                     -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#infeccionesIntestinales_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Infecciones intestinales</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Hepatitis                                                    -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis       -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#hepatitis_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Hepatitis</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud bucal                                                  -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal      -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludBucal_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud bucal</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud ocular                                                 -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular     -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludOcular_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud ocular</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud auditiva                                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva   -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludAuditiva_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud auditiva</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Enfermedad renal y urogenital                                -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadRenalYUrogenital_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Enfermedad renal y urogenital</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Enfermedades neurológicas                                    -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesNeurologicas_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Enfermedades neurológicas</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud de poblaciones indígenas, migrantes, minorías y grupos vulnerables -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludPoblacionesIndigenasYOtrosGruposVulnerables_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud de poblaciones indígenas, migrantes, minorías y grupos vulnerables</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Medicina tradicional y alternativa                           -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#medicinaTradicionalYAlternativa_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Medicina tradicional y alternativa</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Género                                                       -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#genero          -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#genero_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#genero_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Género</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Tabaquismo y consumo de tabaco                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#tabaquismoyConsumoDeTabaco_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Tabaquismo y consumo de tabaco</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Ejercicio y actividad física                                 -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#ejercicioYActividadFisica_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Ejercicio y actividad física</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud del adolescente                                        -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelAdolescente_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud del adolescente</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud del hombre                                             -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre  -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludDelHombre_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud del hombre</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Salud infantil                                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil   -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#saludInfantil_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Salud infantil</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Enfermedades de la sangre (no incluye ferropénica)           -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#enfermedadesDeLaSangre_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Enfermedades de la sangre (no incluye ferropénica)</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Sistema inmune                                               -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune   -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#sistemaInmune_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Sistema inmune</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Piel                                                         -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#piel            -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#piel_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#piel_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Piel</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+	<!-- Otros                                                        -->
+	<!-- http://purl.org/pe-repo/ins/tematicasEnSalud#otros           -->
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros">
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros">
+		<skos:inScheme rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+
+	   
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros">
+		<skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud"/>
+	</rdf:Description>
+	
+
+	
+
+	
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros">
+		<skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/ins/tematicasEnSalud#otros_pref_label_es"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros_pref_label_es">
+		<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.org/pe-repo/ins/tematicasEnSalud#otros_pref_label_es">
+		<skosxl:literalForm xml:lang="es">Otros</skosxl:literalForm>
+	</rdf:Description>
+	
+
+	
+	
+
+</rdf:RDF>
