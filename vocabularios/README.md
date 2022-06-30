@@ -62,6 +62,10 @@ Versión 0.1 - [SKOS-XML] (minam_tematicasAmbientales.xml) \| [HTML] (minam_tema
 
 Versión 0.1 - [SKOS-XML] (ins_tematicasEnSalud.xml) \| [HTML] (ins_tematicasEnSalud.html) \| [XLSX] (ins_areasTematicas.xlsx)
 
+### Areas temáticas para financiamientos en I+D+i (ProCiencia)
+
+Versión 0.1 - [SKOS-XML] (prociencia_areasTematicas.xml) \| [HTML] (prociencia_areasTematicas.html) \| [XLSX] (prociencia_areasTematicas.xlsx) 
+
 Otras referencias relacionadas al PerúCRIS
 
 ### Código de ubicación geográfica - Ubigeo, INEI
