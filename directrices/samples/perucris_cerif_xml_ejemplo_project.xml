@@ -1,164 +1,187 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
-  <responseDate>2021-01-12T14:00:00Z</responseDate>
-  <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_projects">https://cris.example.org/oai/request</request>
-  <ListRecords>
-    <record>
-      <header>
-        <identifier>oai:cris.example.org:Projects/112345</identifier>
-        <datestamp>2021-01-05T14:29:24Z</datestamp>
-        <setSpec>perucris_projects</setSpec>
-      </header>
-      <metadata>
-        <Project xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Projects/112345">
-          <Type scheme="https://purl.org/pe-repo/ocde/tipoProyecto">https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica</Type>
-          <Type scheme="https://purl.org/pe-repo/concytec/terminos">https://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico</Type>
-          <Acronym>COVID-19</Acronym>
-          <Title xml:lang="es">Impacto de la pandemia por COVID-19 en la calidad de vida en adultos mayores de la Seguridad Social</Title>
-          <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">1498</Identifier>
-          <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#Handle">20.500.12390/6415</Identifier>
-          <StartDate>2020-11-01</StartDate>
-          <EndDate>2021-05-31</EndDate>
-          <Consortium>
-            <Coordinator>
-              <Person id="Persons/83450">
-                <PersonName>
-                  <FamilyNames>Rojas Jordán</FamilyNames>
-                  <FirstNames>María Claudia</FirstNames>
-                </PersonName>
-                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">07123450</Identifier>
-              </Person>
-            </Coordinator>
-            <Partner>
-              <OrgUnit id="OrgUnits/685341">
-                <Acronym>UNMSM</Acronym>
-                <Name xml:lang="es">Universidad Nacional Mayor de San Marcos</Name>
-                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20148092282</Identifier>
-              </OrgUnit>
-            </Partner>
-            <Contractor>
-              <OrgUnit id="OrgUnits/312300">
-                <Acronym>ESSALUD</Acronym>
-                <Name xml:lang="es">Seguro Social de Salud</Name>
-                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131257750</Identifier>
-              </OrgUnit>
-            </Contractor>
-            <InkindContributor>
-                <OrgUnit id="OrgUnits/878401">
-                    <Name xml:lang="en">Instituto Prame</Name>
-                    <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20601884777</Identifier>
-                </OrgUnit>
-            </InkindContributor>
-            <Member>
-                <OrgUnit id="OrgUnits/148864">
-                    <Name xml:lang="es">Instituto Nacional de Salud Preventiva</Name>
-                    <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20504846286</Identifier>
-                </OrgUnit>
-            </Member>
-          </Consortium>
-          <Team>
-            <PrincipalInvestigator>
-              <Person id="Persons/7228457">
-                <PersonName>
-                  <FamilyNames>Velásquez Incio</FamilyNames>
-                  <FirstNames>Miguel Jordán</FirstNames>
-                </PersonName>
-                <ORCID>https://orcid.org/0000-0001-8874-6401</ORCID>
-                <Affiliation>
-                  <OrgUnit id="OrgUnits/312300">
-                    <Acronym>ESSALUD</Acronym>
-                    <Name xml:lang="es">Seguro Social de Salud</Name>
-                    <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131257750</Identifier>
-                  </OrgUnit>
-                </Affiliation>
-              </Person>
-            </PrincipalInvestigator>
-            <Contact>
-              <Person id="Persons/28975582">
-                <PersonName>
-                  <FamilyNames>Hernández Gutierrez</FamilyNames>
-                  <FirstNames>Margarita Isabel</FirstNames>
-                </PersonName>
-                <ORCID>https://orcid.org/0000-0001-8524-5224</ORCID>
-              </Person>
-            </Contact>
-            <Member type="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
-              <Person id="Persons/554412">
-                <PersonName>
-                  <FamilyNames>Dávila Gómez</FamilyNames>
-                  <FirstNames>Juan Ernesto</FirstNames>
-                </PersonName>
-                <Affiliation>
-                  <OrgUnit id="OrgUnits/685341">
-                    <Acronym>UNMSM</Acronym>
-                    <Name xml:lang="es">Universidad Nacional Mayor de San Marcos</Name>
-                    <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20148092282</Identifier>
-                  </OrgUnit>
-                </Affiliation>
-                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">28759841</Identifier>
-              </Person>
-            </Member>
-          </Team>
-          <Funded>
-            <By>
-              <OrgUnit id="OrgUnits/310001">
-                <Acronym>INS</Acronym>
-                <Name xml:lang="es">Institutto Nacional de Salud</Name>
-                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131263130</Identifier>
-              </OrgUnit>
-            </By>
-            <As>
-              <Funding id="Fundings/612352">
-                <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call</Type><!-- Convocatoria -->
-                <Name xml:lang="es">PRISA 2016</Name>
-                <PartOf>
-                  <Funding id="Fundings/612347">
-                    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type><!-- Esquema financierto -->
-                    <Name xml:lang="es">PRISA 1</Name>
-                  </Funding>
-                </PartOf>
-              </Funding>
-            </As>
-          </Funded>
-          <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#3.02.26</Subject>
-          <Subject scheme="https://purl.org/pe-repo/inei/ciiu">8511</Subject>
-          <Keyword xml:lang="es">COVID-19</Keyword>
-          <Keyword xml:lang="es">Adultos mayores</Keyword>
-          <Keyword xml:lang="es">Seguridad social</Keyword>
-          <Abstract xml:lang="es">Introducción: Las medidas de emergencia como el aislamiento social y confinamiento debido al COVID-19 han afectado la salud física y emocional de los adultos mayores agudizando sus problemas de soledad, desórdenes ansiosos y depresivos. Objetivo: Evaluar el impacto de la pandemia por COVID-19 en la calidad de vida en adultos mayores telemonitoreados durante 6 meses por los CAM de la Seguridad Social Diseño: Estudio longitudinal que se llevará a cabo en 05 Centros de Adulto Mayor (CAM) de la Seguridad Social durante 6 meses. Los CAM que participarán en este estudio son los de Pueblo Libre, Villa María del Triunfo, Cercado y La Molina en Lima y Zamacola en Arequipa Materiales y Métodos: Participarán adultos mayores de 65 años, autovalentes y registrados en los CAM seleccionados para este estudio. Se evaluará la calidad de vida, infección por COVID-19, medicación y adherencia al tratamiento, funcionalidad, depresión, ansiedad, estrés post-traumático y uso de los servicios del CAM. La información será recolectada mediante llamadas telefónicas realizadas por personal asistencial de los CAM y será registrada usando el software en línea EpiInfo. Para evaluar el cambio medido a los 6 meses, se realizarán con las pruebas Chi cuadrado de McNemar para las variables dependientes categóricas y t de Student para muestras relacionadas en el caso de las variables dependientes numéricas usando el software estadístico STATA v. 14.</Abstract>
-          <Status scheme="https://purl.org/pe-repo/concytec/estadoProyecto">https://purl.org/pe-repo/concytec/estadoProyecto#activo</Status>
-          <Uses>
-            <Equipment id="823948">
-              <Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
-              <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">F.5618</Identifier>
-            </Equipment>
-          </Uses>
-          <OAMandate mandated="false" />
-          <ResearchLine>
-            <OrgUnit id="540128">
-              <Name xml:lang="es">Enfermedades infecciosas emergentes y reemergentes</Name>
-            </OrgUnit>
-          </ResearchLine>
-          <URL>http://proyectoscti.concytec.gob.pe/index.php/buscador/ficha_proyecto/2359</URL>
-          <geoLocations xmlns="http://datacite.org/schema/kernel-4">
-            <geoLocation>
-              <geoLocationPoint>
-                <pointLatitude>-12.0611497</pointLatitude>
-                <pointLongitude>-77.0225487</pointLongitude>
-              </geoLocationPoint>
-              <geoLocationPlace>Hospital Nacional Guillermo Almenara Irigoyen</geoLocationPlace>
-            </geoLocation>
-            <geoLocation>
-              <geoLocationBox>
-                <westBoundLongitude>-71.032</westBoundLongitude>
-                <eastBoundLongitude>-68.211</eastBoundLongitude>
-                <southBoundLatitude>41.090</southBoundLatitude>
-                <northBoundLatitude>42.893</northBoundLatitude>
-              </geoLocationBox>
-            </geoLocation>
-          </geoLocations>
-        </Project>
-      </metadata>
-    </record>
-  </ListRecords>
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+	<responseDate>2021-01-12T14:00:00Z</responseDate>
+	<request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_projects">https://cris.example.org/oai/request</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Projects/112345</identifier>
+				<datestamp>2021-01-05T14:29:24Z</datestamp>
+				<setSpec>perucris_projects</setSpec>
+			</header>
+			<metadata>
+				<Project
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Projects/112345">
+					<Type scheme="https://purl.org/pe-repo/ocde/tipoProyecto">https://purl.org/pe-repo/ocde/tipoProyecto#investigacionBasica</Type>
+					<!-- Tipo de actividad según OCDE: Investigación básica -->
+					<Type scheme="https://purl.org/pe-repo/concytec/terminos">https://purl.org/pe-repo/concytec/terminos#desarrolloTecnologico</Type>
+					<!--Otros tipos de actividades en CTI: Desarrollo tecnológico-->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">1498</Identifier>
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#Handle">20.500.12390/6415</Identifier>
+					<Title xml:lang="es">Impacto de la pandemia por COVID-19 en la calidad de vida en adultos mayores de la Seguridad Social</Title>
+					<Acronym>COVID 19-1498</Acronym>
+					<StartDate>2020-11-01</StartDate>
+					<EndDate>2021-05-31</EndDate>
+					<Consortium>
+						<Contractor>
+							<!-- Entidad ejecutora principal -->
+							<OrgUnit id="OrgUnits/312300">
+								<Name xml:lang="es">Seguro Social de Salud</Name>
+								<Acronym>ESSALUD</Acronym>
+								<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131257750</Identifier>
+							</OrgUnit>
+						</Contractor>
+						<Coordinator>
+							<!-- Coordinador -->
+							<Person id="Persons/83450">
+								<PersonName>
+									<FamilyNames>Rojas Jordán</FamilyNames>
+									<FirstNames>María Claudia</FirstNames>
+								</PersonName>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">07123450</Identifier>
+							</Person>
+						</Coordinator>
+						<Partner>
+							<!-- Entidad socia con aporte monetario -->
+							<OrgUnit id="OrgUnits/685341">
+								<Name xml:lang="es">Universidad Nacional Mayor de San Marcos</Name>
+								<Acronym>UNMSM</Acronym>
+								<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20148092282</Identifier>
+							</OrgUnit>
+						</Partner>
+						<InkindContributor>
+							<!-- Entidad socia con aporte no monetario -->
+							<OrgUnit id="OrgUnits/878401">
+								<Name xml:lang="en">Instituto Prame</Name>
+								<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20601884777</Identifier>
+							</OrgUnit>
+						</InkindContributor>
+						<Member>
+							<!-- Entidad miembro de consorcio ejecutor principal -->
+							<OrgUnit id="OrgUnits/148864">
+								<Name xml:lang="es">Instituto Nacional de Salud Preventiva</Name>
+								<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20504846286</Identifier>
+							</OrgUnit>
+						</Member>
+					</Consortium>
+					<Team>
+						<PrincipalInvestigator>
+							<!-- Investigador principal -->
+							<Person id="Persons/7228457">
+								<PersonName>
+									<FamilyNames>Velásquez Incio</FamilyNames>
+									<FirstNames>Miguel Jordán</FirstNames>
+								</PersonName>
+								<ORCID>https://orcid.org/0000-0001-8874-6401</ORCID>
+								<Affiliation>
+									<OrgUnit id="OrgUnits/312300">
+										<Name xml:lang="es">Seguro Social de Salud</Name>
+										<Acronym>ESSALUD</Acronym>
+										<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131257750</Identifier>
+									</OrgUnit>
+								</Affiliation>
+							</Person>
+						</PrincipalInvestigator>
+						<Contact>
+							<!-- Contacto -->
+							<Person id="Persons/28975582">
+								<PersonName>
+									<FamilyNames>Hernández Gutierrez</FamilyNames>
+									<FirstNames>Margarita Isabel</FirstNames>
+								</PersonName>
+								<ORCID>https://orcid.org/0000-0001-8524-5224</ORCID>
+							</Person>
+						</Contact>
+						<Member type="https://purl.org/pe-repo/ocde/tipoOcupacion#investigadorOInnovadorMiembro">
+							<!-- Otros miembros del equipo -->
+							<Person id="Persons/554412">
+								<PersonName>
+									<FamilyNames>Dávila Gómez</FamilyNames>
+									<FirstNames>Juan Ernesto</FirstNames>
+								</PersonName>
+								<Affiliation>
+									<OrgUnit id="OrgUnits/685341">
+										<Name xml:lang="es">Universidad Nacional Mayor de San Marcos</Name>
+										<Acronym>UNMSM</Acronym>
+										<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20148092282</Identifier>
+									</OrgUnit>
+								</Affiliation>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">28759841</Identifier>
+							</Person>
+						</Member>
+					</Team>
+					<Funded>
+						<!-- Financiamiento de origen -->
+						<By>
+							<!-- Entidad financiadora -->
+							<OrgUnit id="OrgUnits/310001">
+								<Name xml:lang="es">Instituto Nacional de Salud</Name>
+								<Acronym>INS</Acronym>
+								<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20131263130</Identifier>
+							</OrgUnit>
+						</By>
+						<As>
+							<!-- Nombre del financiamiento -->
+							<Funding id="Fundings/612352">
+								<Type
+									xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call
+								</Type>
+								<!-- Convocatoria -->
+								<Name xml:lang="es">PRISA 2016</Name>
+								<PartOf>
+									<Funding id="Fundings/612347">
+										<Type
+											xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme
+										</Type>
+										<!-- Esquema financierto -->
+										<Name xml:lang="es">PRISA 1</Name>
+									</Funding>
+								</PartOf>
+							</Funding>
+						</As>
+					</Funded>
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#3.02.26</Subject>
+					<Subject scheme="https://purl.org/pe-repo/inei/ciiu">8511</Subject>
+					<ResearchLine>
+						<OrgUnit id="OrgUnits/540128">
+							<Name xml:lang="es">Enfermedades infecciosas emergentes y reemergentes</Name>
+						</OrgUnit>
+					</ResearchLine>
+					<geoLocations
+						xmlns="http://datacite.org/schema/kernel-4">
+						<!--Ámbito geográfico de estudio o aplicación del proyecto-->
+						<geoLocation>
+							<geoLocationPlace>Hospital Nacional Guillermo Almenara Irigoyen</geoLocationPlace>
+							<geoLocationPoint>
+								<pointLatitude>-12.0611497</pointLatitude>
+								<pointLongitude>-77.0225487</pointLongitude>
+							</geoLocationPoint>
+							<geoLocationBox>
+								<westBoundLongitude>-71.032</westBoundLongitude>
+								<eastBoundLongitude>-68.211</eastBoundLongitude>
+								<southBoundLatitude>41.090</southBoundLatitude>
+								<northBoundLatitude>42.893</northBoundLatitude>
+							</geoLocationBox>
+						</geoLocation>
+					</geoLocations>
+					<Keyword xml:lang="es">COVID-19</Keyword>
+					<Keyword xml:lang="es">Adultos mayores</Keyword>
+					<Keyword xml:lang="es">Seguridad social</Keyword>
+					<Abstract xml:lang="es">Introducción: Las medidas de emergencia como el aislamiento social y confinamiento debido al COVID-19 han afectado la salud física y emocional de los adultos mayores agudizando sus problemas de soledad, desórdenes ansiosos y depresivos. Objetivo: Evaluar el impacto de la pandemia por COVID-19 en la calidad de vida en adultos mayores telemonitoreados durante 6 meses por los CAM de la Seguridad Social Diseño: Estudio longitudinal que se llevará a cabo en 05 Centros de Adulto Mayor (CAM) de la Seguridad Social durante 6 meses. Los CAM que participarán en este estudio son los de Pueblo Libre, Villa María del Triunfo, Cercado y La Molina en Lima y Zamacola en Arequipa Materiales y Métodos: Participarán adultos mayores de 65 años, autovalentes y registrados en los CAM seleccionados para este estudio. Se evaluará la calidad de vida, infección por COVID-19, medicación y adherencia al tratamiento, funcionalidad, depresión, ansiedad, estrés post-traumático y uso de los servicios del CAM. La información será recolectada mediante llamadas telefónicas realizadas por personal asistencial de los CAM y será registrada usando el software en línea EpiInfo. Para evaluar el cambio medido a los 6 meses, se realizarán con las pruebas Chi cuadrado de McNemar para las variables dependientes categóricas y t de Student para muestras relacionadas en el caso de las variables dependientes numéricas usando el software estadístico STATA v. 14.</Abstract>
+					<Status scheme="https://purl.org/pe-repo/concytec/estadoProyecto">https://purl.org/pe-repo/concytec/estadoProyecto#activo</Status>
+					<!-- estatus: activo-->
+					<Uses>
+						<Equipment id="Equipments/823948">
+							<Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">F.5618</Identifier>
+						</Equipment>
+					</Uses>
+					<URL>http://proyectoscti.concytec.gob.pe/index.php/buscador/ficha_proyecto/2359</URL>
+					<OAMandate mandated="false"/>
+				</Project>
+			</metadata>
+		</record>
+	</ListRecords>
 </OAI-PMH>

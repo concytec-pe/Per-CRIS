@@ -1,57 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
-   <responseDate>2018-01-12T14:00:00Z</responseDate>
-   <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_equipments">https://cris.example.org/oai/request</request>
-   <ListRecords>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:Equipments/987654</identifier>
-            <datestamp>2021-01-05T14:00:00Z</datestamp>
-            <setSpec>perucris_equipments</setSpec>
-         </header>
-         <metadata>
-            <Equipment xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Equipments/987654">
-               <Type scheme="https://purl.org/pe-repo/concytec/equipamiento">https://purl.org/pe-repo/concytec/equipamiento#cromatografos</Type><!--Cromatógrafos-->
-               <Type scheme="https://purl.org/pe-repo/concytec/usoEquipamiento">https://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental</Type><!-- Uso del equipamiento-->
-               <Acronym>GC</Acronym>
-               <Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">F.5618</Identifier>
-               <Description xml:lang="es">Marca: VARIAN. Serie: GC0806B023. Modelo: 450GC. Consta de un horno con capacidad para 3 columnas simultáneamente, con un rango de temperatura desde ambiente hasta 450ºC y velocidad de calentamiento de hasta 120ºC/min. Capacidad para instalar hasta 3 inyectores. El cromatógrafo puede ser manejado de forma automática desde el propio instrumento o de forma remota mediante un software instalado en PC.</Description>
-               <Owner>
-                  <OrgUnit id="OrgUnits/112345">
-                     <Acronym>IIAP</Acronym>
-                     <Name xml:lang="es">Instituto de Investigaciones de la Amazonía Peruana</Name>
-                     <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20450265820</Identifier>
-                  </OrgUnit>
-               </Owner>
-               <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#2.04.02</Subject><!-- Área OCDE-->
-               <ResearchLine>
-                  <OrgUnit id="OrgUnits/54012123">
-                     <Name xml:lang="es">Ciencia de los materiales</Name>
-                  </OrgUnit>
-               </ResearchLine>
-               <Funded>
-                  <By>
-                     <OrgUnit id="OrgUnits/310001">
-                        <Acronym>FONDECYT</Acronym>
-                        <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
-                        <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20554841555</Identifier>
-                     </OrgUnit>
-                  </By>
-                  <As>
-                     <Funding id="Fundings/108718">
-                        <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type><!--Grant-->
-                        <Name xml:lang="es">Primer cromatógrafo en el Perú para la caracterización de materiales multifuncionales</Name>
-                        <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">001-2018-FONDECYT-BM</Identifier>
-                     </Funding>
-                  </As>
-               </Funded>
-               <ManufacturingCountry>US</ManufacturingCountry><!-- País de fabricación-->
-               <ManufacturingDate>2015</ManufacturingDate><!-- Fecha de fabricación-->
-               <AcquisitionDate>2020-09-06</AcquisitionDate><!-- Fecha de adquisición-->
-               <AcquisitionAmount currency="USD">130000</AcquisitionAmount><!-- Monto de adquisición del equipo-->
-            </Equipment>
-         </metadata>
-      </record>
-   </ListRecords>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+	<responseDate>2021-01-12T14:00:00Z</responseDate>
+	<request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_equipments">https://cris.example.org/oai/request</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Equipments/987654</identifier>
+				<datestamp>2021-01-05T14:50:10Z</datestamp>
+				<setSpec>perucris_equipments</setSpec>
+			</header>
+			<metadata>
+				<Equipment
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Equipments/987654">
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">F.5618</Identifier>
+					<!--Código institucional que se asigna al equipamiento, por ejemplo: código patrimonial-->
+					<Type scheme="http://purl.org/pe-repo/concytec/equipamiento">http://purl.org/pe-repo/concytec/equipamiento#cromatografos</Type>
+					<!--Cromatógrafos-->
+					<Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
+					<Acronym>GC</Acronym>
+					<Owner>
+						<!--Unidad organizativa propietaria del equipamiento-->
+						<OrgUnit id="OrgUnits/112345">
+							<Acronym>IIAP</Acronym>
+							<Name xml:lang="es">Instituto de Investigaciones de la Amazonía Peruana</Name>
+							<Identifier type="http://purl.org/pe-repo/concytec/terminos#ruc">20450265820</Identifier>
+						</OrgUnit>
+					</Owner>
+					<Type scheme="http://purl.org/pe-repo/concytec/usoEquipamiento">http://purl.org/pe-repo/concytec/usoEquipamiento#investigacionCientificaYDesarrolloExperimental</Type>
+					<!-- Uso del equipamiento-->
+					<Subject scheme="http://purl.org/pe-repo/ocde/ford">http://purl.org/pe-repo/ocde/ford#2.04.02</Subject>
+					<!-- Campo de conocimiento OCDE: Ingeniería de procesos-->
+					<ResearchLine>
+						<OrgUnit id="OrgUnits/54012123">
+							<Name xml:lang="es">Ciencia de los materiales</Name>
+						</OrgUnit>
+					</ResearchLine>
+					<Funded>
+						<!--Financiamiento de origen-->
+						<By>
+							<!--Entidad financiadora-->
+							<OrgUnit id="OrgUnits/310001">
+								<Acronym>FONDECYT</Acronym>
+								<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#ruc">20554841555</Identifier>
+							</OrgUnit>
+						</By>
+						<As>
+							<!--Nombre del financiamiento-->
+							<Funding id="Fundings/108718">
+								<Name xml:lang="es">Primer cromatógrafo en el Perú para la caracterización de materiales multifuncionales</Name>
+								<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">001-2018-FONDECYT-BM</Identifier>
+							</Funding>
+						</As>
+					</Funded>
+					<Description xml:lang="es">Marca: VARIAN. Serie: GC0806B023. Modelo: 450GC. Consta de un horno con capacidad para 3 columnas simultáneamente, con un rango de temperatura desde ambiente hasta 450ºC y velocidad de calentamiento de hasta 120ºC/min. Capacidad para instalar hasta 3 inyectores. El cromatógrafo puede ser manejado de forma automática desde el propio instrumento o de forma remota mediante un software instalado en PC.</Description>
+					<ManufacturingCountry>US</ManufacturingCountry>
+					<!-- País de fabricación: Estados Unidos-->
+					<ManufacturingDate>2015</ManufacturingDate>
+					<!-- Fecha de fabricación-->
+					<AcquisitionDate>2020-09-06</AcquisitionDate>
+					<!-- Fecha de adquisición-->
+					<AcquisitionAmount currency="USD">130000</AcquisitionAmount>
+					<!-- Moneda y monto de adquisición del equipo-->
+				</Equipment>
+			</metadata>
+		</record>
+	</ListRecords>
 </OAI-PMH>

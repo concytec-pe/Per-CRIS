@@ -1,145 +1,188 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
-   <responseDate>2021-01-12T14:00:00Z</responseDate>
-   <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_fundings">https://cris.example.org/oai/request</request>
-   <ListRecords>
-       <record>
-         <header>
-            <identifier>oai:cris.example.org:Fundings/875477</identifier>
-            <datestamp>2021-01-05T14:29:24Z</datestamp>
-            <setSpec>perucris_fundings</setSpec>
-         </header>
-         <metadata>
-            <Funding xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/875477"><!--FundingProgramme-->
-               <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type>
-               <!--FundingProgramme-->
-               <Name xml:lang="es">Circulos de Investigación en Ciencia y Tecnología</Name>
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031</Identifier>
-               <Acronym>CICTI</Acronym>
-               <Description xml:lang="es">Promover la investigación científica y tecnológica colaborativa de alto nivel y alcance internacional, a través del desarrollo de proyectos de investigación integrados en una línea de investigación.</Description>
-               <Keyword xml:lang="es">Investigación Científica</Keyword>
-               <Keyword xml:lang="es">Biotecnología</Keyword>
-               <Keyword xml:lang="es">Ciencia ambiental</Keyword>
-               <Keyword xml:lang="es">Tecnologías de la Información y Comunicaciones</Keyword>
-               <Funder>
-                  <OrgUnit id="OrgUnits/135871">
-                     <Acronym>FONDECYT</Acronym>
-                     <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
-                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
-                  </OrgUnit>
-               </Funder>
-               <OAMandate mandated="true" startDate="2008-08-20" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf" />
-            </Funding>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:Fundings/257748</identifier>
-            <datestamp>2021-01-05T14:29:24Z</datestamp>
-            <setSpec>perucris_fundings</setSpec>
-         </header>
-         <metadata>
-            <Funding xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/257748"><!--Call-->
-               <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call</Type>
-               <!--Call-->
-               <Name xml:lang="es">NERC - Círculos de Investigación en Glaciares 2018-01</Name>
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031-2018-01-NERC</Identifier>
-               <Description xml:lang="es">Generar conocimiento científico y tecnológico sobre el retroceso de los glaciares peruanos y su impacto, de manera multidisciplinaria y colaborativa, por medio del otorgamiento de fondos para la formación de Círculos de Investigación que desarrollen proyectos entre entidades e investigadores del Perú y del Reino Unido.</Description>
-               <Keyword xml:lang="es">Glaciares</Keyword>
-               <Keyword xml:lang="es">Medio ambiente</Keyword>
-               <Funder>
-                  <OrgUnit id="OrgUnits/135871">
-                     <Acronym>FONDECYT</Acronym>
-                     <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
-                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
-                  </OrgUnit>
-               </Funder>
-               <PartOf>
-                  <Funding id="Fundings/875477">
-                     <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type><!--Funding Programme-->
-                     <Name xml:lang="es">Circulos de Investigación en Ciencia y Tecnología</Name>
-                  </Funding>
-               </PartOf>
-               <OAMandate mandated="true" uri=""/>
-             </Funding>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:Fundings/258471</identifier>
-            <datestamp>2021-01-05T14:29:24Z</datestamp>
-            <setSpec>perucris_fundings</setSpec>
-         </header>
-         <metadata>
-            <Funding xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/258471"><!--Grant-->
-               <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type>
-               <!--Grant-->
-               <Name xml:lang="es">Lagunas de origen glaciar en el Perú: evolución, peligros e impacto del cambio climático</Name>
-               <Amount currency="PEN">149601500</Amount><!-->Monto programado-->
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">007-2019</Identifier>
-               <Description xml:lang="es">Narrativas locales frente al fenómeno del derretimiento de los glaciares tropicales, enmarcado en el Cambio Climático. Perspectivas y preocupaciones del manejo del agua en el contexto del Cambio Climático y la deglaciación en las comunidades de la cordillera Blanca - Ancash.</Description>
-               <Keyword xml:lang="es">Glaciares</Keyword>
-               <Keyword xml:lang="es">Cambio climático</Keyword>
-               <Keyword xml:lang="es">Perú</Keyword>
-               <Keyword xml:lang="es">Fondo Newton Paulet</Keyword>
-               <Keyword xml:lang="es">Natural Environment Research Council - NERC</Keyword>
-               <Funder>
-                  <OrgUnit id="OrgUnits/135871">
-                     <Acronym>FONDECYT</Acronym>
-                     <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
-                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
-                  </OrgUnit>
-               </Funder>
-               <PartOf>
-                  <Funding id="Fundings/257748">
-                    <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call</Type><!--Call-->
-                    <Name xml:lang="es">NERC - Círculos de Investigación en Glaciares 2018-01</Name>
-                    <Acronym>NERC 2018-01</Acronym>
-                    <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031-2018-01-NERC</Identifier>
-                  </Funding>
-               </PartOf>
-               <Duration startDate="2019-03-15" endDate="2022-01-15" />
-               <OAMandate mandated="true" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf" />
-            </Funding>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:Fundings/612347</identifier>
-            <datestamp>2021-01-05T14:29:24Z</datestamp>
-            <setSpec>perucris_fundings</setSpec>
-         </header>
-         <metadata>
-            <Funding xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/612347">
-               <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant</Type>
-               <!--Grant-->
-               <Acronym>COVID-19</Acronym>
-               <Name xml:lang="es">Entendiendo el trabajo remoto durante la COVID-19: Un estudio sobre contextos laborales (demandas y recursos), necesidades psicológicas básicas, funcionamiento laboral y bienestar/malestar de los trabajadores</Name>
-               <Amount currency="PEN">171500</Amount><!-->Monto programado-->
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">075-2020-FONDECYT</Identifier>
-               <Description xml:lang="es">Las medidas de emergencia como el aislamiento social y confinamiento debido al COVID-19 han afectado la salud física y emocional de los trabajadores que realizan trabajo remoto, agudizando sus problemas de salud, desórdenes ansiosos y depresivos.</Description>
-               <Keyword xml:lang="es">Covid-19</Keyword>
-               <Keyword xml:lang="es">Trabajo remoto</Keyword>
-               <Keyword xml:lang="es">Trabajadores</Keyword>
-               <Keyword xml:lang="es">Aspectos piscoloógicos</Keyword>
-               <Funder>
-                  <OrgUnit id="OrgUnits/135871">
-                     <Acronym>FONDECYT</Acronym>
-                     <Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
-                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
-                  </OrgUnit>
-               </Funder>
-               <PartOf>
-                  <Funding id="Fundings/875244">
-                     <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type><!--Funding Programme-->
-                     <Name xml:lang="es">Proyectos Especiales: Respuesta al COVID-19</Name>
-                  </Funding>
-               </PartOf>
-               <Duration startDate="2020-03-01" endDate="2020-12-31" />
-               <OAMandate mandated="true" startDate="2008-08-20" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf" />
-               <ExecutedAmount currency="PEN">169000</ExecutedAmount><!-->Monto ejecutado al cierre del financiamiento-->
-            </Funding>
-         </metadata>
-      </record>
-   </ListRecords>
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+	<responseDate>2021-01-12T14:00:00Z</responseDate>
+	<request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_fundings">https://cris.example.org/oai/request</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Fundings/875477</identifier>
+				<datestamp>2021-01-05T14:29:24Z</datestamp>
+				<setSpec>perucris_fundings</setSpec>
+			</header>
+			<metadata>
+				<Funding
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/875477">
+					<!-- Programa de financiamiento (FundingProgramme) -->
+					<Type
+						xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme
+					</Type>
+					<!--FundingProgramme-->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031</Identifier>
+					<Name xml:lang="es">Circulos de Investigación en Ciencia y Tecnología</Name>
+					<Acronym>CICTI</Acronym>
+					<Funder>
+						<OrgUnit id="OrgUnits/135871">
+							<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+							<Acronym>FONDECYT</Acronym>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
+						</OrgUnit>
+					</Funder>
+					<Duration startDate="2020-01-01" endDate="2024-12-31"/>
+					<Amount currency="PEN">20000000</Amount>
+					<!-->Monto programado-->
+					<ExecutedAmount currency="PEN">9000000</ExecutedAmount>
+					<!-->Monto ejecutado al cierre del financiamiento-->
+					<Description xml:lang="es">Promover la investigación científica y tecnológica colaborativa de alto nivel y alcance internacional, a través del desarrollo de proyectos de investigación integrados en una línea de investigación.</Description>
+					<Keyword xml:lang="es">Investigación Científica</Keyword>
+					<Keyword xml:lang="es">Biotecnología</Keyword>
+					<Keyword xml:lang="es">Ciencia ambiental</Keyword>
+					<Keyword xml:lang="es">Tecnologías de la Información y Comunicaciones</Keyword>
+					<OAMandate mandated="true" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf"/>
+				</Funding>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Fundings/257748</identifier>
+				<datestamp>2021-01-05T14:29:24Z</datestamp>
+				<setSpec>perucris_fundings</setSpec>
+			</header>
+			<metadata>
+				<Funding
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/257748">
+					<!-- Convocatoria (Call) -->
+					<Type
+						xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call
+					</Type>
+					<!--Call-->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031-2018-01-NERC</Identifier>
+					<Name xml:lang="es">NERC - Círculos de Investigación en Glaciares 2018-01</Name>
+					<Acronym>NERC 2018-01</Acronym>
+					<Funder>
+						<OrgUnit id="OrgUnits/135871">
+							<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+							<Acronym>FONDECYT</Acronym>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
+						</OrgUnit>
+					</Funder>
+					<PartOf>
+						<!-- Financiamiento del que forma parte ("padre")-->
+						<Funding id="Fundings/875477">
+							<Type
+								xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme
+							</Type>
+							<!--Funding Programme-->
+							<Name xml:lang="es">Circulos de Investigación en Ciencia y Tecnología</Name>
+						</Funding>
+					</PartOf>
+					<Duration startDate="2022-08-15" endDate="2023-10-30"/>
+					<Amount currency="PEN">10000</Amount>
+					<!-->Monto programado-->
+					<ExecutedAmount currency="PEN">10000</ExecutedAmount>
+					<!-->Monto ejecutado al cierre del financiamiento-->
+					<Description xml:lang="es">Generar conocimiento científico y tecnológico sobre el retroceso de los glaciares peruanos y su impacto, de manera multidisciplinaria y colaborativa, por medio del otorgamiento de fondos para la formación de Círculos de Investigación que desarrollen proyectos entre entidades e investigadores del Perú y del Reino Unido.</Description>
+					<Keyword xml:lang="es">Glaciares</Keyword>
+					<Keyword xml:lang="es">Medio ambiente</Keyword>
+					<OAMandate mandated="false" uri=""/>
+				</Funding>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Fundings/258471</identifier>
+				<datestamp>2021-01-05T14:29:24Z</datestamp>
+				<setSpec>perucris_fundings</setSpec>
+			</header>
+			<metadata>
+				<Funding
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/258471">
+					<!-- Subvención (Grant) -->
+					<Type
+						xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant
+					</Type>
+					<!--Grant-->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">007-2019</Identifier>
+					<Name xml:lang="es">Lagunas de origen glaciar en el Perú: evolución, peligros e impacto del cambio climático</Name>
+					<Funder>
+						<OrgUnit id="OrgUnits/135871">
+							<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+							<Acronym>FONDECYT</Acronym>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
+						</OrgUnit>
+					</Funder>
+					<PartOf>
+						<Funding id="Fundings/257748">
+							<Type
+								xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Call
+							</Type>
+							<!--Call-->
+							<Name xml:lang="es">NERC - Círculos de Investigación en Glaciares 2018-01</Name>
+							<Acronym>NERC 2018-01</Acronym>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">E031-2018-01-NERC</Identifier>
+						</Funding>
+					</PartOf>
+					<Duration startDate="2019-03-15" endDate="2022-01-15"/>
+					<Amount currency="PEN">60150</Amount>
+					<!-->Monto programado-->
+					<ExecutedAmount currency="PEN">55000</ExecutedAmount>
+					<!-->Monto ejecutado al cierre del financiamiento-->
+					<Description xml:lang="es">Narrativas locales frente al fenómeno del derretimiento de los glaciares tropicales, enmarcado en el Cambio Climático. Perspectivas y preocupaciones del manejo del agua en el contexto del Cambio Climático y la deglaciación en las comunidades de la cordillera Blanca - Ancash.</Description>
+					<Keyword xml:lang="es">Glaciares</Keyword>
+					<Keyword xml:lang="es">Cambio climático</Keyword>
+					<Keyword xml:lang="es">Perú</Keyword>
+					<Keyword xml:lang="es">Fondo Newton Paulet</Keyword>
+					<Keyword xml:lang="en">Natural Environment Research Council - NERC</Keyword>
+					<OAMandate mandated="true" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf"/>
+				</Funding>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Fundings/612347</identifier>
+				<datestamp>2021-01-05T14:29:24Z</datestamp>
+				<setSpec>perucris_fundings</setSpec>
+			</header>
+			<metadata>
+				<Funding
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Fundings/612347">
+					<Type
+						xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Grant
+					</Type>
+					<!--Grant-->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#AwardNumber">075-2020-FONDECYT</Identifier>
+					<Name xml:lang="es">Entendiendo el trabajo remoto durante la COVID-19: Un estudio sobre contextos laborales (demandas y recursos), necesidades psicológicas básicas, funcionamiento laboral y bienestar/malestar de los trabajadores</Name>
+					<Acronym>COVID-19</Acronym>
+					<Funder>
+						<OrgUnit id="OrgUnits/135871">
+							<Acronym>FONDECYT</Acronym>
+							<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100010751</Identifier>
+						</OrgUnit>
+					</Funder>
+					<PartOf>
+						<Funding id="Fundings/875244">
+							<Type
+								xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme
+							</Type>
+							<!--Funding Programme-->
+							<Name xml:lang="es">Proyectos Especiales: Respuesta al COVID-19</Name>
+						</Funding>
+					</PartOf>
+					<Duration startDate="2020-03-01" endDate="2020-12-31"/>
+					<Amount currency="PEN">171500</Amount>
+					<!-->Monto programado-->
+					<ExecutedAmount currency="PEN">169000</ExecutedAmount>
+					<!-->Monto ejecutado al cierre del financiamiento-->
+					<Description xml:lang="es">Las medidas de emergencia como el aislamiento social y confinamiento debido al COVID-19 han afectado la salud física y emocional de los trabajadores que realizan trabajo remoto, agudizando sus problemas de salud, desórdenes ansiosos y depresivos.</Description>
+					<Keyword xml:lang="es">Covid-19</Keyword>
+					<Keyword xml:lang="es">Trabajo remoto</Keyword>
+					<Keyword xml:lang="es">Trabajadores</Keyword>
+					<Keyword xml:lang="es">Aspectos piscoloógicos</Keyword>
+					<OAMandate mandated="true" uri="https://www.fondecyt.gob.pe/documentos/politica_de_acceso_abierto_Fondecyt.pdf"/>
+				</Funding>
+			</metadata>
+		</record>
+	</ListRecords>
 </OAI-PMH>

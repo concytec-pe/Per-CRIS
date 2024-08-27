@@ -1,167 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
-   <responseDate>2021-01-12T14:00:00Z</responseDate>
-   <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_orgunits">https://cris.example.org/oai/request</request>
-   <ListRecords>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:OrgUnits/349876</identifier>
-            <datestamp>2021-01-05T14:00:00Z</datestamp>
-            <setSpec>perucris_orgunits</setSpec>
-         </header>
-         <metadata>
-            <OrgUnit xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349876"><!-- Unidad Organizativa principal -->
-               <Type scheme="https://purl.org/pe-repo/ocde/sectorInstitucional">https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior</Type><!-- Sector institucional OCDE: Enseñanza superior -->
-               <Type scheme="https://purl.org/pe-repo/sunedu/tipoInstitucion">https://purl.org/pe-repo/sunedu/tipoInstitucion#06</Type><!-- Tipo de institución de enseñanza superior: universidad -->
-               <Type scheme="https://purl.org/pe-repo/inei/ciiu">8530</Type><!-- CIIU: enseñanza superior -->
-               <Type scheme="https://purl.org/pe-repo/ocde/naturalezaInstitucion">https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica</Type><!-- Naturaleza: pública -->
-               <Acronym>UNITRU</Acronym>
-               <Name xml:lang="es">Universidad Nacional de Trujillo</Name>
-               <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20172557628</Identifier><!-- RUC -->
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#RORID">001b4cb05</Identifier><!-- ROR -->
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI">0000000122239184</Identifier><!-- ISNI -->
-               <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID">60587282</Identifier><!-- Scopus ID -->
-               <ElectronicAddress>https://www.unitru.edu.pe/</ElectronicAddress>
-               <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.03.02</Subject>
-               <PostAddress>
-                  <StreetAddress>Av. Juan Pablo II s/n Urb. San Andrés</StreetAddress>
-                  <AddressLocality>Trujillo</AddressLocality><!-- Distrito -->
-                  <AddressProvince>Trujillo</AddressProvince><!-- Provincia -->
-                  <AddressRegion>La Libertad</AddressRegion><!-- Departamento -->
-                  <PostalCode>13011</PostalCode>
-                  <AddressCountry>PE</AddressCountry>
-               </PostAddress>
-               <UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#1301</UbiGeo>
-            </OrgUnit>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:OrgUnits/349877</identifier>
-            <datestamp>2018-01-07T14:00:00Z</datestamp>
-            <setSpec>perucris_cris_orgunits</setSpec>
-         </header>
-         <metadata>
-            <OrgUnit xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349877"><!-- Unidad organizativa: dependencia -->
-               <Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type><!-- Tipo de dependencia -->
-               <Acronym>DIRESA-Trujillo</Acronym>
-               <Name xml:lang="es">Dirección Regional de Salud Loreto</Name>
-               <ElectronicAddress>http://www.diresaloreto.gob.pe/portalweb/</ElectronicAddress>
-               <PartOf>
-                  <OrgUnit id="OrgUnits/3298975">
-                     <Name xml:lang="es">Gobierno Regional de Loreto</Name>
-                     <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20493196902</Identifier><!-- RUC -->
-                  </OrgUnit>
-               </PartOf>
-               <Keyword>Salud</Keyword>
-               <Keyword>Servicios de salud</Keyword>
-               <PostAddress>
-                  <StreetAddress>Leticia 574</StreetAddress>
-                  <AddressLocality>Iquitos</AddressLocality><!-- Distrito -->
-                  <AddressProvince>Maynas</AddressProvince><!-- Provincia -->
-                  <AddressRegion>Loreto</AddressRegion><!-- Departamento -->
-                  <PostalCode>16001</PostalCode>
-                  <AddressCountry>PE</AddressCountry>
-               </PostAddress>
-               <UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#1601</UbiGeo>
-            </OrgUnit>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:OrgUnits/349879</identifier>
-            <datestamp>2018-01-07T14:00:00Z</datestamp>
-            <setSpec>perucris_cris_orgunits</setSpec>
-         </header>
-         <metadata>
-            <OrgUnit xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349879"><!-- Unidad organizativa: dependencia con otra dependencia incluida -->
-               <Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type><!-- Tipo de dependencia -->
-               <Name xml:lang="es">Laboratorio de Biología Marina</Name>
-               <PartOf>
-                  <OrgUnit id="OrgUnits/329897">
-                     <Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type><!-- Tipo de dependencia -->
-                     <Name xml:lang="es">Facultad de Ciencias y Filosofía</Name>
-                     <ElectronicAddress>https://facien.cayetano.edu.pe/investigacion-lid/lista-de-laboratorios-de-investigacion-y-desarrollo/161-laboratorio-de-biologia-marina</ElectronicAddress>
-                     <ElectronicAddress>mailto:yuhooker@gmail.com</ElectronicAddress>
-                     <ElectronicAddress>mailto:juan.valqui@upch.pe</ElectronicAddress>
-                     <PartOf>
-                        <OrgUnit id="OrgUnits/387549">
-                           <Type scheme="https://purl.org/pe-repo/ocde/sectorInstitucional">https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior</Type><!-- Sector institucional OCDE: Enseñanza superior -->
-                           <Type scheme="https://purl.org/pe-repo/sunedu/tipoInstitucion">https://purl.org/pe-repo/sunedu/tipoInstitucion#06</Type><!-- Tipo de institución de enseñanza superior: universidad -->
-                           <Type scheme="https://purl.org/pe-repo/inei/ciiu">8530</Type><!-- CIIU: enseñanza superior -->
-                           <Type scheme="https://purl.org/pe-repo/ocde/naturalezaInstitucion">https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica</Type><!-- Naturaleza: pública -->
-                           <Name xml:lang="es">Universidad Peruana Cayetano Heredia</Name>
-                           <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20110768151</Identifier><!-- RUC -->
-                           <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.03.02</Subject>
-                        </OrgUnit>
-                     </PartOf>
-                  </OrgUnit>
-               </PartOf>
-               <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#1.06.12</Subject><!-- Área OCDE -->
-               <Keyword>Salud</Keyword>
-               <Keyword>Servicios de salud</Keyword>
-               <PostAddress>
-                  <StreetAddress>Av. Honorio Delgado 430 Urb Ingeniería</StreetAddress>
-                  <AddressLocality>San Martín de Porres</AddressLocality><!-- Distrito -->
-                  <AddressProvince>Lima</AddressProvince><!-- Provincia -->
-                  <AddressRegion>Lima</AddressRegion><!-- Departamento -->
-                  <PostalCode>15102</PostalCode>
-                  <AddressCountry>PE</AddressCountry>
-               </PostAddress>
-               <UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#150135</UbiGeo>
-               <Description xml:lang="es">Nuestros proyectos abarcan temas como la biogeografía del ecosistema marino costero, la instalación de arrecifes artificiales como atractores de biodiversidad y se realizan en cooperación con las comunidades de pescadores artesanales para proteger sus recursos y fomentar la pesca sostenible (artes selectivos). Además de la investigación, ponemos gran esfuerzo en la conservación de la biodiversidad marina y los hábitats marino-costeros, específicamente, impulsando la creación de áreas marinas protegidas como la Reserva Nacional Mar Tropical de Grau.</Description>
-            </OrgUnit>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:OrgUnits/349890</identifier>
-            <datestamp>2018-01-07T14:00:00Z</datestamp>
-            <setSpec>perucris_cris_orgunits</setSpec>
-         </header>
-         <metadata>
-            <OrgUnit xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349890"><!-- Unidad organizativa: grupo de investigación -->
-               <Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion</Type><!-- Tipo de dependencia -->
-               <Acronym>GISMA</Acronym>
-               <Name xml:lang="es">Grupo de investigación de Síntesis de Materiales Avanzados</Name>
-               <ElectronicAddress>mailto:halarcon@uni.edu.pe</ElectronicAddress>
-               <PartOf>
-                  <OrgUnit id="OrgUnits/329897">
-                     <Name xml:lang="es">Universidad Nacional de Ingeniería</Name>
-                     <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20169004359</Identifier><!-- RUC -->
-                  </OrgUnit>
-               </PartOf>
-               <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#2.05.01</Subject><!-- Área OCDE -->
-               <Keyword>Ingeniería de materiales</Keyword>
-               <Keyword>Materiales avanzados</Keyword>
-               <Description xml:lang="es">Grupo de Investigación de Materiales Avanzados a cargo del Dr. Hugo Alarcón Cavero.</Description>
-            </OrgUnit>
-         </metadata>
-      </record>
-      <record>
-         <header>
-            <identifier>oai:cris.example.org:OrgUnits/349878</identifier>
-            <datestamp>2018-01-07T14:00:00Z</datestamp>
-            <setSpec>perucris_cris_orgunits</setSpec>
-         </header>
-         <metadata>
-            <OrgUnit xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349878"><!-- Unidad organizativa: línea de investigación -->
-               <Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion</Type><!-- Tipo de dependencia -->
-               <Name xml:lang="es">Ciencias de la tierra, medio ambiente y sostenibilidad</Name>
-               <ElectronicAddress>mailto:ciencias_tierra@pucp.edu.pe</ElectronicAddress>
-               <PartOf>
-                  <OrgUnit id="OrgUnits/329897">
-                     <Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
-                     <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier><!-- RUC -->
-                     <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#RORID">00013q465</Identifier><!-- ROR -->
-                  </OrgUnit>
-               </PartOf>
-               <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#1.05.08</Subject><!-- Área OCDE -->
-               <Keyword>Ciencias de la tierra</Keyword>
-               <Keyword>Medio ambiente</Keyword>
-               <Description xml:lang="es">El Grupo tiene como misión realizar estudios en el campo de las ciencias de la tierra con énfasis particular en medio ambiente y sostenibilidad</Description>
-            </OrgUnit>
-         </metadata>
-      </record>
-   </ListRecords>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+	<responseDate>2021-01-12T14:00:00Z</responseDate>
+	<request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_orgunits">https://cris.example.org/oai/request</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:OrgUnits/349876</identifier>
+				<datestamp>2021-01-05T14:00:00Z</datestamp>
+				<setSpec>perucris_orgunits</setSpec>
+			</header>
+			<metadata>
+				<OrgUnit
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349876">
+					<!-- Unidad Organizativa Principal -->
+					<Name xml:lang="es">Universidad Nacional de Trujillo</Name>
+					<Acronym>UNITRU</Acronym>
+					<PostAddress>
+						<StreetAddress>Av. Juan Pablo II s/n Urb. San Andrés</StreetAddress>
+						<!-- Dirección -->
+						<AddressLocality>Trujillo</AddressLocality>
+						<!-- Distrito -->
+						<AddressProvince>Trujillo</AddressProvince>
+						<!-- Provincia -->
+						<AddressRegion>La Libertad</AddressRegion>
+						<!-- Departamento -->
+						<PostalCode>13011</PostalCode>
+						<!-- Código postal -->
+						<AddressCountry>PE</AddressCountry>
+						<!-- País -->
+					</PostAddress>
+					<UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#1301</UbiGeo>
+					<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20172557628</Identifier>
+					<!-- RUC -->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#RORID">001b4cb05</Identifier>
+					<!-- ROR -->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ISNI">0000000122239184</Identifier>
+					<!-- ISNI -->
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ScopusAffiliationID">60587282</Identifier>
+					<!-- Scopus ID -->
+					<Type scheme="https://purl.org/pe-repo/ocde/sectorInstitucional">https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior</Type>
+					<!-- Sector institucional OCDE: Enseñanza superior -->
+					<OrganizationType>Institución principal </OrganizationType>
+					<!-- Tipo de organización: Institución principal -->
+					<Type scheme="https://purl.org/pe-repo/sunedu/tipoInstitucion">https://purl.org/pe-repo/sunedu/tipoInstitucion#06</Type>
+					<!-- Tipo de institución de enseñanza superior: universidad -->
+					<Type scheme="https://purl.org/pe-repo/inei/ciiu">8530</Type>
+					<!-- CIIU: enseñanza superior -->
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.03.02</Subject>
+					<!-- 5.03.02 Educacion especial (para estudiantes dotados y aquellos con dificultades del apredizaje) -->
+					<Type scheme="https://purl.org/pe-repo/ocde/naturalezaInstitucion">https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica</Type>
+					<!-- Naturaleza: pública -->
+					<Keyword xml:lang="es">Universidades</Keyword>
+					<Keyword xml:lang="es">Educación superior</Keyword>
+					<Keyword xml:lang="es">Perú</Keyword>
+					<ElectronicAddress>https://www.unitru.edu.pe/</ElectronicAddress>
+					<ElectronicAddress>mailto:rectorado@unitru.edu.pe</ElectronicAddress>
+					<Description xml:lang="es">La Universidad tiene como misión formar integralmente profesionales y ciudadanos de excelencia, responsables, inclusivos, equitativos, con ética e integridad, criticidad, innovadores y emprendedores; creadores de valor público, conocimiento científico, tecnológico, humanístico y artístico, para el desarrollo sostenible de la sociedad.</Description>
+				</OrgUnit>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:OrgUnits/349877</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>perucris_cris_orgunits</setSpec>
+			</header>
+			<metadata>
+				<OrgUnit
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349877">
+					<!-- Unidad organizativa: dependencia -->
+					<Name xml:lang="es">Dirección Regional de Salud Loreto</Name>
+					<Acronym>DIRESA-Trujillo</Acronym>
+					<PostAddress>
+						<StreetAddress>Leticia 574</StreetAddress>
+						<!-- Dirección -->
+						<AddressLocality>Iquitos</AddressLocality>
+						<!-- Distrito -->
+						<AddressProvince>Maynas</AddressProvince>
+						<!-- Provincia -->
+						<AddressRegion>Loreto</AddressRegion>
+						<!-- Departamento -->
+						<PostalCode>16001</PostalCode>
+						<!-- Código postal -->
+						<AddressCountry>PE</AddressCountry>
+						<!-- País -->
+					</PostAddress>
+					<UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#1601</UbiGeo>
+					<OrganizationType>Dependencia</OrganizationType>
+					<!-- Tipo de organización: Dependencia -->
+					<PartOf>
+						<OrgUnit id="OrgUnits/3298975">
+							<Name xml:lang="es">Gobierno Regional de Loreto</Name>
+							<!-- Nombre de la institución "padre" -->
+							<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20493196902</Identifier>
+							<!-- RUC -->
+						</OrgUnit>
+					</PartOf>
+					<Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type>
+					<!-- Tipo de dependencia: unidad de investigación o innovación -->
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#3.03.01</Subject>
+					<!--3.03.01 Ciencias del cuidado de la salud y servicios (administración de hospitales, financiamiento)-->
+					<Keyword>Salud</Keyword>
+					<Keyword>Servicios de salud</Keyword>
+					<Keyword>Loreto</Keyword>
+					<ElectronicAddress>http://www.diresaloreto.gob.pe/portalweb/</ElectronicAddress>
+					<ElectronicAddress>mailto:diresaloreto@diresa.gob.pe</ElectronicAddress>
+					<Description xml:lang="es">DIRESA-Loreto tiene por finalidad conducir, regular, organizar y promover el desarrollo de las funciones de salud pública, en las redes de salud, hospitales y demás organizaciones de salud del sector público y privadoen la región Loreto</Description>
+				</OrgUnit>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:OrgUnits/349879</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>perucris_cris_orgunits</setSpec>
+			</header>
+			<metadata>
+				<OrgUnit
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349879">
+					<!-- Unidad organizativa: dependencia con otra dependencia incluida -->
+					<Name xml:lang="es">Laboratorio de Biología Marina</Name>
+					<Acronym>LABIMA</Acronym>
+					<PostAddress>
+						<StreetAddress>Av. Honorio Delgado 430 Urb Ingeniería</StreetAddress>
+						<!-- Dirección -->
+						<AddressLocality>San Martín de Porres</AddressLocality>
+						<!-- Distrito -->
+						<AddressProvince>Lima</AddressProvince>
+						<!-- Provincia -->
+						<AddressRegion>Lima</AddressRegion>
+						<!-- Departamento -->
+						<PostalCode>15102</PostalCode>
+						<!-- Código postal -->
+						<AddressCountry>PE</AddressCountry>
+						<!-- País -->
+					</PostAddress>
+					<UbiGeo scheme="https://purl.org/pe-repo/inei/ubigeo">https://purl.org/pe-repo/inei/ubigeo#150135</UbiGeo>
+					<OrganizationType>Dependencia</OrganizationType>
+					<!-- Tipo de organización: Dependencia -->
+					<PartOf>
+						<OrgUnit id="OrgUnits/329897">
+							<Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type>
+							<!-- Tipo de dependencia -->
+							<Name xml:lang="es">Facultad de Ciencias y Filosofía</Name>
+							<ElectronicAddress>https://facien.cayetano.edu.pe/investigacion-lid/lista-de-laboratorios-de-investigacion-y-desarrollo/161-laboratorio-de-biologia-marina</ElectronicAddress>
+							<ElectronicAddress>mailto:yuhooker@gmail.com</ElectronicAddress>
+							<ElectronicAddress>mailto:juan.valqui@upch.pe</ElectronicAddress>
+							<PartOf>
+								<OrgUnit id="OrgUnits/387549">
+									<Name xml:lang="es">Universidad Peruana Cayetano Heredia</Name>
+									<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20110768151</Identifier>
+									<!-- RUC -->
+									<Type scheme="https://purl.org/pe-repo/ocde/sectorInstitucional">https://purl.org/pe-repo/ocde/sectorInstitucional#ensenanzaSuperior</Type>
+									<!-- Sector institucional OCDE: Enseñanza superior -->
+									<Type scheme="https://purl.org/pe-repo/sunedu/tipoInstitucion">https://purl.org/pe-repo/sunedu/tipoInstitucion#06</Type>
+									<!-- Tipo de institución de enseñanza superior: universidad -->
+									<Type scheme="https://purl.org/pe-repo/inei/ciiu">8530</Type>
+									<!-- CIIU: enseñanza superior -->
+									<Type scheme="https://purl.org/pe-repo/ocde/naturalezaInstitucion">https://purl.org/pe-repo/ocde/naturalezaInstitucion#publica</Type>
+									<!-- Naturaleza: pública -->
+									<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.03.02</Subject>
+								</OrgUnit>
+							</PartOf>
+						</OrgUnit>
+					</PartOf>
+					<Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#unidadDeInvestigacionOInnovacion</Type>
+					<!-- Tipo de dependencia -->
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#1.06.12</Subject>
+					<!-- Área OCDE -->
+					<Keyword>Biología marina</Keyword>
+					<Keyword>Laboratorios</Keyword>
+					<Description xml:lang="es">Nuestros proyectos abarcan temas como la biogeografía del ecosistema marino costero, la instalación de arrecifes artificiales como atractores de biodiversidad y se realizan en cooperación con las comunidades de pescadores artesanales para proteger sus recursos y fomentar la pesca sostenible (artes selectivos). Además de la investigación, ponemos gran esfuerzo en la conservación de la biodiversidad marina y los hábitats marino-costeros, específicamente, impulsando la creación de áreas marinas protegidas como la Reserva Nacional Mar Tropical de Grau.</Description>
+				</OrgUnit>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:OrgUnits/349890</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>perucris_cris_orgunits</setSpec>
+			</header>
+			<metadata>
+				<OrgUnit
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349890">
+					<!-- Unidad organizativa: grupo de investigación -->
+					<Name xml:lang="es">Grupo de investigación de Síntesis de Materiales Avanzados</Name>
+					<Acronym>GISMA</Acronym>
+					<OrganizationType>Dependencia</OrganizationType>
+					<!-- Tipo de organización: Dependencia -->
+					<PartOf>
+						<OrgUnit id="OrgUnits/329897">
+							<Name xml:lang="es">Universidad Nacional de Ingeniería</Name>
+							<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20169004359</Identifier>
+							<!-- RUC -->
+						</OrgUnit>
+					</PartOf>
+					<Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#grupoDeInvestigacion</Type>
+					<!-- Tipo de dependencia: Grupo de investigación -->
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#2.05.01</Subject>
+					<!-- Área OCDE -->
+					<Keyword>Ingeniería de materiales</Keyword>
+					<Keyword>Materiales avanzados</Keyword>
+					<Keyword>Grupos de investigación</Keyword>
+					<ElectronicAddress>mailto:halarcon@uni.edu.pe</ElectronicAddress>
+					<Description xml:lang="es">Grupo de Investigación de Materiales Avanzados a cargo del Dr. Hugo Alarcón Cavero.</Description>
+				</OrgUnit>
+			</metadata>
+		</record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:OrgUnits/349878</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>perucris_cris_orgunits</setSpec>
+			</header>
+			<metadata>
+				<OrgUnit
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="OrgUnits/349878">
+					<!-- Unidad organizativa: línea de investigación -->
+					<Name xml:lang="es">Ciencias de la tierra, medio ambiente y sostenibilidad</Name>
+					<OrganizationType>Dependencia</OrganizationType>
+					<!-- Tipo de organización: Dependencia -->
+					<PartOf>
+						<OrgUnit id="OrgUnits/329897">
+							<Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
+							<Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier>
+							<!-- RUC -->
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#RORID">00013q465</Identifier>
+							<!-- ROR -->
+						</OrgUnit>
+					</PartOf>
+					<Type scheme="https://purl.org/pe-repo/concytec/tipoSubunidad">https://purl.org/pe-repo/concytec/tipoSubunidad#lineaDeInvestigacion</Type>
+					<!-- Tipo de dependencia: Línea de investigación -->
+					<Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#1.05.08</Subject>
+					<!-- Área OCDE -->
+					<Keyword>Ciencias de la tierra</Keyword>
+					<Keyword>Medio ambiente</Keyword>
+					<Keyword>Desarrollo sostenible</Keyword>
+					<Keyword>Líneas de investigación</Keyword>
+					<ElectronicAddress>mailto:ciencias_tierra@pucp.edu.pe</ElectronicAddress>
+					<Description xml:lang="es">El Grupo tiene como misión realizar estudios en el campo de las ciencias de la tierra con énfasis particular en medio ambiente y sostenibilidad</Description>
+				</OrgUnit>
+			</metadata>
+		</record>
+	</ListRecords>
 </OAI-PMH>

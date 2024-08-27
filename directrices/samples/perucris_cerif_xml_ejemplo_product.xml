@@ -1,78 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
-  <responseDate>2021-01-12T14:00:00Z</responseDate>
-  <request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_products">https://cris.example.org/oai/request</request>
-  <ListRecords>
-    <record>
-      <header>
-        <identifier>oai:cris.example.org:Products/7123451</identifier>
-        <datestamp>2021-01-05T14:29:24Z</datestamp>
-        <setSpec>perucris_products</setSpec>
-      </header>
-      <metadata>
-        <Product xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Products/7123451">
-          <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1</Type><!-- Dataset -->
-          <Language>es</Language>
-          <Name xml:lang="es">Estudio sobre Acoso Sexual Callejero en Lima y Callao 2019</Name>
-          <VersionInfo>1.0</VersionInfo>
-          <DOI>10.15381/pc.v24i1.16559</DOI>
-          <URL>http://datos.pucp.edu.pe/dataset.xhtml?persistentId=hdl:20.500.12534/TVZ7C0</URL>
-          <Creators>
-            <Creator>
-              <Person id="Persons/087598">
-                <PersonName>
-                  <FamilyNames>Sánchez Merino</FamilyNames>
-                  <FirstNames>Sonia Maribel</FirstNames>
-                </PersonName>
-                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">10274785</Identifier>
-              </Person>
-            </Creator>
-            <Creator>
-              <Person id="Persons/18775249">
-                <PersonName>
-                  <FamilyNames>Morris Adrianzen</FamilyNames>
-                  <FirstNames>Carlos Alberto</FirstNames>
-                </PersonName>
-                <Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">87554992</Identifier>
-              </Person>
-            </Creator>
-          </Creators>
-          <Publishers>
-            <Publisher>
-              <OrgUnit id="OrgUnits/387549">
-                <Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
-                <Identifier type="https://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier>
-              </OrgUnit>
-            </Publisher>
-          </Publishers>
-          <License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">https://creativecommons.org/licenses/by/4.0/</License>
-          <Description xml:lang="es">Estudio de Opinión en Lima Metropolitana y Callao que recoge información de un conjunto de indicadores de incidencia del Acoso Sexual Callejero y el nivel de tolerancia frente a éste a fines de 2019. Incluye la comparación con datos recogidos en los años 2012 y 2016.</Description>
-          <Subject scheme="https://purl.org/pe-repo/ocde/ford">https://purl.org/pe-repo/ocde/ford#5.04.05</Subject><!-->Área OCDE-->
-          <Keyword>Violencia sexual</Keyword>
-          <Keyword>Lima</Keyword>
-          <Keyword>Callao</Keyword>
-          <PartOf>
-            <Product id="Products/258746">
-              <Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1</Type>
-              <Name xml:lang="es">Estudio Representación Política y Conflictos Sociales Noviembre 2019</Name>
-              <Handle>https://hdl.handle.net/20.500.12534/7IHNLW</Handle>
-            </Product>
-          </PartOf>
-          <OriginatesFrom>
-            <Project id="Projects/112347">
-              <Acronym>EUFAR</Acronym>
-            </Project>
-          </OriginatesFrom>
-          <GeneratedBy>
-            <Equipment id="Equipments/82394874">
-              <Name xml:lang="en">SkyArrow 650 TCNS operated by IBIMET CNR</Name>
-              <Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">982340-29481/1999</Identifier>
-              <Description xml:lang="en">The SkyArrow 650 TCNS operated by IBIMET (CNR - Institute of Biometeorology) for the EUFAR project</Description>
-            </Equipment>
-          </GeneratedBy>
-          <Access xmlns="http://purl.org/coar/access_right" endDate="2022-12-31">http://purl.org/coar/access_right/c_f1cf</Access><!-- Embargado (incluye fecha de fin de embargo como atributo -->
-        </Product>
-      </metadata>
-    </record>
-  </ListRecords>
+<OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd https://purl.org/pe-repo/cerif-profile/1.0/ https://purl.org/pe-repo/cerif-profile/1.0/perucris-cerif-profile.xsd">
+    <responseDate>2018-01-12T14:00:00Z</responseDate>
+	<request metadataPrefix="cerif_perucris" verb="ListRecords" set="perucris_products">https://cris.example.org/oai/request</request>
+	<ListRecords>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Products/7123451</identifier>
+				<datestamp>2021-01-07T14:00:00Z</datestamp>
+				<setSpec>perucris_products</setSpec>
+			</header>
+			<metadata>
+				<Product
+					xmlns="https://purl.org/pe-repo/cerif-profile/1.0/" id="Products/7123451">
+					<Type
+						xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1
+						<!--Tipo de recurso: dataset -->
+					</Type>
+					<Language>es</Language>
+					<Name xml:lang="es">Estudio sobre Acoso Sexual Callejero en Lima y Callao 2019</Name>
+					<VersionInfo>1.0</VersionInfo>
+					<ARK>ark:/13030/tf5p30086k</ARK>
+					<DOI>10.15381/pc.v24i1.16559</DOI>
+					<Handle>https://hdl.handle.net/20.500.12534/TVZ7C0</Handle>
+					<URL>http://datos.pucp.edu.pe/dataset.xhtml?persistentId=hdl:20.500.12534/TVZ7C0</URL>
+					<Creators>
+						<!--Creadores-->
+						<Creator>
+							<Person id="Persons/08759875">
+								<PersonName>
+									<FamilyNames>Sánchez Merino</FamilyNames>
+									<FirstNames>Sonia Maribel</FirstNames>
+								</PersonName>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">07928457</Identifier>
+							</Person>
+						</Creator>
+						<Creator>
+							<Person id="Persons/18775249">
+								<PersonName>
+									<FamilyNames>Morris Adrianzen</FamilyNames>
+									<FirstNames>Carlos Alberto</FirstNames>
+								</PersonName>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#dni">87554992</Identifier>
+							</Person>
+						</Creator>
+					</Creators>
+					<Publishers>
+						<!--Editores-->
+						<Publisher>
+							<OrgUnit id="OrgUnits/387549">
+								<Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
+								<Identifier type="http://purl.org/pe-repo/concytec/terminos#ruc">20155945860</Identifier>
+							</OrgUnit>
+						</Publisher>
+					</Publishers>
+					<License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">https://creativecommons.org/licenses/by/4.0/</License>
+					<Description xml:lang="es">Estudio de Opinión en Lima Metropolitana y Callao que recoge información de un conjunto de indicadores de incidencia del Acoso Sexual Callejero y el nivel de tolerancia frente a éste a fines de 2019. Incluye la comparación con datos recogidos en los años 2012 y 2016.</Description>
+					<Keyword>Violencia sexual</Keyword>
+					<Keyword>Lima</Keyword>
+					<Keyword>Callao</Keyword>
+					<Subject scheme="http://purl.org/pe-repo/ocde/ford">http://purl.org/pe-repo/ocde/ford#5.04.05</Subject>
+					<!-->Campo de conocimiento OCDE: Temas sociales-->
+					<Subject scheme="http://id.nlm.nih.gov/mesh">Epidemiological Surveillance</Subject>
+					<!--Materia: Mesh-->
+					<PartOf>
+						<!--Recurso del cual forma parte: una publicación, otro producto o una patente-->
+						<Product id="Products/258746">
+							<Type
+								xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Product_Types">http://purl.org/coar/resource_type/c_ddb1
+							</Type>
+							<Name xml:lang="es">Estudio Representación Política y Conflictos Sociales Noviembre 2019</Name>
+							<Handle>https://hdl.handle.net/20.500.12534/7IHNLW</Handle>
+						</Product>
+					</PartOf>
+					<OriginatesFrom>
+						<!--Originado por: un financiamiento o un proyecto-->
+						<Project id="Projects/112347">
+							<Acronym>EUFAR</Acronym>
+							<Name xml:lang="es">Estudio político y social: Perú 2019</Name>
+						</Project>
+					</OriginatesFrom>
+					<GeneratedBy>
+						<!--Equipamiento utilizado-->
+						<Equipment id="Equipments/82394874">
+							<Name xml:lang="en">SkyArrow 650 TCNS operated by IBIMET CNR</Name>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#CRISID">982340-29481/1999</Identifier>
+						</Equipment>
+					</GeneratedBy>
+					<Access 
+						xmlns="http://purl.org/coar/access_right" endDate="2022-12-31">http://purl.org/coar/access_right/c_f1cf
+					</Access>
+					<!-->Embargado (incluye fecha de fin de embargo como atributo-->
+				</Product>
+			</metadata>
+		</record>
+	</ListRecords>
 </OAI-PMH>
