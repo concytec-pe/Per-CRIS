@@ -49,7 +49,7 @@
             <xs:element cflink:identifier="true" cflink:link="https://w3id.org/cerif/vocab/IdentifierTypes#ISI-Number" minOccurs="0" name="ISI-Number" type="cfString__Type"/>
             
             <xs:element cflink:identifier="true" cflink:link="https://w3id.org/cerif/vocab/IdentifierTypes#SCP-Number" minOccurs="0" name="SCP-Number" type="cfString__Type"/>
-            
+            <xs:element name="sponsorship" minOccurs="0" type="cfString__Type">
             <xs:element cflink:identifier="true" cflink:link="https://w3id.org/cerif/vocab/IdentifierTypes#ISSN" minOccurs="0" maxOccurs="unbounded" name="ISSN">
                 <xs:annotation>
                     <xs:documentation xml:lang="en">The International Standard Serial Number</xs:documentation>
