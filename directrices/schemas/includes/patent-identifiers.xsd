@@ -22,7 +22,7 @@
 
 	<xs:group name="PatentIdentifiers__Group">
 		<xs:sequence>
-
+			<xs:element name="Language" minOccurs="0" type="cfString__Type">
             <xs:element cflink:identifier="true" cflink:link="https://w3id.org/cerif/vocab/IdentifierTypes#URL" minOccurs="0" name="URL" type="cfString__Type"/>
 
 <!-- A skeleton for contributing new identifier types
